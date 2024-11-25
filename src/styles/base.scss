@@ -1,3 +1,5 @@
+@import './constants.scss';
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -11,6 +13,7 @@
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
+    background-color: $bandidas-black;
   }
   /* 5. Improve media defaults */
   img, picture, video, canvas, svg {
@@ -38,4 +41,8 @@
   */
   #root, #__next {
     isolation: isolate;
+  }
+
+  section{
+    height: 100dvh;
   }

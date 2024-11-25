@@ -1,1 +1,9 @@
-@import "./base.scss"
+@import "./base.scss";
+@import "./constants.scss";
+
+/*pages*/
+@import "../pages/homePage/homePage.scss";
+
+
+/*components*/
+@import "../components/navegator.scss";
