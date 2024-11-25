@@ -6,23 +6,41 @@ import Navegator from '../../components/Navegator';
 const HomePage = () => {
   return (
     <div className='homepage'>
-      <section>
+      <div className='banner'>
         <Navegator />
         <div className="video-container">
-          <video className='video-banner' autoPlay loop muted playbackRate="0.2" src={video}></video>
+          <video className='video-banner' autoPlay loop muted playbackRate="0.2" src={video} />
         </div>
         <div className="image-container">
           <img src={logo} alt="" />
         </div>
         {/* <h1 className='title'>Bandida's tattoo</h1> */}
+      </div>
+
+      <section className='portfolio'>
+        <div className="container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+        </div>
       </section>
 
-      <section>
-        section 2
+      <section className='about'>
+        <div className="container">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptas est placeat, nobis tempora ipsum et inventore totam quibusdam perspiciatis magnam deserunt maiores quia exercitationem, ullam facere eius nulla ut!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
       </section>
 
-      <section>
-        section 3
+      <section className='contact'>
+        <div className="container">
+          <div>facebook</div>
+          <div>Instagram</div>
+          <div>Tik Tok</div>
+          <div>Youtube</div>
+        </div>
       </section>
     </div>
   )
