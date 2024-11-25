@@ -30,16 +30,16 @@ const HomePage = () => {
         <div className="container">
         <h2>about</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptas est placeat, nobis tempora ipsum et inventore totam quibusdam perspiciatis magnam deserunt maiores quia exercitationem, ullam facere eius nulla ut!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptas est placeat,</p>
         </div>
       </section>
 
       <section className='contact'>
         <div className="container">
-          <div>facebook</div>
+          <div>Whatsapp</div>
           <div>Instagram</div>
           <div>Tik Tok</div>
-          <div>Youtube</div>
+          <div>Email</div>
         </div>
       </section>
     </div>

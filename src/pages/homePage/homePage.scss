@@ -50,6 +50,14 @@
         justify-content: center;
         gap: 10px;
     }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
     .portfolio{
         top: 100dvh;
     }
@@ -57,6 +65,11 @@
     .about{
         top: 200dvh;
         background-color: rgba(0, 0, 0, 0.8);
+        padding: 50px;
+        & .container{
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
     .contact{
@@ -64,8 +77,8 @@
         background-color: rgb(12, 12, 12);
     }
 
-    .title{
-        background-color: aquamarine;
-    }
+
+
+
 }
 
