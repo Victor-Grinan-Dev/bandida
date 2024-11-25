@@ -1,5 +1,6 @@
 @import './constants.scss';
 
+/*RESET CSS*/
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -43,6 +44,14 @@
     isolation: isolate;
   }
 
+  /*PREVENT STUPID ANIMATIONS*/
+  @media(prefers-reduced-motion){
+    *{
+      transition: none;
+    }
+  }
+
+  /*BASIC TAGS*/
   section{
     height: 100dvh;
   }

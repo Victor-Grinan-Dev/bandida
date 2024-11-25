@@ -5,8 +5,9 @@ const Navegator = () => {
     <ul className='navegator'>
         <li>Tietoa</li>
         <li>Töitäni</li>
+        <li>Ota Yhteys</li>
         {/* <li>Aianvaraukset</li> */}
-        <li>kieli</li>
+        {/* <li>kieli</li> */}
     </ul>
   )
 }
