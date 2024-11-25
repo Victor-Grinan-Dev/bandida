@@ -1,0 +1,28 @@
+.navegator{
+    color: rgb(241, 241, 117);
+    list-style: none;
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-end;
+    gap: 15px;
+    position: absolute;
+
+    font-family:"League Gothic", sans-serif;
+
+    font-size: x-large;
+    font-weight: 700;
+    z-index: 100;
+    padding: 50px;
+
+    & li:hover{
+        text-shadow: 0 0 10px white;
+        cursor: pointer;
+    }
+
+    @media (max-width: 400px) {
+        justify-content: center;
+        font-size: large;
+    }
+    
+}
