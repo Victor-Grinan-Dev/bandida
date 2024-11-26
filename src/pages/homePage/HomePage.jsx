@@ -37,6 +37,7 @@ const HomePage = () => {
             <h3 className='owner'>Paula Anneli</h3>
             <p className='ampersand'>&</p>
             <h1 className='company'>Bandida's Tattoo</h1>
+            <p className='address'>Porvonkatu 14</p>
           </div>
 
           <Some />

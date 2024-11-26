@@ -5,14 +5,13 @@
     justify-content: space-around;
 
     &-container{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         // background-color: rgb(207, 228, 228);
         border-radius: 3px;
     }
 
     &-icon{
-        height: 30px;
-        object-fit: cover;
+        font-size: 30px;
     }
 }
