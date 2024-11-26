@@ -49,6 +49,7 @@
 
   section{
     height: 100dvh;
+    scroll-snap-type: y mandatory;
   }
 
   .container{
