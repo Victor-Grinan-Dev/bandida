@@ -1,0 +1,92 @@
+$card-height-l:500px;
+$card-width-l:300px;
+$card-height-s:250px;
+$card-width-s:100px;
+
+$item-animation-duration:160s;
+$carrusel-item-amount:8;
+
+.carrusel{
+    height: calc($card-height-l  + 10px);
+    padding-top: 5px;
+    overflow-x: hidden;
+    position: relative;
+    width: 90%;
+    margin-inline: auto;
+    position: relative;
+    margin-top: 5rem;
+
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    );
+
+
+    &-item{
+        width: 50%;
+        height: 90%;
+        background-color: red;
+        border-radius: 6px;
+        position: absolute;
+        left: max(calc(300px * -8), 100%);
+        animation-name: moveLeft;
+        animation-duration: $item-animation-duration;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        overflow: hidden;
+        // box-shadow: 0 0 10px white, 0 0 6px white, 0 0 4px white, 0 0 2px white,;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            object-fit: cover;
+            height: 130%;
+
+            // @media (min-width: 800px){
+            //     width: 120%;
+            //     height: auto;
+            // }
+        }
+
+        @media (max-width: 400px){
+            width: 45%;
+        }
+    } 
+
+    .item1{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 1) * -1);
+    }
+    .item2{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 2) * -1);
+    }
+    .item3{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 3) * -1);
+    }
+    .item4{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 4) * -1);
+    }
+    .item5{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 5) * -1);
+    }
+    .item6{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 6) * -1);
+    }
+    .item7{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 7) * -1);
+    }
+    .item8{
+        animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 8) * -1);
+    }
+}
+
+@keyframes moveLeft {
+    100% {
+      transform: translateX(calc(-100vw * 4));
+    }
+  }
+
+
