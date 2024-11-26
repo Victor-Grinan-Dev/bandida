@@ -12,7 +12,7 @@ import test8 from '../../assets/images/tatoos/a test-8.jpg'
 const InfiniteCarrusel = () => {
   return (
     <section className='portfolio' id='porfolio'>
-        <div className="carrusel wrapper to-left" id='carrusel'>
+        <div className="carrusel wrapper to-left" >
             <div className='carrusel-item item1'>
                 <img src={test1} alt="tattoo" />
             </div>
