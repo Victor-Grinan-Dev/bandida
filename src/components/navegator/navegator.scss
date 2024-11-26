@@ -1,5 +1,5 @@
 .navegator{
-    color: rgb(241, 241, 117);
+
     list-style: none;
     display: flex;
     width: 100%;
@@ -15,7 +15,13 @@
     z-index: 10;
     padding: 50px;
 
-    & li:hover{
+    & a {
+        color: rgb(241, 241, 117);
+        text-decoration: none;
+    }
+
+    
+    & a:hover{
         text-shadow: 0 0 10px white;
         cursor: pointer;
     }
@@ -25,4 +31,13 @@
         font-size: x-large;
     }
     
+}
+
+.nav-link{
+    color: rgb(241, 241, 117);
+    text-decoration: none;
+}
+.nav-link:hover{
+    text-shadow: 0 0 10px white;
+    cursor: pointer;
 }
