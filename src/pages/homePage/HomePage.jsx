@@ -25,16 +25,19 @@ const HomePage = () => {
         <div className="container">
 
         <h2>Palvelut</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro sint quam sed repellat quae asperiores magnam totam saepe explicabo sequi in et enim illo exercitationem doloribus voluptatibus tempora doloremque, quidem, aliquid cum. Voluptatum doloremque nihil ullam sapiente ducimus veritatis omnis ad, illum neque sit ipsum, veniam nobis nesciunt. Debitis, maxime vel hic nobis corrupti voluptatum magni. Eveniet reprehenderit, sapiente sunt quae nulla aut saepe asperiores, atque quia pariatur accusamus natus dolor itaque exercitationem fugiat doloribus veniam harum fugit vero incidunt quidem veritatis, cum odit dolorum! Esse, culpa voluptates quia assumenda aspernatur tempore, tenetur commodi totam minima nulla minus consequuntur?</p>
+        {/* lorem 80 words */}
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloremque nostrum, maxime a veniam, nemo quod dolore ipsam quas provident, quis ducimus ullam porro animi nihil nobis laboriosam totam. Est, culpa. Cupiditate doloremque ex, optio rerum dolorem quos recusandae blanditiis repellendus praesentium maiores voluptates pariatur vero voluptas quasi error aut provident a eum quisquam animi! Ipsum pariatur ratione obcaecati dolorem cupiditate. Facilis delectus quam porro repellat aspernatur quae voluptates quisquam non, cumque dicta, nemo veritatis dolorem ipsam, odio magnam perferendis.</p>
         </div>
       </section>
 
       <section className='contact' id='contact'>
-        <div className="container">
+        <div className="contact-container container">
 
-          <h3>Paula Anneli</h3>
-
-          <h1>Bandida's Tattoo</h1>
+          <div className='title'>
+            <h3 className='owner'>Paula Anneli</h3>
+            <p className='ampersand'>&</p>
+            <h1 className='company'>Bandida's Tattoo</h1>
+          </div>
 
           <Some />
 

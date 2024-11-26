@@ -49,6 +49,8 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
+        // scroll-snap-type: y mandatory; /* Enables vertical snap scrolling *///not working
+ 
     }
 
     .container{
@@ -75,6 +77,30 @@
     .contact{
         top: 300dvh; 
         background-color: rgb(12, 12, 12);
+
+        &-container{
+            
+            height: 70dvh;
+            justify-content: space-between;
+            padding-top: 20px;
+
+            .title{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .owner{
+
+                }
+                .ampersand{
+
+                }
+                .company{
+
+                }
+            }
+
+        }
     }
 
 
@@ -155,5 +181,11 @@
 //     .title{
 //         background-color: aquamarine;
 //     }
+
+// .container {
+//     scroll-snap-type: y mandatory; /* Enables vertical snap scrolling */
+//     overflow-y: scroll; /* Enables scrolling */
+//     height: 100vh; /* Matches viewport height */
+//   }
 // }
 
