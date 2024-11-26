@@ -37,7 +37,7 @@ $carrusel-item-amount:8;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         overflow: hidden;
-        // box-shadow: 0 0 10px white, 0 0 6px white, 0 0 4px white, 0 0 2px white,;
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -45,11 +45,9 @@ $carrusel-item-amount:8;
         img{
             object-fit: cover;
             height: 130%;
-
-            // @media (min-width: 800px){
-            //     width: 120%;
-            //     height: auto;
-            // }
+            @media (min-width: 400px){
+                width: 100%;
+            }
         }
 
         @media (max-width: 400px){

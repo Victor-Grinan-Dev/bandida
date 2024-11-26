@@ -1,0 +1,17 @@
+.some{
+    width: 80vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+    &-container{
+        width: 30px;
+        height: 30px;
+        // background-color: aqua;
+    }
+
+    &-icon{
+        height: 30px;
+        object-fit: cover;
+    }
+}
