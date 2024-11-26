@@ -1,36 +1,37 @@
-import React from 'react';
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Some = () => {
   return (
     <div className="some">
     
     <div className='some-container'>
-      <i class="fab fa-whatsapp"></i>
+       <i className="fab fa-whatsapp"></i>
     </div>
     
     
     <div className='some-container'>
-      <i class="fab fa-youtube"></i>
+       <i className="fab fa-youtube"></i>
     </div>
     
     
     <div className='some-container'>
-      <i class="fas fa-envelope"></i>
+       <i className="fas fa-envelope"></i>
     </div>
     
     
     <div className='some-container'>
-      <i class="fab fa-facebook"></i>
+       <i className="fab fa-facebook"></i>
     </div>
     
     
     <div className='some-container'>
-      <i class="fab fa-instagram"></i>
+       <i className="fab fa-instagram"></i>
     </div>
     
     
     <div className='some-container'>
-      <i class="fab fa-tiktok"></i>
+       <i className="fab fa-tiktok"></i>
     </div>
     
 </div>
@@ -38,5 +39,7 @@ const Some = () => {
 }
 
 export default Some;
+
+
 
 
