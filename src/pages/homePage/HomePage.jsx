@@ -17,7 +17,6 @@ const HomePage = () => {
         <div className="image-container">
           <img src={logo} alt="" />
         </div>
-        {/* <h1 className='title'>Bandida's tattoo</h1> */}
       </div>
 
       <InfiniteCarrusel />

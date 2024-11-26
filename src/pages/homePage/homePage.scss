@@ -40,7 +40,7 @@
         }
     }
 
-    .portfolio, .about, .contact{
+    .portfolio, .services, .contact{
         position: absolute;
         background-color: $bandidas-black;
         width: 100%;
@@ -62,7 +62,7 @@
         top: 100dvh;
     }
 
-    .about{
+    .services{
         top: 200dvh;
         background-color: rgba(0, 0, 0, 0.8);
         padding: 50px;

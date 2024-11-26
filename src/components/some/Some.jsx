@@ -1,47 +1,45 @@
-import React from 'react'
-
-import ig from "../../assets/images/some/instagram.png"
-import fb from "../../assets/images/some/facebook.png"
-import mail from "../../assets/images/some/email.png"
-import tt from "../../assets/images/some/tik tok.png"
-import WA from "../../assets/images/some/whatsapp.png"
-import yt from "../../assets/images/some/youtube.png"
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Some = () => {
   return (
     <div className="some">
-    <br />
-    <a className='nav-link'>
-      <img src={ig} alt="" className="some" />
-    </a>
-    <br />
-    <br />
-    <a className='nav-link'>
-      <img src={fb} alt="" className="some" />
-    </a>
-    <br />
-    <br />
-    <a className='nav-link'>
-      <img src={mail} alt="" className="some" />
-    </a>
-    <br />
-    <br />
-    <a className='nav-link'>
-      <img src={tt} alt="" className="some" />
-    </a>
-    <br />
-    <br />
-    <a className='nav-link'>
-      <img src={WA} alt="" className="some" />
-    </a>
-    <br />
-    <br />
-    <a className='nav-link'>
-      <img src={yt} alt="" className="some" />
-    </a>
-    <br />
+    
+    <div className='some-container'>
+       <i className="fab fa-whatsapp"></i>
+    </div>
+    
+    
+    <div className='some-container'>
+       <i className="fab fa-youtube"></i>
+    </div>
+    
+    
+    <div className='some-container'>
+       <i className="fas fa-envelope"></i>
+    </div>
+    
+    
+    <div className='some-container'>
+       <i className="fab fa-facebook"></i>
+    </div>
+    
+    
+    <div className='some-container'>
+       <i className="fab fa-instagram"></i>
+    </div>
+    
+    
+    <div className='some-container'>
+       <i className="fab fa-tiktok"></i>
+    </div>
+    
 </div>
   )
 }
 
-export default Some
+export default Some;
+
+
+
+
