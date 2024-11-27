@@ -42,7 +42,6 @@ const InfiniteCarrusel = () => {
         {/* This will link to gallery */}
         {/* <a className='nav-link' href="#">Lisää kuvia</a> */}
 
-        
   </section>
   )
 }
