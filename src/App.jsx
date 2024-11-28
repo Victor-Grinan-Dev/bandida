@@ -5,10 +5,11 @@ import {
   // Navigate  
 } from "react-router-dom";
 
-//components
+//pages
 import Layout from './layout/Layout';
 import HomePage from './pages/homePage/HomePage';
 import NotFound from './pages/notFound/NotFound';
+import Gallery from "./pages/gallery/Gallery";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
+        <Route path="gallery" element={<Gallery />} />
       </Route>
-      {/* <Route path="*" element={<Navigate to="/not-found" />} /> */}
+      {/* <Route path="*" element={<Navigate to="/" />} /> */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
