@@ -3,7 +3,8 @@ import video from '../../assets/videos/istockphoto-1370743548-640_adpp_is.mp4';
 import logo from '../../assets/images/bandidas_tattoo_studio-modified.png';
 import Navegator from '../../components/navegator/Navegator';
 import InfiniteCarrusel from '../../components/InfiniteCarrusel/InfiniteCarrusel';
-import Some from '../../components/some/Some';
+
+import Contact from '../../components/contact/Contact';
 
 const HomePage = () => {
 
@@ -30,22 +31,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className='contact' id='contact'>
-        <div className="contact-container container">
-
-          <div className='title'>
-            <h3 className='owner'>Paula Anneli</h3>
-            <p className='ampersand'>&</p>
-            <h1 className='company'>Bandida's Tattoo</h1>
-            <p className='address'>Porvonkatu 14</p>
-          </div>
-
-          <Some />
-
-          <p>All rights &reg; Reserved {new Date().getFullYear()}</p>
-
-        </div>
-      </section>
+      <Contact />
     </div>
   )
 }
