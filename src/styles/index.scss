@@ -1,5 +1,6 @@
 @import "./base.scss";
 @import "./constants.scss";
+@import "./mixins.scss";
 
 /*pages*/
 @import "../pages/homePage/homePage.scss";
@@ -12,3 +13,4 @@
 @import "../components/InfiniteCarrusel/infiniteCarrusel.scss";
 @import "../components/contact/contact.scss";
 @import "../components/transparentSection/transparentSection.scss";
+@import "../components/appLink/appLink.scss";

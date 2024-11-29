@@ -1,6 +1,20 @@
+@import '../../styles/mixins.scss';
+
 $card-height-l:500px;
 $item-animation-duration:160s;
 $carrusel-item-amount:8;
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+
+.app-link-container{
+    width: 100%;
+    text-align: center;
+}
 
 .carrusel{
     // height: calc($card-height-l  + 10px);
@@ -78,6 +92,7 @@ $carrusel-item-amount:8;
         animation-delay: calc($item-animation-duration / $carrusel-item-amount * ($carrusel-item-amount - 8) * -1);
     }
 }
+
 
 @keyframes moveLeft {
     100% {

@@ -8,7 +8,8 @@ import test5 from '../../assets/images/tatoos/a test-5.jpg'
 import test6 from '../../assets/images/tatoos/a test-6.jpg'
 import test7 from '../../assets/images/tatoos/a test-7.jpg'
 import test8 from '../../assets/images/tatoos/a test-8.jpg'
-import { Link } from 'react-router-dom';
+
+import AppLink from '../appLink/AppLink';
 
 const InfiniteCarrusel = () => {
   return (
@@ -41,8 +42,8 @@ const InfiniteCarrusel = () => {
         </div>
 
 
-        <div>
-            <Link to="/gallery">Lisää </Link>
+        <div className='app-link-container'>
+            <AppLink caption="Lisää" linkTo="/gallery"/>
         </div>
 
   </section>
