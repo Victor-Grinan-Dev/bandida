@@ -40,15 +40,17 @@
         }
     }
 
-    .portfolio, .services, .contact{
+    .homepage-section{
         position: absolute;
-        background-color: $bandidas-black;
         width: 100%;
         color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 10px;
+    }
+    .homepage-section-dark{
+        background-color: $bandidas-black;
     }
 
     .container{
@@ -62,44 +64,9 @@
         top: 100dvh;
     }
 
-    .services{
-        top: 200dvh;
-        background-color: rgba(0, 0, 0, 0.8);
-        padding: 50px;
-        & .container{
-            flex-direction: column;
-            text-align: center;
-        }
-    }
 
-    .contact{
-        top: 300dvh; 
-        background-color: rgb(12, 12, 12);
 
-        &-container{
-            
-            height: 70dvh;
-            justify-content: space-between;
-            padding-top: 20px;
 
-            .title{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                .owner{
-
-                }
-                .ampersand{
-
-                }
-                .company{
-
-                }
-            }
-
-        }
-    }
 
 
 

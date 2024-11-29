@@ -3,9 +3,12 @@
 
 /*pages*/
 @import "../pages/homePage/homePage.scss";
+@import "../pages/gallery/gallery.scss";
 
 
 /*components*/
 @import "../components/navegator/navegator.scss";
+@import "../components/services/services.scss";
 @import "../components/InfiniteCarrusel/infiniteCarrusel.scss";
-@import "../components/some/some.scss";
+@import "../components/contact/contact.scss";
+@import "../components/transparentSection/transparentSection.scss";

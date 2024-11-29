@@ -1,13 +1,11 @@
 $card-height-l:500px;
-$card-width-l:300px;
-$card-height-s:250px;
-$card-width-s:100px;
-
 $item-animation-duration:160s;
 $carrusel-item-amount:8;
 
 .carrusel{
-    height: calc($card-height-l  + 10px);
+    // height: calc($card-height-l  + 10px);
+    height: 80%;
+    max-height: 800px;
     padding-top: 5px;
     overflow-x: hidden;
     position: relative;

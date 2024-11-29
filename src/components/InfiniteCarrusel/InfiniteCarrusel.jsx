@@ -8,10 +8,11 @@ import test5 from '../../assets/images/tatoos/a test-5.jpg'
 import test6 from '../../assets/images/tatoos/a test-6.jpg'
 import test7 from '../../assets/images/tatoos/a test-7.jpg'
 import test8 from '../../assets/images/tatoos/a test-8.jpg'
+import { Link } from 'react-router-dom';
 
 const InfiniteCarrusel = () => {
   return (
-    <section className='portfolio' id='porfolio'>
+    <section className='portfolio homepage-section homepage-section-dark' id='porfolio'>
         <div className="carrusel wrapper to-left" >
             <div className='carrusel-item item1'>
                 <img src={test1} alt="tattoo" />
@@ -39,8 +40,10 @@ const InfiniteCarrusel = () => {
             </div>
         </div>
 
-        {/* This will link to gallery */}
-        {/* <a className='nav-link' href="#">Lisää kuvia</a> */}
+
+        <div>
+            <Link to="/gallery">Lisää </Link>
+        </div>
 
   </section>
   )

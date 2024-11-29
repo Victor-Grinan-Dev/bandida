@@ -3,8 +3,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Contact = () => {
   return (
-    <section className='contact' id='contact'>
-        <div className="contact-container container">
+    <section className='contact homepage-section' id='contact'>
+        <div className="contact-container">
 
             <div className='title'>
                 <h3 className='owner'>Paula Anneli</h3>
@@ -13,35 +13,35 @@ const Contact = () => {
                 <p className='address'>Porvonkatu 14</p>
             </div>
 
-            <div className="some">
+            <div className="contact-some">
             
-                <div className='some-container'>
+                <div className='contact-some-container'>
                     <i className="fab fa-whatsapp some-icon"></i>
                 </div>
                 
                 
-                <div className='some-container'>
-                    <i className="fab fa-youtube some-icon"></i>
+                <div className='contact-some-container'>
+                    <i className="fab fa-youtube contact-some-icon"></i>
                 </div>
                 
                 
-                <div className='some-container'>
-                    <i className="fas fa-envelope some-icon"></i>
+                <div className='contact-some-container'>
+                    <i className="fas fa-envelope contact-some-icon"></i>
                 </div>
                 
                 
-                <div className='some-container'>
-                    <i className="fab fa-facebook some-icon"></i>
+                <div className='contact-some-container'>
+                    <i className="fab fa-facebook contact-some-icon"></i>
                 </div>
                 
                 
-                <div className='some-container'>
-                    <i className="fab fa-instagram some-icon"></i>
+                <div className='contact-some-container'>
+                    <i className="fab fa-instagram contact-some-icon"></i>
                 </div>
                 
                 
-                <div className='some-container'>
-                    <i className="fab fa-tiktok some-icon"></i>
+                <div className='contact-some-container'>
+                    <i className="fab fa-tiktok contact-some-icon"></i>
                 </div>
         
             </div>
