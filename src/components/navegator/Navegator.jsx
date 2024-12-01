@@ -1,5 +1,4 @@
 import React from 'react';
-import AppLink from '../appLink/AppLink';
 
 const Navegator = () => {
   return (
