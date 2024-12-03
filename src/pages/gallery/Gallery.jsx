@@ -22,15 +22,11 @@ const Gallery = () => {
 
       {/* every 5 to 8 images in store: create this component */}
       <div className="collage" >
-
-
-      {pictureArray && pictureArray.map((pic, idx)=> (
-        <div className="right-column" key={idx}>
-          <div className="img-wapper" id={pic}><PicLoader pic={pic}/></div>
-        </div>
-      )) }
-
-
+        {pictureArray && pictureArray.map((pic, idx)=> (
+          
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic}/></div>
+          
+        )) }
       </div>
 
       {/* <div className="album">

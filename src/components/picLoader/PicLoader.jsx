@@ -37,7 +37,7 @@ const pictures = {
     pic004:pic004,
     pic005:pic005,
     pic006:pic006,
-    pic007:pic007,
+    // pic007:pic007,
     pic008:pic008,
     pic009:pic009,
     pic010:pic010,
