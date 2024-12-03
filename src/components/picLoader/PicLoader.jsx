@@ -6,7 +6,7 @@ import pic003 from "../../assets/images/all pics/pic003.jpg";
 import pic004 from "../../assets/images/all pics/pic004.jpg";
 import pic005 from "../../assets/images/all pics/pic005.jpg";
 import pic006 from "../../assets/images/all pics/pic006.jpg";
-import pic007 from "../../assets/images/all pics/pic007.jpg";
+// import pic007 from "../../assets/images/all pics/pic007.jpg";
 import pic008 from "../../assets/images/all pics/pic008.jpg";
 import pic009 from "../../assets/images/all pics/pic009.jpg";
 import pic010 from "../../assets/images/all pics/pic010.jpg";
