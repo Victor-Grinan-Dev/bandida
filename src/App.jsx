@@ -7,16 +7,17 @@ import {
 
 //pages
 import Layout from './layout/Layout';
-import HomePage from './pages/homePage/HomePage';
+// import HomePage from './pages/homePage/HomePage';
 import NotFound from './pages/notFound/NotFound';
 import Gallery from "./pages/gallery/Gallery";
+import LandingPage from "./pages/landingPage/LandingPage";
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
+        <Route index element={<LandingPage />} />
         <Route path="gallery" element={<Gallery />} />
       </Route>
       {/* <Route path="*" element={<Navigate to="/" />} /> */}
