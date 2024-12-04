@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pic001 from "../../assets/images/all pics/pic001.webp";
+import pic001 from "../../assets/images/all pics/pic001.jpg";
 import pic002 from "../../assets/images/all pics/pic002.jpg";
 import pic003 from "../../assets/images/all pics/pic003.jpg";
 import pic004 from "../../assets/images/all pics/pic004.jpg";
@@ -29,6 +29,16 @@ import pic026 from "../../assets/images/all pics/pic026.jpg";
 import pic027 from "../../assets/images/all pics/pic027.jpg";
 import pic028 from "../../assets/images/all pics/pic028.jpg";
 import pic029 from "../../assets/images/all pics/pic029.jpg";
+
+import logo32 from "../../assets/images/logo/la_bandida_logo_3-2(og).png";
+import logo32_ from "../../assets/images/logo/la_bandida_logo_3-2_(og).png";
+import logo43 from "../../assets/images/logo/la_bandida_logo_4-3(og).png";
+import logo54 from "../../assets/images/logo/la_bandida_logo_5-4(og).png";
+import logo54inv from "../../assets/images/logo/la_bandida_logo_5-4_inv.png";
+import logo75 from "../../assets/images/logo/la_bandida_logo_7-5(og)png.png";
+
+import logo169 from "../../assets/images/logo/la_bandida_logo_16-9(og).png";
+import logo169inv from "../../assets/images/logo/la_bandida_logo_16-9_inv.png";
 
 const pictures = {
     pic001:pic001,
@@ -60,6 +70,18 @@ const pictures = {
     pic027:pic027,
     pic028:pic028,
     pic029:pic029,
+
+    logo32:logo32, 
+    logo32_:logo32_,
+    logo43:logo43,
+    logo54:logo54,
+    logo54inv:logo54inv,
+    logo75:logo75,
+    logo169:logo169,
+    logo169inv:logo169inv,
+
+    
+ 
 }
 
 const PicLoader = (props) => {
