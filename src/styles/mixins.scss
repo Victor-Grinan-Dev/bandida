@@ -19,3 +19,10 @@
         font-size: x-large;
     }
 } 
+
+@mixin no-highlight{
+  -webkit-user-select: none; /* For Chrome, Safari, and Edge */
+  -moz-user-select: none;    /* For Firefox */
+  -ms-user-select: none;     /* For Internet Explorer/Edge */
+  user-select: none;         /* Standard */
+}
