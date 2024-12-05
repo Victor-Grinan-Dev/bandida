@@ -16,15 +16,28 @@
     width: 100%;
     color: $bandida-golden-6;
     padding: 20px;
+
+    &__corner{
+        width: 215px;
+    }
+
+    #right{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
 }
 
 .some{
     display: flex;
+    gap: 15px;
 
     &-item{
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        aspect-ratio: 1 1;
     }
+
+    @include no-highlight;
 }
 
 // .some-item{
@@ -37,20 +50,58 @@
 }
 
 .logo-wrapper{
-    width: 25%;
+    height: 40dvh;
     aspect-ratio: 1/1;
-   
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    // overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 50px;
+
+    @include no-highlight;
 }
 
 .nav-bar{
     display: flex;
     gap: 10px;
     font-size: xx-large;
-    height: 100px;
-
+    height: 50px;
 }
 
+#nav-bar.sticky {
+    position: fixed;
+    top: 0;
+  }
+
+.lower-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .dot{
+        line-height: 0;
+    }
+}
+
+
+.arc-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: translateY(120px);
+    top: -4.5vh;
+  }
+  .arc-text span {
+    position: absolute;
+    transform-origin: bottom center;
+    font-size: 25px;
+  }
+  .arc-text span:nth-child(1) { transform: rotate(-30deg) translateY(-70px); }
+  .arc-text span:nth-child(2) { transform: rotate(-18deg) translateY(-70px); }
+  .arc-text span:nth-child(3) { transform: rotate(-6deg) translateY(-70px); }
+  .arc-text span:nth-child(4) { transform: rotate(6deg) translateY(-70px); }
+  .arc-text span:nth-child(5) { transform: rotate(18deg) translateY(-70px); }
+  .arc-text span:nth-child(6) { transform: rotate(30deg) translateY(-70px); }
