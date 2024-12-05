@@ -5,7 +5,7 @@ import Navegator from '../../components/navegator/Navegator';
 import InfiniteCarrusel from '../../components/InfiniteCarrusel/InfiniteCarrusel';
 import Services from '../../components/services/Services';
 import Contact from '../../components/contact/Contact';
-import TransparentSection from '../../components/transparentSection/TransparentSection';
+// import TransparentSection from '../../components/transparentSection/TransparentSection';
 
 const HomePage = () => {
 
