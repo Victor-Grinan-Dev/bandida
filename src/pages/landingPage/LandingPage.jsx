@@ -34,7 +34,9 @@ const LandingPage = () => {
             <Hamburger />
 
             <div className="logo-wrapper" >
+                <p>Studio</p>
                 <PicLoader pic="logo169inv"/>
+                <p>Tattoo</p>
             </div>
 
             <Navegator />

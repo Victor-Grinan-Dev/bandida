@@ -19,13 +19,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        position: relative;
-        width: 100%;
-        height: 100dvh;
     }      
     
-    @media (max-width:665px) {
+    @media (max-width:1000px) {
         background-size: 200%;
+    }
+    @media (max-width:500px) {
+        background-size: 300%;
     }
     @media (max-width:375px) {
         background-size: 400%;
@@ -90,14 +90,12 @@
 
 /*LOGO*/
 .logo-wrapper{
-    height: 40dvh;
-    aspect-ratio: 1/1;
+    height: 45dvh;
+    aspect-ratio: 3/2;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
-    padding: 20px 20px 50px ;
     background-color: $bandidas-black-1;
 
     @include no-highlight;
