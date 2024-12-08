@@ -3,11 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(7, 7, 7);
     background-color: $bandidas-black-1;
-
+    background-color: rgb(61, 52, 52);
     color: white;
-    // text-transform: capitalize;
+
+    background-image: url('../../assets/images/all\ pics/kollaasi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: moveBackground 10s linear infinite;
 
     &-banner{
         display: flex;
@@ -20,7 +23,6 @@
     }        
 }
 
-/*Conctact-bar (top)*/
 .contact-bar{
     display: flex;
     align-items: flex-start;
@@ -28,16 +30,12 @@
     width: 100%;
     color: $bandida-golden-6;
     padding: 20px;
-    background-color: rgb(7, 7, 7);
+    background-color: $bandidas-black-1;
 
     &__corner{
         width: 215px;
 
         .opening-hours-left{
-            display: none;
-        }
-
-        .hamburger{
             display: none;
         }
 
@@ -59,11 +57,13 @@
     #right{
         display: flex;
         justify-content: flex-end;
+        text-align: end;
     }
 
     @media (max-width: 665px){
 
         flex-direction: column;
+        gap: 10px;
 
         #left{
             display: none;
@@ -71,55 +71,31 @@
 
         #right, 
         .address-right,
-        .opening-hours-right, .hamburger{
+        .opening-hours-right{
             display: block;
         }
     }
     
 }
 
-.some{
-    display: flex;
-    gap: 15px;
-
-    &-item{
-        height: 30px;
-        aspect-ratio: 1 1;
-    }
-
-    &-icon{
-        color: $bandida-golden-7;
-        font-size: 30px;
-    }
-
-    @include no-highlight;
-}
-
 /*LOGO*/
-
 .logo-wrapper{
     height: 40dvh;
     aspect-ratio: 1/1;
     display: flex;
     align-items: center;
     justify-content: center;
-    // overflow: hidden;
     flex-direction: column;
     position: relative;
     padding: 20px 20px 50px ;
-    background-color: rgb(7, 7, 7);
+    background-color: $bandidas-black-1;
 
     @include no-highlight;
-}
 
-.lower-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .dot{
-        line-height: 0;
+    @media (max-width:665px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
-
-
-
