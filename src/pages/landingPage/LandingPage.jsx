@@ -18,7 +18,8 @@ const LandingPage = () => {
             <div className="contact-bar">
 
                 <div className='contact-bar__corner' id='left'>
-                    <p className="address">Porvoonkatu 14, 00510 Helsinki.</p>
+                    <h1>La Bandida Tattoo&reg;</h1>
+                    <p className="address">Porvoonkatu 14 00510 Helsinki.</p>
                     <p className="opening-hours-left">Aukioloajat Ma-Pe 10:00-18:00</p>
                 </div>
 
@@ -26,7 +27,8 @@ const LandingPage = () => {
 
                 <div className='contact-bar__corner' id='right'>
                     <p className="address-right">Porvoonkatu 14, 00510 Helsinki.</p>
-                    <p className="opening-hours-right">Aukioloajat Ma-Pe 10:00-18:00</p>
+                    <p className="opening-hours-right">Aukioloajat </p>
+                    <p>Ma-Pe 10:00-18:00</p>
                 </div>
 
             </div>
@@ -34,9 +36,7 @@ const LandingPage = () => {
             <Hamburger />
 
             <div className="logo-wrapper" >
-                <p>Studio</p>
                 <PicLoader pic="logo169inv"/>
-                <p>Tattoo</p>
             </div>
 
             <Navegator />

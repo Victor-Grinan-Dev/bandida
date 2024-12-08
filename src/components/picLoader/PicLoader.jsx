@@ -91,6 +91,9 @@ const pictures = {
     color04:color04,
     color05:color05,
 
+    pmu01:pmu01,
+    pmu02:pmu02,
+
     fav001:pic028,
     fav002:pic018,
     fav003:pic014,
@@ -151,4 +154,17 @@ export const blackGrey = [
   'pic028',
   'pic029',
 ];
+export const colors = [
+  'color01',
+  'color02',
+  'color03',
+  'color04',
+  'color05', 
+];
+export const pmu = [
+  'pmu01',
+  'pmu02',
+];
+
+
 export default PicLoader;
