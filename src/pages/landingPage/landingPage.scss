@@ -10,7 +10,8 @@
     background-image: url('../../assets/images/all\ pics/kollaasi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    animation: moveBackground 10s linear infinite;
+    background-size: 150%;
+    animation: moveBackground 60s linear infinite;
 
     &-banner{
         display: flex;
@@ -73,6 +74,7 @@
         .address-right,
         .opening-hours-right{
             display: block;
+            text-align: start;
         }
     }
     
