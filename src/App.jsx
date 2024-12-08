@@ -10,7 +10,7 @@ import Layout from './layout/Layout';
 // import HomePage from './pages/homePage/HomePage';
 import NotFound from './pages/notFound/NotFound';
 import Gallery from "./pages/gallery/Gallery";
-import TheArtist from "./components/theArtist/TheArtist";
+import TheArtist from "./pages/theArtist/TheArtist";
 import LandingPage from "./pages/landingPage/LandingPage";
 
 function App() {

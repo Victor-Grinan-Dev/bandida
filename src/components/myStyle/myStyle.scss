@@ -23,5 +23,12 @@
 
     &-text{
         text-align: left;
+        line-height: 1.2;
+    }
+
+    .app-link-container{
+        @media (max-width:665px) {
+            margin-bottom: 0;
+        }
     }
 }
