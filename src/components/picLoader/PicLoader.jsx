@@ -1,34 +1,35 @@
 import React from 'react';
 
-import pic001 from "../../assets/images/all pics/pic001.jpg";
-import pic002 from "../../assets/images/all pics/pic002.jpg";
-import pic003 from "../../assets/images/all pics/pic003.jpg";
-import pic004 from "../../assets/images/all pics/pic004.jpg";
-import pic005 from "../../assets/images/all pics/pic005.jpg";
-import pic006 from "../../assets/images/all pics/pic006.jpg";
-// import pic007 from "../../assets/images/all pics/pic007.jpg";
-import pic008 from "../../assets/images/all pics/pic008.jpg";
-import pic009 from "../../assets/images/all pics/pic009.jpg";
-import pic010 from "../../assets/images/all pics/pic010.jpg";
-import pic011 from "../../assets/images/all pics/pic011.jpg";
-import pic012 from "../../assets/images/all pics/pic012.jpg";
-import pic013 from "../../assets/images/all pics/pic013.jpg";
-import pic014 from "../../assets/images/all pics/pic014.jpg";
-import pic015 from "../../assets/images/all pics/pic015.jpg";
-import pic016 from "../../assets/images/all pics/pic016.jpg";
-import pic017 from "../../assets/images/all pics/pic017.jpg";
-import pic018 from "../../assets/images/all pics/pic018.jpg";
-import pic019 from "../../assets/images/all pics/pic019.jpg";
-import pic020 from "../../assets/images/all pics/pic020.jpg";
-import pic021 from "../../assets/images/all pics/pic021.jpg";
-import pic022 from "../../assets/images/all pics/pic022.jpg";
-import pic023 from "../../assets/images/all pics/pic023.jpg";
-import pic024 from "../../assets/images/all pics/pic024.jpg";
-import pic025 from "../../assets/images/all pics/pic025.jpg";
-import pic026 from "../../assets/images/all pics/pic026.jpg";
-import pic027 from "../../assets/images/all pics/pic027.jpg";
-import pic028 from "../../assets/images/all pics/pic028.jpg";
-import pic029 from "../../assets/images/all pics/pic029.jpg";
+import pic001 from "../../assets/images/all pics/Black&Grey/pic001.jpg";
+import pic002 from "../../assets/images/all pics/Black&Grey/pic002.jpg";
+import pic003 from "../../assets/images/all pics/Black&Grey/pic003.jpg";
+import pic004 from "../../assets/images/all pics/Black&Grey/pic004.jpg";
+import pic005 from "../../assets/images/all pics/Black&Grey/pic005.jpg";
+import pic006 from "../../assets/images/all pics/Black&Grey/pic006.jpg";
+import pic007 from "../../assets/images/all pics/Black&Grey/pic007.jpg";
+import pic008 from "../../assets/images/all pics/Black&Grey/pic008.jpg";
+import pic009 from "../../assets/images/all pics/Black&Grey/pic009.jpg";
+import pic010 from "../../assets/images/all pics/Black&Grey/pic010.jpg";
+import pic011 from "../../assets/images/all pics/Black&Grey/pic011.jpg";
+import pic012 from "../../assets/images/all pics/Black&Grey/pic012.jpg";
+import pic013 from "../../assets/images/all pics/Black&Grey/pic013.jpg";
+import pic014 from "../../assets/images/all pics/Black&Grey/pic014.jpg";
+import pic015 from "../../assets/images/all pics/Black&Grey/pic015.jpg";
+import pic016 from "../../assets/images/all pics/Black&Grey/pic016.jpg";
+import pic017 from "../../assets/images/all pics/Black&Grey/pic017.jpg";
+import pic018 from "../../assets/images/all pics/Black&Grey/pic018.jpg";
+import pic019 from "../../assets/images/all pics/Black&Grey/pic019.jpg";
+import pic020 from "../../assets/images/all pics/Black&Grey/pic020.jpg";
+import pic021 from "../../assets/images/all pics/Black&Grey/pic021.jpg";
+import pic022 from "../../assets/images/all pics/Black&Grey/pic022.jpg";
+import pic023 from "../../assets/images/all pics/Black&Grey/pic023.jpg";
+import pic024 from "../../assets/images/all pics/Black&Grey/pic024.jpg";
+import pic025 from "../../assets/images/all pics/Black&Grey/pic025.jpg";
+import pic026 from "../../assets/images/all pics/Black&Grey/pic026.jpg";
+import pic027 from "../../assets/images/all pics/Black&Grey/pic027.jpg";
+import pic028 from "../../assets/images/all pics/Black&Grey/pic028.jpg";
+import pic029 from "../../assets/images/all pics/Black&Grey/pic029.jpg";
+import pic030 from "../../assets/images/all pics/Black&Grey/pic030.JPG";
 
 import logo32 from "../../assets/images/logo/la_bandida_logo_3-2(og).png";
 import logo32_ from "../../assets/images/logo/la_bandida_logo_3-2_(og).png";
@@ -41,7 +42,7 @@ import logo169 from "../../assets/images/logo/la_bandida_logo_16-9(og).png";
 import logo169inv from "../../assets/images/logo/la_bandida_logo_16-9_inv.png";
 
 import kollaasi from "../../assets/images/all pics/kollaasi.jpg";
-import paula_profile_1 from "../../assets/images/all pics/paula_profile_1.jpg";
+import paula_profile_1 from "../../assets/images/all pics/profiles pics/paula_profile_1.jpg";
 
 
 const pictures = {
@@ -51,7 +52,7 @@ const pictures = {
     pic004:pic004,
     pic005:pic005,
     pic006:pic006,
-    // pic007:pic007,
+    pic007:pic007,
     pic008:pic008,
     pic009:pic009,
     pic010:pic010,
@@ -74,6 +75,16 @@ const pictures = {
     pic027:pic027,
     pic028:pic028,
     pic029:pic029,
+    pic030:pic030,
+
+    fav001:pic028,
+    fav002:pic018,
+    fav003:pic014,
+    fav004:pic011,
+    fav005:pic009,
+    fav006:pic027,
+    fav007:pic010,
+    fav008:pic029,
 
     logo32:logo32, 
     logo32_:logo32_,

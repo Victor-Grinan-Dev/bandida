@@ -7,27 +7,33 @@ const MyStyle = () => {
     <section className='my-style' id='my-style'>
         <div className="pics-sample">
             <div className="pic-container">
-                <PicLoader pic="pic001"/>
+                <PicLoader pic="fav001"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="pic002"/>
+                <PicLoader pic="fav002"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="pic003"/>
+                <PicLoader pic="fav003"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="pic004"/>
+                <PicLoader pic="fav004"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="pic005"/>
+                <PicLoader pic="fav005"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="pic006"/>
+                <PicLoader pic="fav006"/>
+            </div>
+            <div className="pic-container">
+                <PicLoader pic="fav007"/>
+            </div>
+            <div className="pic-container">
+                <PicLoader pic="fav008"/>
             </div>
         </div>
 
         <div className='app-link-container'>
-            <AppLink caption="katso Lisää kuvia Galleriasta" linkTo="/gallery"/>
+            <AppLink caption="Katso Lisää kuvia galleriasta" linkTo="/gallery"/>
         </div>
 
         <div className="my-style-text">
