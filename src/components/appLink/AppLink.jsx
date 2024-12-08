@@ -2,15 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AppLink = (props) => {
-    const {linkTo, caption, idLink} = props;
+    const {linkTo, caption, idLink=false} = props;
+
+    if(idLink){
+      return (
+        <div className='app-link'>
+            <a href={linkTo}> { caption } </a>
+        </div>
+      )
+    }
   return (
     <div className='app-link'>
-        {
-        idLink ?
-        
-            <a ref={`#${linkTo}`} >{ caption }</a>
-            :<Link to={linkTo}> { caption } </Link>
-        }
+        <Link to={linkTo}> { caption } </Link>
     </div>
   )
 }

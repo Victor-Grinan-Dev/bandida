@@ -40,6 +40,8 @@ import logo75 from "../../assets/images/logo/la_bandida_logo_7-5(og)png.png";
 import logo169 from "../../assets/images/logo/la_bandida_logo_16-9(og).png";
 import logo169inv from "../../assets/images/logo/la_bandida_logo_16-9_inv.png";
 
+import kollaasi from "../../assets/images/all pics/kollaasi.jpg"
+
 const pictures = {
     pic001:pic001,
     pic002:pic002,
@@ -80,7 +82,7 @@ const pictures = {
     logo169:logo169,
     logo169inv:logo169inv,
 
-    
+    kollaasi:kollaasi,
  
 }
 

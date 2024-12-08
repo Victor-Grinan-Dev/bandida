@@ -11,19 +11,23 @@ import Layout from './layout/Layout';
 import NotFound from './pages/notFound/NotFound';
 import Gallery from "./pages/gallery/Gallery";
 import LandingPage from "./pages/landingPage/LandingPage";
+import Footer from "./layout/layoutComponents/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<LandingPage />} />
-        <Route path="gallery" element={<Gallery />} />
-      </Route>
-      {/* <Route path="*" element={<Navigate to="/" />} /> */}
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-  </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<LandingPage />} />
+            <Route path="gallery" element={<Gallery />} />
+          </Route>
+          {/* <Route path="*" element={<Navigate to="/" />} /> */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </>
   );
 }
 
