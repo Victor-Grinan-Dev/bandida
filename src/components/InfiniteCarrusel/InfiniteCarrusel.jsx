@@ -1,13 +1,13 @@
 import React from 'react';
 
-import test1 from '../../assets/images/all pics/pic001.jpg'
-import test2 from '../../assets/images/all pics/pic002.jpg'
-import test3 from '../../assets/images/all pics/pic003.jpg'
-import test4 from '../../assets/images/all pics/pic004.jpg'
-import test5 from '../../assets/images/all pics/pic005.jpg'
-import test6 from '../../assets/images/all pics/pic006.jpg'
-import test7 from '../../assets/images/all pics/pic007.jpg'
-import test8 from '../../assets/images/all pics/pic008.jpg'
+import test1 from '../../assets/images/Black&Grey/pic001.jpg';
+import test2 from '../../assets/images/Black&Grey/pic002.jpg';
+import test3 from '../../assets/images/Black&Grey/pic003.jpg';
+import test4 from '../../assets/images/Black&Grey/pic004.jpg';
+import test5 from '../../assets/images/Black&Grey/pic005.jpg';
+import test6 from '../../assets/images/Black&Grey/pic006.jpg';
+import test7 from '../../assets/images/Black&Grey/pic007.jpg';
+import test8 from '../../assets/images/Black&Grey/pic008.jpg';
 
 import AppLink from '../appLink/AppLink';
 

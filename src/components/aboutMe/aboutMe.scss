@@ -4,10 +4,11 @@
     height: 100dvh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    
     padding: 0 5%;
     color: white;
+    position: relative;
 
     .link-warpper{
         position: absolute;
@@ -22,12 +23,11 @@
         max-height: 40%;
 
         &-pic{
-            height: 50vh;
-            max-width: 100%;
-            overflow: hidden;
+            width: 500px;
+
 
             .pic-item{
-                height: 100%;
+                object-fit: cover;
             }
         }
 
@@ -38,14 +38,21 @@
             flex-direction: column;
             align-items: center;
             padding-top: 30px;
+
             &-text{
                 line-height: 1;
             }
         }
     }
 
+    .text-area{
+        max-width: 400px;
+        text-align: left;
+        
+    }
+
     @media (max-width:665px) {
         justify-content: center;
-
+        flex-direction: column;
     }
 }

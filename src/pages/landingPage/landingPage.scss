@@ -7,11 +7,11 @@
     background-color: rgb(61, 52, 52);
     color: white;
 
-    background-image: url('../../assets/images/kollaasi.jpg');
+    background-image: url('../../assets/images/Black&Grey/pic027.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 150%;
     animation: moveBackground 60s linear infinite;
 
     &-banner{
@@ -40,9 +40,10 @@
     color: $bandida-golden-6;
     padding: 20px;
     background-color: $bandidas-black-1;
+    z-index: 100;
 
     &__corner{
-        width: 215px;
+        width: 230px;
 
         .opening-hours-left{
             display: none;
@@ -66,6 +67,7 @@
     #right{
         display: flex;
         justify-content: flex-end;
+        flex-direction: column;
         text-align: end;
     }
 
@@ -90,13 +92,15 @@
 
 /*LOGO*/
 .logo-wrapper{
-    height: 45dvh;
-    aspect-ratio: 3/2;
+    height: 100%;
+    width: 100%;
+    // aspect-ratio: 3/2;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: $bandidas-black-1;
+    // background-color: $bandidas-black-1;
+    background-color: rgba(0, 0, 0, 0.733);
 
     @include no-highlight;
 
@@ -105,5 +109,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
     }
 }
