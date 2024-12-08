@@ -43,15 +43,13 @@ const InfiniteCarrusel = () => {
 
 
         <div className='app-link-container'>
-            <AppLink caption="katso Lisää kuvia" linkTo="/gallery"/>
+            <AppLink caption="katso Lisää kuvia Galleriasta" linkTo="/gallery"/>
         </div>
 
         <div className="test" style={{textAlign:"center", lineHeight:2.5}}>
-
-            <h1>My Style</h1>
+            <h1>Tyylini:</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum velit debitis? Excepturi ullam et cum quasi suscipit veritatis repudiandae rem vero blanditiis sapiente. Illo perspiciatis corporis quidem eos laborum vel sequi debitis veniam iure numquam, voluptatibus aliquid rem, nesciunt cupiditate laboriosam dolor ab consequatur dolore nostrum suscipit natus non possimus maiores? Totam enim repudiandae impedit, quos eos dolore qui illo accusamus ad eligendi nesciunt quo atque excepturi veniam officiis quis laborum? Vero aliquam quibusdam nihil rem non. Ex nam fugit in, expedita nihil sint suscipit iusto sed provident ratione eos dicta cum dignissimos sit nesciunt ea, laudantium, voluptas similique.
-            </p>
+            Tatuoinneissa näkyy pääsääntöisesti mustaharmaa realismi mutta värikuvat ovat yhtä lähellä sydäntä, samoin kuin pienemmät sirot kuvatkin. Kannattaa aina kysyä jos jokin muunlainen haluamasi aihe tai tyyli olisi mahdollista toteuttaa, Paula on avoin kaikenlaisille ideoille.</p>
         </div>
   </section>
   )
