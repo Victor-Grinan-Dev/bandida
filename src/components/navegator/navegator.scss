@@ -1,21 +1,26 @@
-.navegator{
-
-    list-style: none;
+.nav-bar{
     display: flex;
-    width: 100%;
-
+    align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
+    font-size: xx-large;
+    height: 50px;
+    background-color: rgb(7, 7, 7);
+    width: 100%;
+    // top: 20vh;
+    z-index: 1000;
+
+
+    @media(max-width:800px){
+        font-size: 20px;
+    }
+
+    @media (max-width:665px) {
+        display: none;
+    }
+}
+
+#nav-bar.sticky {
     position: fixed;
     top: 0;
-
-    font-size: xx-large;
-    font-weight: 600;
-    z-index: 10;
-    padding: 50px;
-
-    & a {
-        @include link-styles;
-    }
-    
-}
+  }
