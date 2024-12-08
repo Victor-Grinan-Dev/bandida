@@ -1,0 +1,34 @@
+.my-style{
+    background-color: $bandidas-black-1;
+    width: 100%;
+    color: white;
+    padding-top: 80px;
+
+    .pics-sample{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 50dvh;
+        gap: 10px;
+
+        .pic-container{
+            width: 15%;
+            height: 100%;
+            .pic-item{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &-text{
+        text-align: left;
+        line-height: 1.2;
+    }
+
+    .app-link-container{
+        @media (max-width:665px) {
+            margin-bottom: 0;
+        }
+    }
+}

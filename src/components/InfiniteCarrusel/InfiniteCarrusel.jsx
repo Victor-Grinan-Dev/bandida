@@ -1,23 +1,25 @@
 import React from 'react';
 
-import test1 from '../../assets/images/tatoos/a test-1.jpg'
-import test2 from '../../assets/images/tatoos/a test-2.jpg'
-import test3 from '../../assets/images/tatoos/a test-3.jpg'
-import test4 from '../../assets/images/tatoos/a test-4.jpg'
-import test5 from '../../assets/images/tatoos/a test-5.jpg'
-import test6 from '../../assets/images/tatoos/a test-6.jpg'
-import test7 from '../../assets/images/tatoos/a test-7.jpg'
-import test8 from '../../assets/images/tatoos/a test-8.jpg'
+import test1 from '../../assets/images/all pics/pic001.jpg'
+import test2 from '../../assets/images/all pics/pic002.jpg'
+import test3 from '../../assets/images/all pics/pic003.jpg'
+import test4 from '../../assets/images/all pics/pic004.jpg'
+import test5 from '../../assets/images/all pics/pic005.jpg'
+import test6 from '../../assets/images/all pics/pic006.jpg'
+import test7 from '../../assets/images/all pics/pic007.jpg'
+import test8 from '../../assets/images/all pics/pic008.jpg'
+
+import AppLink from '../appLink/AppLink';
 
 const InfiniteCarrusel = () => {
   return (
-    <section className='portfolio' id='porfolio'>
+    <section className='portfolio homepage-section homepage-section-dark' id='porfolio'>
         <div className="carrusel wrapper to-left" >
             <div className='carrusel-item item1'>
                 <img src={test1} alt="tattoo" />
             </div>
             <div className='carrusel-item item2'>
-                <img src={test2} alt="tattoo" />
+                <img src={test2} alt="tattoo" /> 
             </div>
             <div className='carrusel-item item3'>
                 <img src={test3} alt="tattoo" />
@@ -39,10 +41,16 @@ const InfiniteCarrusel = () => {
             </div>
         </div>
 
-        {/* This will link to gallery */}
-        {/* <a className='nav-link' href="#">Lisää kuvia</a> */}
 
-        
+        <div className='app-link-container'>
+            <AppLink caption="katso Lisää kuvia Galleriasta" linkTo="/gallery"/>
+        </div>
+
+        <div className="my-style">
+            <h1>Tyylini:</h1>
+            <p>
+            Tatuoinneissa näkyy pääsääntöisesti mustaharmaa realismi mutta värikuvat ovat yhtä lähellä sydäntä, samoin kuin pienemmät sirot kuvatkin. Kannattaa aina kysyä jos jokin muunlainen haluamasi aihe tai tyyli olisi mahdollista toteuttaa, Paula on avoin kaikenlaisille ideoille.</p>
+        </div>
   </section>
   )
 }

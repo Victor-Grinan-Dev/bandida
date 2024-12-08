@@ -1,14 +1,27 @@
-$card-height-l:500px;
-$card-width-l:300px;
-$card-height-s:250px;
-$card-width-s:100px;
+@import '../../styles/mixins.scss';
 
+$card-height-l:500px;
 $item-animation-duration:160s;
 $carrusel-item-amount:8;
 
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $bandidas-black-1;
+}
+
+.app-link-container{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
 .carrusel{
-    height: calc($card-height-l  + 10px);
-    padding-top: 5px;
+    height: 50vh;
+    max-height: 800px;
+    padding-top: 40px;
     overflow-x: hidden;
     position: relative;
     width: 90%;
@@ -24,12 +37,9 @@ $carrusel-item-amount:8;
       rgba(0, 0, 0, 0)
     );
 
-
     &-item{
         width: 50%;
         height: 90%;
-        background-color: red;
-        border-radius: 6px;
         position: absolute;
         left: max(calc(300px * -8), 100%);
         animation-name: moveLeft;
@@ -45,6 +55,8 @@ $carrusel-item-amount:8;
         img{
             object-fit: cover;
             height: 130%;
+            filter: brightness(0.9) contrast(1.1) grayscale(75%);
+
             @media (min-width: 400px){
                 width: 100%;
             }
@@ -81,6 +93,7 @@ $carrusel-item-amount:8;
     }
 }
 
+
 @keyframes moveLeft {
     100% {
       transform: translateX(calc(-100vw * 4));
@@ -88,3 +101,8 @@ $carrusel-item-amount:8;
   }
 
 
+.my-style{
+    text-align: center;
+    line-height: 2;
+    padding: 20px 5%;
+}

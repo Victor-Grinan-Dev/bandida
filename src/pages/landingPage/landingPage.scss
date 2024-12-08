@@ -1,0 +1,109 @@
+.landinpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $bandidas-black-1;
+    background-color: rgb(61, 52, 52);
+    color: white;
+
+    background-image: url('../../assets/images/kollaasi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    animation: moveBackground 60s linear infinite;
+
+    &-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }      
+    
+    @media (max-width:1000px) {
+        background-size: 200%;
+    }
+    @media (max-width:500px) {
+        background-size: 300%;
+    }
+    @media (max-width:375px) {
+        background-size: 400%;
+    }
+}
+
+.contact-bar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    color: $bandida-golden-6;
+    padding: 20px;
+    background-color: $bandidas-black-1;
+
+    &__corner{
+        width: 215px;
+
+        .opening-hours-left{
+            display: none;
+        }
+
+        .address-right{
+            display: none;
+        }
+
+        @media (max-width: 800px){
+            .opening-hours-right{
+                display: none;
+            }
+            .opening-hours-left{
+                display: block;
+            }
+        }
+
+    }
+
+    #right{
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+    }
+
+    @media (max-width: 665px){
+
+        flex-direction: column;
+        gap: 10px;
+
+        #left{
+            display: none;
+        }
+
+        #right, 
+        .address-right,
+        .opening-hours-right{
+            display: block;
+            text-align: start;
+        }
+    }
+    
+}
+
+/*LOGO*/
+.logo-wrapper{
+    height: 45dvh;
+    aspect-ratio: 3/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $bandidas-black-1;
+
+    @include no-highlight;
+
+    @media (max-width:665px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

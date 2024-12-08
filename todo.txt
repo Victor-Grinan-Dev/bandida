@@ -2,20 +2,25 @@ clip path effect: https://www.youtube.com/watch?v=H08wox9Lqd0
 
 true parallax: https://www.youtube.com/watch?v=Qj0Qx8HpNUo
 
-scroll-snap-type:
-html, body {
-  scroll-behavior: smooth; /* Optional for smooth scrolling */
-  margin: 0;
-  height: 100%;
-}
+calendar: https://www.youtube.com/watch?v=ecjaXnL2CUs
 
-section {
-  height: 100vh; /* Full viewport height */
-  scroll-snap-align: start; /* Aligns each section to the top */
-}
+reference page: https://artinktattoostudio.com/services-2/#
 
-.container {
-  scroll-snap-type: y mandatory; /* Enables vertical snap scrolling */
-  overflow-y: scroll; /* Enables scrolling */
-  height: 100vh; /* Matches viewport height */
-}
+https://www.tiktok.com/@paulaannelica.tattoo
+https://www.facebook.com/search/top/?q=paula%20annelica
+https://www.instagram.com/paulaannelica.tattoo/
+study https://www.namecheap.com/cart/configuration/hosting/domainselection.aspx?product=ox-starter&producttype=oxhosting&action=purchase&duration=2&durationtype=month&istrial=True&addons=1&
+
+Porvoonkatu 14,
+00510 Helsinki.
+
+Phone/WhatsApp
+045-783 929 09
+
+paulaannelica.tattoo@gmail.com
+
+WhatsApp integration
+contact form to add pictures.
+
+grey scale carrusell
+nav bar index
