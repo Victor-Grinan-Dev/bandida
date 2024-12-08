@@ -1,35 +1,44 @@
 import React from 'react';
 
-import pic001 from "../../assets/images/all pics/Black&Grey/pic001.jpg";
-import pic002 from "../../assets/images/all pics/Black&Grey/pic002.jpg";
-import pic003 from "../../assets/images/all pics/Black&Grey/pic003.jpg";
-import pic004 from "../../assets/images/all pics/Black&Grey/pic004.jpg";
-import pic005 from "../../assets/images/all pics/Black&Grey/pic005.jpg";
-import pic006 from "../../assets/images/all pics/Black&Grey/pic006.jpg";
-import pic007 from "../../assets/images/all pics/Black&Grey/pic007.jpg";
-import pic008 from "../../assets/images/all pics/Black&Grey/pic008.jpg";
-import pic009 from "../../assets/images/all pics/Black&Grey/pic009.jpg";
-import pic010 from "../../assets/images/all pics/Black&Grey/pic010.jpg";
-import pic011 from "../../assets/images/all pics/Black&Grey/pic011.jpg";
-import pic012 from "../../assets/images/all pics/Black&Grey/pic012.jpg";
-import pic013 from "../../assets/images/all pics/Black&Grey/pic013.jpg";
-import pic014 from "../../assets/images/all pics/Black&Grey/pic014.jpg";
-import pic015 from "../../assets/images/all pics/Black&Grey/pic015.jpg";
-import pic016 from "../../assets/images/all pics/Black&Grey/pic016.jpg";
-import pic017 from "../../assets/images/all pics/Black&Grey/pic017.jpg";
-import pic018 from "../../assets/images/all pics/Black&Grey/pic018.jpg";
-import pic019 from "../../assets/images/all pics/Black&Grey/pic019.jpg";
-import pic020 from "../../assets/images/all pics/Black&Grey/pic020.jpg";
-import pic021 from "../../assets/images/all pics/Black&Grey/pic021.jpg";
-import pic022 from "../../assets/images/all pics/Black&Grey/pic022.jpg";
-import pic023 from "../../assets/images/all pics/Black&Grey/pic023.jpg";
-import pic024 from "../../assets/images/all pics/Black&Grey/pic024.jpg";
-import pic025 from "../../assets/images/all pics/Black&Grey/pic025.jpg";
-import pic026 from "../../assets/images/all pics/Black&Grey/pic026.jpg";
-import pic027 from "../../assets/images/all pics/Black&Grey/pic027.jpg";
-import pic028 from "../../assets/images/all pics/Black&Grey/pic028.jpg";
-import pic029 from "../../assets/images/all pics/Black&Grey/pic029.jpg";
-import pic030 from "../../assets/images/all pics/Black&Grey/pic030.JPG";
+import pic001 from "../../assets/images/Black&Grey/pic001.jpg";
+import pic002 from "../../assets/images/Black&Grey/pic002.jpg";
+import pic003 from "../../assets/images/Black&Grey/pic003.jpg";
+import pic004 from "../../assets/images/Black&Grey/pic004.jpg";
+import pic005 from "../../assets/images/Black&Grey/pic005.jpg";
+import pic006 from "../../assets/images/Black&Grey/pic006.jpg";
+import pic007 from "../../assets/images/Black&Grey/pic007.jpg";
+import pic008 from "../../assets/images/Black&Grey/pic008.jpg";
+import pic009 from "../../assets/images/Black&Grey/pic009.jpg";
+import pic010 from "../../assets/images/Black&Grey/pic010.jpg";
+import pic011 from "../../assets/images/Black&Grey/pic011.jpg";
+import pic012 from "../../assets/images/Black&Grey/pic012.jpg";
+import pic013 from "../../assets/images/Black&Grey/pic013.jpg";
+import pic014 from "../../assets/images/Black&Grey/pic014.jpg";
+import pic015 from "../../assets/images/Black&Grey/pic015.jpg";
+import pic016 from "../../assets/images/Black&Grey/pic016.jpg";
+import pic017 from "../../assets/images/Black&Grey/pic017.jpg";
+import pic018 from "../../assets/images/Black&Grey/pic018.jpg";
+import pic019 from "../../assets/images/Black&Grey/pic019.jpg";
+import pic020 from "../../assets/images/Black&Grey/pic020.jpg";
+import pic021 from "../../assets/images/Black&Grey/pic021.jpg";
+import pic022 from "../../assets/images/Black&Grey/pic022.jpg";
+import pic023 from "../../assets/images/Black&Grey/pic023.jpg";
+import pic024 from "../../assets/images/Black&Grey/pic024.jpg";
+import pic025 from "../../assets/images/Black&Grey/pic025.jpg";
+import pic026 from "../../assets/images/Black&Grey/pic026.jpg";
+import pic027 from "../../assets/images/Black&Grey/pic027.jpg";
+import pic028 from "../../assets/images/Black&Grey/pic028.jpg";
+import pic029 from "../../assets/images/Black&Grey/pic029.jpg";
+import pic030 from "../../assets/images/Black&Grey/pic030.JPG";
+
+import color01 from "../../assets/images/colors/pic013.jpg";
+import color02 from "../../assets/images/colors/pic014.jpg";
+import color03 from "../../assets/images/colors/pic015.jpg";
+import color04 from "../../assets/images/colors/pic024.jpg";
+import color05 from "../../assets/images/colors/pic027.jpg";
+
+import pmu01 from "../../assets/images/pmu/huulet.JPG"
+import pmu02 from "../../assets/images/pmu/kulmat.JPG"
 
 import logo32 from "../../assets/images/logo/la_bandida_logo_3-2(og).png";
 import logo32_ from "../../assets/images/logo/la_bandida_logo_3-2_(og).png";
@@ -37,12 +46,11 @@ import logo43 from "../../assets/images/logo/la_bandida_logo_4-3(og).png";
 import logo54 from "../../assets/images/logo/la_bandida_logo_5-4(og).png";
 import logo54inv from "../../assets/images/logo/la_bandida_logo_5-4_inv.png";
 import logo75 from "../../assets/images/logo/la_bandida_logo_7-5(og)png.png";
-
 import logo169 from "../../assets/images/logo/la_bandida_logo_16-9(og).png";
 import logo169inv from "../../assets/images/logo/la_bandida_logo_16-9_inv.png";
 
-import kollaasi from "../../assets/images/all pics/kollaasi.jpg";
-import paula_profile_1 from "../../assets/images/all pics/profiles pics/paula_profile_1.jpg";
+import kollaasi from "../../assets/images/kollaasi.jpg";
+import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.jpg";
 
 
 const pictures = {
@@ -77,6 +85,12 @@ const pictures = {
     pic029:pic029,
     pic030:pic030,
 
+    color01:color01,
+    color02:color02,
+    color03:color03,
+    color04:color04,
+    color05:color05,
+
     fav001:pic028,
     fav002:pic018,
     fav003:pic014,
@@ -107,7 +121,7 @@ const PicLoader = (props) => {
   )
 }
 
-export const pictureArray = [
+export const blackGrey = [
   'pic001',
   'pic002',
   'pic003',

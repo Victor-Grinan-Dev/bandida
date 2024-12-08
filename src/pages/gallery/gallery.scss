@@ -1,36 +1,55 @@
 .gallery{
     padding: 20px;
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     align-items: center;
     overflow-y: scroll;
 
+    -ms-overflow-style: none;  
+    scrollbar-width: none;     
+    overflow: auto; 
+      
+    &::-webkit-scrollbar {
+        display: none; 
+    }
+      
+    &-tabs{
+        display: flex;
+    }
+
+
     .link-warpper{
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         width: 100%;
 
-        padding-bottom: 20px;
-        padding-left: 2vw;
+        padding: 10px 2vw;
         position: fixed;
         top: 20px;
         left: 0;
         z-index: 1000;
+
+        background-color: rgba(0, 0, 0, 0.84);
+
+        .holder{
+            width: 200px;
+        }
     }
 
     .collage {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         gap: 20px;
         justify-content: center;
 
+        padding-top: 7vh;
+
         .img-wrapper {
             width: 50vw;
-            height: 95dvh;
+            height: 85dvh;
             max-width: 400px;
             min-width: 200px;
             box-sizing: border-box;
-            // flex: 1 1 calc(30vw - 20px); 
             flex: 1 ; 
             margin-bottom: 16px;
 
@@ -40,7 +59,6 @@
                 object-fit: cover;
             }
 
-            // Adjust layout dynamically
             @media (max-width: 1200px) {
                 width: 40vw;
                 flex: 1 1 calc(40vw - 20px);
