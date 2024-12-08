@@ -1,0 +1,29 @@
+.hamburger {
+    top: 40px;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 40px;
+  }
+  
+  .hamburger:before,
+  .hamburger:after,
+  .hamburger div {
+    background: $bandida-golden-6;
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+  }
+
+  .hamburger.active:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+  .hamburger.active:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+  .hamburger.active div {
+    transform: scale(0);
+  }
