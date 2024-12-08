@@ -25,7 +25,6 @@ const Navegator = () => {
 
   return (
     <div className="nav-bar" id="nav-bar" ref={navBarRef}>
-      <div className="link-wrapper">
           <AppLink caption="Kotisivu"  />
           <AppLink caption="Info"  />
           <AppLink caption="Studio"  />
@@ -33,8 +32,7 @@ const Navegator = () => {
           <AppLink caption="Tyyliestäni"  />
           <AppLink caption="Ajanvaraus"  />
           <AppLink caption="Ota Yhteys"  />
-      </div>
-  </div>
+    </div>
   )
 }
 
