@@ -40,7 +40,9 @@ import logo75 from "../../assets/images/logo/la_bandida_logo_7-5(og)png.png";
 import logo169 from "../../assets/images/logo/la_bandida_logo_16-9(og).png";
 import logo169inv from "../../assets/images/logo/la_bandida_logo_16-9_inv.png";
 
-import kollaasi from "../../assets/images/all pics/kollaasi.jpg"
+import kollaasi from "../../assets/images/all pics/kollaasi.jpg";
+import paula_profile_1 from "../../assets/images/all pics/paula_profile_1.jpg";
+
 
 const pictures = {
     pic001:pic001,
@@ -83,6 +85,7 @@ const pictures = {
     logo169inv:logo169inv,
 
     kollaasi:kollaasi,
+    paula_profile_1:paula_profile_1,
  
 }
 

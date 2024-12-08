@@ -7,6 +7,7 @@ import InfiniteCarrusel from '../../components/InfiniteCarrusel/InfiniteCarrusel
 import Navegator from "../../components/navegator/Navegator";
 import Hamburger from "../../components/hamburger/Hamburger";
 import Some from "../../components/some/Some";
+import AboutMe from "../../components/aboutMe/AboutMe";
 
 const LandingPage = () => {
 
@@ -37,6 +38,8 @@ const LandingPage = () => {
 
             <Navegator />
         </section>
+
+        <AboutMe />
         
         {/* <InfiniteCarrusel /> */}
 

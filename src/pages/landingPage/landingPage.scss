@@ -10,7 +10,8 @@
     background-image: url('../../assets/images/all\ pics/kollaasi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-position: center bottom;
+    background-size: 100%;
     animation: moveBackground 60s linear infinite;
 
     &-banner{
@@ -21,7 +22,14 @@
         position: relative;
         width: 100%;
         height: 100dvh;
-    }        
+    }      
+    
+    @media (max-width:500px) {
+        background-size: 200%;
+    }
+    @media (max-width:375px) {
+        background-size: 400%;
+    }
 }
 
 .contact-bar{
