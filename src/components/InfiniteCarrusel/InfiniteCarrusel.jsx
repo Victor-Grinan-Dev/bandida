@@ -46,7 +46,7 @@ const InfiniteCarrusel = () => {
             <AppLink caption="katso Lisää kuvia Galleriasta" linkTo="/gallery"/>
         </div>
 
-        <div className="test" style={{textAlign:"center", lineHeight:2.5}}>
+        <div className="my-style">
             <h1>Tyylini:</h1>
             <p>
             Tatuoinneissa näkyy pääsääntöisesti mustaharmaa realismi mutta värikuvat ovat yhtä lähellä sydäntä, samoin kuin pienemmät sirot kuvatkin. Kannattaa aina kysyä jos jokin muunlainen haluamasi aihe tai tyyli olisi mahdollista toteuttaa, Paula on avoin kaikenlaisille ideoille.</p>
