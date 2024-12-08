@@ -9,11 +9,18 @@
     color: white;
     text-transform: capitalize;
 
-
+    &-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        height: 100dvh;
+    }        
 }
 
 /*Conctact-bar (top)*/
-
 .contact-bar{
     display: flex;
     align-items: flex-start;
