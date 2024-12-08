@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import AboutMe from '../aboutMe/AboutMe';
+import AboutMe from '../../components/aboutMe/AboutMe';
 import { useLocation } from 'react-router-dom';
 
 const TheArtist = () => {
