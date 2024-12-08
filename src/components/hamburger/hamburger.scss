@@ -1,29 +1,39 @@
 .hamburger {
-    top: 40px;
-    right: 0;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: fixed;
+    top: 40px;
+    right: 5%;
     width: 40px;
+    z-index: 100;
+    display: none;
+
+    &:before,
+    &:after,
+    & div {
+      background: $bandida-golden-6;
+      content: "";
+      display: block;
+      height: 6px;
+      border-radius: 3px;
+      margin: 7px 0;
+      transition: 0.5s;
+    }
+
+    &.active:before {
+      transform: translateY(12px) rotate(135deg);
+    }
+    &.active:after {
+      transform: translateY(-12px) rotate(-135deg);
+    }
+    &.active div {
+      transform: scale(0);
+    }
+
+    @media (max-width: 665px){
+      display: block;
+    }
+
   }
   
-  .hamburger:before,
-  .hamburger:after,
-  .hamburger div {
-    background: $bandida-golden-6;
-    content: "";
-    display: block;
-    height: 6px;
-    border-radius: 3px;
-    margin: 7px 0;
-    transition: 0.5s;
-  }
 
-  .hamburger.active:before {
-    transform: translateY(12px) rotate(135deg);
-  }
-  .hamburger.active:after {
-    transform: translateY(-12px) rotate(-135deg);
-  }
-  .hamburger.active div {
-    transform: scale(0);
-  }
+
