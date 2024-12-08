@@ -3,11 +3,12 @@ import PicLoader from '../../components/picLoader/PicLoader';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 /* COMPONENTS */
-import InfiniteCarrusel from '../../components/InfiniteCarrusel/InfiniteCarrusel';
 import Navegator from "../../components/navegator/Navegator";
 import Hamburger from "../../components/hamburger/Hamburger";
 import Some from "../../components/some/Some";
 import AboutMe from "../../components/aboutMe/AboutMe";
+import MyStyle from "../../components/myStyle/MyStyle";
+import Footer from "../../components/footer/Footer";
 
 const LandingPage = () => {
 
@@ -39,19 +40,14 @@ const LandingPage = () => {
             <Navegator />
         </section>
 
+        <MyStyle />
         <AboutMe />
-        
-        {/* <InfiniteCarrusel /> */}
-
+        <Footer />
     </div>
   )
 }
 
 export default LandingPage;
-
-
-//$bandida-primary-2:#ece9b0;
-//$bandida-primary-5:#aa9364;
 
 
 

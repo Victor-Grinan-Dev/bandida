@@ -92,9 +92,38 @@ const pictures = {
 const PicLoader = (props) => {
     const {pic, style} = props;
   return (
-    <img src={pictures[pic]} style={style} alt="picLoader object"/>
+    <img src={pictures[pic]} style={style} alt="picLoader object" className='pic-item'/>
   )
 }
 
-export const pictureArray = Object.keys(pictures);
+export const pictureArray = [
+  'pic001',
+  'pic002',
+  'pic003',
+  'pic004',
+  'pic005',
+  'pic006',
+  'pic008',
+  'pic009',
+  'pic010',
+  'pic011',
+  'pic012',
+  'pic013',
+  'pic014',
+  'pic015',
+  'pic016',
+  'pic017',
+  'pic018',
+  'pic019',
+  'pic020',
+  'pic021',
+  'pic022',
+  'pic023',
+  'pic024',
+  'pic025',
+  'pic026',
+  'pic027',
+  'pic028',
+  'pic029',
+];
 export default PicLoader;

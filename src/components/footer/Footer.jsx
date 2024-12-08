@@ -1,5 +1,5 @@
 import React from 'react';
-import Some from '../../components/some/Some';
+import Some from '../some/Some';
 
 const mapStyle = {
   border:0,
