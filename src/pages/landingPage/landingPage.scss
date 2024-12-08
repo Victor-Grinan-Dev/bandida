@@ -4,10 +4,15 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(7, 7, 7);
+    background-color: $bandidas-black;
 
     color: white;
     text-transform: capitalize;
+
+
 }
+
+/*Conctact-bar (top)*/
 
 .contact-bar{
     display: flex;
@@ -16,14 +21,52 @@
     width: 100%;
     color: $bandida-golden-6;
     padding: 20px;
+    background-color: rgb(7, 7, 7);
 
     &__corner{
         width: 215px;
+
+        .opening-hours-left{
+            display: none;
+        }
+
+        .hamburger{
+            display: none;
+        }
+
+        .address-right{
+            display: none;
+        }
+
+        @media (max-width: 800px){
+            .opening-hours-right{
+                display: none;
+            }
+            .opening-hours-left{
+                display: block;
+            }
+        }
+
     }
 
     #right{
         display: flex;
         justify-content: flex-end;
+    }
+
+    @media (max-width: 665px){
+
+        flex-direction: column;
+
+        #left{
+            display: none;
+        }
+
+        #right, 
+        .address-right,
+        .opening-hours-right, .hamburger{
+            display: block;
+        }
     }
     
 }
@@ -37,17 +80,15 @@
         aspect-ratio: 1 1;
     }
 
+    &-icon{
+        color: $bandida-golden-7;
+        font-size: 30px;
+    }
+
     @include no-highlight;
 }
 
-// .some-item{
-//     background-color: bisque;
-// }
-
-.some-icon{
-    color: $bandida-golden-7;
-    font-size: 30px;
-}
+/*LOGO*/
 
 .logo-wrapper{
     height: 40dvh;
@@ -58,22 +99,11 @@
     // overflow: hidden;
     flex-direction: column;
     position: relative;
-    margin-bottom: 50px;
+    padding: 20px 20px 50px ;
+    background-color: rgb(7, 7, 7);
 
     @include no-highlight;
 }
-
-.nav-bar{
-    display: flex;
-    gap: 10px;
-    font-size: xx-large;
-    height: 50px;
-}
-
-#nav-bar.sticky {
-    position: fixed;
-    top: 0;
-  }
 
 .lower-title{
     display: flex;
@@ -85,23 +115,4 @@
 }
 
 
-.arc-text {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    transform: translateY(120px);
-    top: -4.5vh;
-  }
-  .arc-text span {
-    position: absolute;
-    transform-origin: bottom center;
-    font-size: 25px;
-  }
-  .arc-text span:nth-child(1) { transform: rotate(-30deg) translateY(-70px); }
-  .arc-text span:nth-child(2) { transform: rotate(-18deg) translateY(-70px); }
-  .arc-text span:nth-child(3) { transform: rotate(-6deg) translateY(-70px); }
-  .arc-text span:nth-child(4) { transform: rotate(6deg) translateY(-70px); }
-  .arc-text span:nth-child(5) { transform: rotate(18deg) translateY(-70px); }
-  .arc-text span:nth-child(6) { transform: rotate(30deg) translateY(-70px); }
+
