@@ -29,9 +29,8 @@ const Navegator = () => {
           <AppLink caption="Info"  linkTo="/info"/>
           <AppLink caption="Studio"  />
           <AppLink caption="Galleria" linkTo="/gallery" />
-          <AppLink caption="Minusta"  linkTo="#about-me" idLink={true}/>
+          <AppLink caption="Taiteilija"  linkTo="#about-me" idLink={true}/>
           <AppLink caption="Ajanvaraus"  />
-          {/* <AppLink caption="Ota Yhteys"  /> */}
     </div>
   )
 }
