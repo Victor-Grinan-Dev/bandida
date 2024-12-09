@@ -7,7 +7,7 @@ import Navegator from "../../components/navegator/Navegator";
 import Hamburger from "../../components/hamburger/Hamburger";
 import Some from "../../components/some/Some";
 import AboutMe from "../../components/aboutMe/AboutMe";
-import MyStyle from "../../components/myStyle/MyStyle";
+import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 
 const LandingPage = () => {
@@ -42,7 +42,7 @@ const LandingPage = () => {
             <Navegator />
         </section>
 
-        <MyStyle />
+        <Samples />
         <AboutMe />
         <Footer />
     </div>

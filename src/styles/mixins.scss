@@ -7,6 +7,7 @@
     transition: all .5s ease-in-out;
     border: 2px solid transparent;
     margin-top: 10px;
+    font-size: x-large;
 
     &:hover, &.active {
         border: 2px solid $bandida-golden-7;
@@ -14,11 +15,13 @@
         cursor: pointer;
     }
 
-   
-
     @media (max-width: 400px) {
         justify-content: center;
-        font-size: x-large;
+        font-size: medium;
+    }
+    @media (max-width: 303px) {
+        justify-content: center;
+        font-size: small;
     }
 } 
 

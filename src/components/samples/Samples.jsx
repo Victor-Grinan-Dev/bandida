@@ -2,7 +2,7 @@ import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
 import { useNavigate } from 'react-router-dom';
 
-const MyStyle = () => {
+const Samples = () => {
     const navigate = useNavigate();
   return (
     <section className='samples ' id='samples '>
@@ -40,4 +40,4 @@ const MyStyle = () => {
   )
 }
 
-export default MyStyle;
+export default Samples;
