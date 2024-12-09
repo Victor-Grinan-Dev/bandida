@@ -12,6 +12,7 @@ const Gallery = () => {
   }, [pathname]);
 
 const handleTabs = (tabName) => {
+  console.log(tabName)
   setCollection(tabName);
    
 }
@@ -30,14 +31,14 @@ const handleTabs = (tabName) => {
       </div>
 
       <div className="collage" >
-        {(colection === 'bg') && blackGrey.map((pic)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('bg')}/></div>
+        {(colection === 'bg') && blackGrey.map((pic, idx)=> (       
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('bg')} idx={idx}/></div>
         )) }
-        {(colection === 'color') && colors.map((pic)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('color')}/></div>
+        {(colection === 'color') && colors.map((pic, idx)=> (       
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('color')} idx={idx}/></div>
         )) }
-        {(colection === 'pmu' ) && pmu.map((pic)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('pmu')}/></div>
+        {(colection === 'pmu' ) && pmu.map((pic, idx)=> (       
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('pmu')} idx={idx}/></div>
         )) }
 
       </div>

@@ -118,9 +118,14 @@ const pictures = {
 }
 
 const PicLoader = (props) => {
-    const {pic, style} = props;
+    const {pic, style, fx, idx} = props;
   return (
-    <img src={pictures[pic]} style={style} alt="picLoader object" className='pic-item'/>
+    <img src={pictures[pic]} 
+    style={style} 
+    alt="picLoader object" 
+    className='pic-item' 
+    onClick={fx}
+    key={idx}/>
   )
 }
 
