@@ -11,7 +11,10 @@ const Gallery = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-
+const handleTabs = (tabName) => {
+  setCollection(tabName);
+   
+}
   return (
     <section className='gallery'>
 
@@ -28,13 +31,13 @@ const Gallery = () => {
 
       <div className="collage" >
         {(colection === 'bg') && blackGrey.map((pic)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic}/></div>
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('bg')}/></div>
         )) }
         {(colection === 'color') && colors.map((pic)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic}/></div>
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('color')}/></div>
         )) }
         {(colection === 'pmu' ) && pmu.map((pic)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic}/></div>
+            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('pmu')}/></div>
         )) }
 
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
-import AppLink from '../appLink/AppLink';
+// import AppLink from '../appLink/AppLink';
 
 const AboutMe = (props) => {
   return (
