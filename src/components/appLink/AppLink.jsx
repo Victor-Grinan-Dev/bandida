@@ -6,13 +6,13 @@ const AppLink = (props) => {
 
     if(idLink){
       return (
-        <div className='app-link'>
+        <div className={`app-link ${active && "active"}`}>
             <a href={linkTo}> { caption } </a>
         </div>
       )
     }
   return (
-    <div className='app-link'>
+    <div className={`app-link ${active && "active"}`}>
         <Link to={linkTo}> { caption } </Link>
     </div>
   )
