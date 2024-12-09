@@ -15,6 +15,7 @@
       
     &-tabs{
         display: flex;
+
     }
 
 
@@ -33,6 +34,11 @@
 
         .holder{
             width: 200px;
+
+            @media (max-width:665px) {
+                display: none;
+            }
+
         }
     }
 
