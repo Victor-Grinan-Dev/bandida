@@ -10,7 +10,7 @@ import Layout from './layout/Layout';
 // import HomePage from './pages/homePage/HomePage';
 import NotFound from './pages/notFound/NotFound';
 import Gallery from "./pages/gallery/Gallery";
-import TheArtist from "./pages/theArtist/TheArtist";
+import InfoPage from "./pages/infoPage/InfoPage";
 import LandingPage from "./pages/landingPage/LandingPage";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<LandingPage />} />
             <Route path="gallery" element={<Gallery />} />
-            <Route path="artist" element={<TheArtist />} />
+            <Route path="info" element={<InfoPage />} />
           </Route>
           {/* <Route path="*" element={<Navigate to="/" />} /> */}
           <Route path="*" element={<NotFound />} />

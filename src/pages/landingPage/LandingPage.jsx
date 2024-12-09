@@ -18,7 +18,7 @@ const LandingPage = () => {
             <div className="contact-bar">
 
                 <div className='contact-bar__corner' id='left'>
-                    <h1>La Bandida Tattoo&reg;</h1>
+                    <h1>Studio La Bandida&reg;</h1>
                     <p className="address">Porvoonkatu 14 00510 Helsinki.</p>
                     <p className="opening-hours-left">Aukioloajat Ma-Pe 10:00-18:00</p>
                 </div>

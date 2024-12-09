@@ -26,10 +26,10 @@ const Navegator = () => {
   return (
     <div className="nav-bar" id="nav-bar" ref={navBarRef}>
           <AppLink caption="Kotisivu" linkTo="#" idLink={true}/>
-          <AppLink caption="Info"  />
+          <AppLink caption="Info"  linkTo="/info"/>
           <AppLink caption="Studio"  />
           <AppLink caption="Galleria" linkTo="/gallery" />
-          <AppLink caption="Tyyliestäni"  linkTo="#my-style" idLink={true}/>
+          <AppLink caption="Minusta"  linkTo="#about-me" idLink={true}/>
           <AppLink caption="Ajanvaraus"  />
           {/* <AppLink caption="Ota Yhteys"  /> */}
     </div>

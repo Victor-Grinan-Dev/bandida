@@ -4,7 +4,7 @@ import PicLoader from '../picLoader/PicLoader';
 
 const AboutMe = (props) => {
   return (
-    <section className='about-me'>
+    <section className='about-me' id='about-me'>
 
       <div className="panel-1">
         <div className="profile-pic">
@@ -20,10 +20,6 @@ const AboutMe = (props) => {
           </p> 
         </div>
       </div>
-      {/* 
-
-        */}
-
     </section>
   )
 }
