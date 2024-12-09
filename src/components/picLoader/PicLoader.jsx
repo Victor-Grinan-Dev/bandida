@@ -102,6 +102,7 @@ const pictures = {
     fav006:pic027,
     fav007:pic010,
     fav008:pic029,
+    fav009:pic001,
 
     logo32:logo32, 
     logo32_:logo32_,
