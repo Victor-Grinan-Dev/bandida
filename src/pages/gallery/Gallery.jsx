@@ -27,7 +27,7 @@ const handleTabs = (tabName) => {
             <AppLink caption="Black & Grey" active={colection==='bg'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('color')}>
-            <AppLink caption="Colors" active={colection==='color'}/>
+            <AppLink caption="värit" active={colection==='color'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
             <AppLink caption="PMU" active={colection==='pmu'}/>
