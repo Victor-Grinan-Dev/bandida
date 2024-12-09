@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AppLink = (props) => {
-    const {linkTo, caption, idLink=false} = props;
+    const {linkTo, caption, idLink=false, active=false} = props;
 
     if(idLink){
       return (

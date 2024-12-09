@@ -118,13 +118,14 @@ const pictures = {
 }
 
 const PicLoader = (props) => {
-    const {pic, style, fx, idx} = props;
+    const {pic, style, idx} = props;
+
+
   return (
     <img src={pictures[pic]} 
     style={style} 
     alt="picLoader object" 
     className='pic-item' 
-    onClick={fx}
     key={idx}/>
   )
 }
@@ -161,9 +162,7 @@ export const blackGrey = [
 ];
 export const colors = [
   'color01',
-  'color02',
   'color03',
-  'color04',
   'color05', 
 ];
 export const pmu = [

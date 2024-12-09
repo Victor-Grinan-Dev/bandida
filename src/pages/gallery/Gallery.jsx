@@ -23,8 +23,15 @@ const handleTabs = (tabName) => {
         <AppLink caption="Takaisin" linkTo="/" />
 
         <div className='gallery-tabs'>
-          <AppLink caption="Black & Grey" />
-          <AppLink caption="PMU" />
+          <div className="tab-wrapper" onClick={()=>handleTabs('bg')}>
+            <AppLink caption="Black & Grey" active={colection==='bg'}/>
+          </div>
+          <div className="tab-wrapper" onClick={()=>handleTabs('color')}>
+            <AppLink caption="Colors" active={colection==='color'}/>
+          </div>
+          <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
+            <AppLink caption="PMU" active={colection==='pmu'}/>
+          </div>
         </div>
 
         <div className="holder"></div>
@@ -32,13 +39,13 @@ const handleTabs = (tabName) => {
 
       <div className="collage" >
         {(colection === 'bg') && blackGrey.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx}><PicLoader pic={pic} fx={()=>handleTabs('bg')} idx={idx}/></div>
+            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
         {(colection === 'color') && colors.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx}><PicLoader pic={pic} fx={()=>handleTabs('color')} idx={idx}/></div>
+            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
         {(colection === 'pmu' ) && pmu.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx}><PicLoader pic={pic} fx={()=>handleTabs('pmu')} idx={idx}/></div>
+            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
 
       </div>

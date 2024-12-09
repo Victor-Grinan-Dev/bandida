@@ -8,18 +8,20 @@
     border: 2px solid transparent;
     margin-top: 10px;
 
-    &:hover {
-        // text-shadow: 0 0 10px white;
+    &:hover, &.active {
         border: 2px solid $bandida-golden-7;
         color: #f6f6f3;
         cursor: pointer;
     }
+
+   
 
     @media (max-width: 400px) {
         justify-content: center;
         font-size: x-large;
     }
 } 
+
 
 @mixin no-highlight{
   -webkit-user-select: none; /* For Chrome, Safari, and Edge */
