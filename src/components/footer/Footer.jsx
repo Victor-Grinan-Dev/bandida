@@ -12,14 +12,12 @@ const Footer = () => {
 
           <div className='contact-bar__corner' id='left'>
               <p className="address">Porvoonkatu 14, 00510 Helsinki.</p>
-              <p className="opening-hours-left">Aukioloajat Ma-Pe 10:00-18:00</p>
           </div>
 
           <Some />
 
           <div className='contact-bar__corner' id='right'>
               <p className="address-right">Porvoonkatu 14, 00510 Helsinki.</p>
-              <p className="opening-hours-right">Aukioloajat Ma-Pe 10:00-18:00</p>
           </div>
 
         </div>

@@ -45,23 +45,10 @@
     &__corner{
         width: 230px;
 
-        .opening-hours-left{
-            display: none;
-        }
 
         .address-right{
             display: none;
         }
-
-        @media (max-width: 800px){
-            .opening-hours-right{
-                display: none;
-            }
-            .opening-hours-left{
-                display: block;
-            }
-        }
-
     }
 
     #right{
@@ -80,11 +67,8 @@
             display: none;
         }
 
-        #right, 
-        .address-right,
-        .opening-hours-right{
-            display: block;
-            text-align: start;
+        #right{
+            display: none;
         }
     }
     
