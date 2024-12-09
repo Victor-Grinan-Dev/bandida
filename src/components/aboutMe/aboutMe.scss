@@ -9,50 +9,73 @@
     padding: 0 5%;
     color: white;
     position: relative;
+    gap: 40px;
 
-    .link-warpper{
-        position: absolute;
-        top: 50px;
-        left: 50px;
+    .panel-1, .panel-2{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        // @media (max-width:400px) {
+        //     width: 100%;
+        //     height: fit-content;
+        // }
+        @media (max-width:665px) {
+            width: 100%;
+            height: fit-content;
+        }
+
+
     }
 
-    .profile{
-        display: flex;
-        gap: 20px;
-        height: 90vh;
-        max-height: 40%;
+    .panel-1{
+        justify-content: flex-end;
 
-        &-pic{
+        .profile-pic{
             width: 500px;
-
 
             .pic-item{
                 object-fit: cover;
             }
+
+            @media (min-width:400px) {
+                min-width: 200px;
+            }
+            @media (max-width:665px) {
+                width: 80px;
+            }
         }
 
         @media (max-width:665px) {
-            &-pic{
-                max-height: 100%;
-            }
-            flex-direction: column;
-            align-items: center;
-            padding-top: 30px;
+            justify-content: flex-start;
+        }
 
-            &-text{
-                line-height: 1;
+    }
+    .panel-2{
+        justify-content: flex-start;
+        max-width: 50%;
+
+        .text-area p{
+            max-width: 400px;
+
+            @media (max-width:665px) {
+                width: 100%;
             }
         }
-    }
 
-    .text-area{
-        max-width: 400px;
-        text-align: left;
-        
+        @media (max-width:665px) {
+            max-width: none;
+        }
+        @media (max-width:800px) {
+            font-size: 14px;
+        }
     }
 
     @media (max-width:665px) {
         justify-content: center;
         flex-direction: column;
+        gap: 0;
     }
 }

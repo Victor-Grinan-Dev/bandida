@@ -31,7 +31,7 @@ const Navegator = () => {
           <AppLink caption="Galleria" linkTo="/gallery" />
           <AppLink caption="Tyyliestäni"  linkTo="#my-style" idLink={true}/>
           <AppLink caption="Ajanvaraus"  />
-          <AppLink caption="Ota Yhteys"  />
+          {/* <AppLink caption="Ota Yhteys"  /> */}
     </div>
   )
 }
