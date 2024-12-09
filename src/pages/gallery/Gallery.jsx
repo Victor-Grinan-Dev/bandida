@@ -32,13 +32,13 @@ const handleTabs = (tabName) => {
 
       <div className="collage" >
         {(colection === 'bg') && blackGrey.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('bg')} idx={idx}/></div>
+            <div className="img-wrapper" id={pic} key={idx}><PicLoader pic={pic} fx={()=>handleTabs('bg')} idx={idx}/></div>
         )) }
         {(colection === 'color') && colors.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('color')} idx={idx}/></div>
+            <div className="img-wrapper" id={pic} key={idx}><PicLoader pic={pic} fx={()=>handleTabs('color')} idx={idx}/></div>
         )) }
         {(colection === 'pmu' ) && pmu.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic}><PicLoader pic={pic} fx={()=>handleTabs('pmu')} idx={idx}/></div>
+            <div className="img-wrapper" id={pic} key={idx}><PicLoader pic={pic} fx={()=>handleTabs('pmu')} idx={idx}/></div>
         )) }
 
       </div>
