@@ -53,6 +53,10 @@
     scroll-behavior: smooth;
     overflow-y: scroll;
     height: 100%; /* Ensures full height for snapping */
+
+    @media (max-width:665px) {
+      scroll-snap-type:initial;
+    }
   }
 
   section{
