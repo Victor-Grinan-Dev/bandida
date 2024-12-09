@@ -30,7 +30,7 @@ const Navegator = () => {
           <AppLink caption="Studio"  />
           <AppLink caption="Galleria" linkTo="/gallery" />
           <AppLink caption="Taiteilija"  linkTo="#about-me" idLink={true}/>
-          <AppLink caption="Ajanvaraus"  />
+          <AppLink caption="Ajanvaraus" linkTo="/booking" />
     </div>
   )
 }
