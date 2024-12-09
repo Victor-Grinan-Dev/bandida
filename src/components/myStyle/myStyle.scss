@@ -1,4 +1,4 @@
-.my-style{
+.samples {
     background-color: $bandidas-black-1;
     width: 100%;
     color: white;
@@ -12,17 +12,36 @@
         justify-content: space-around;
         height: 80dvh;
         gap: 10px;
-        
 
         .pic-container{
             width: 25%;
             height: 100%;
             justify-content: space-between;
 
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                width: 60%;
+                z-index: 10;
+                transition: all .8s ease-in-out;
+                filter: brightness(1.2);
+
+                @media (max-width:700px) {
+                    cursor: pointer;
+                    transform: scale(1);
+                    width: 25%;
+                    z-index: 1;
+                    transition: none;
+                    filter: brightness(1);
+                }
+            }
+
             .pic-item{
                 height: 100%;
                 object-fit: cover;
             }
+
+ 
         }
 
         @media (max-width:700px) {
@@ -30,7 +49,7 @@
             flex-wrap: wrap;
             
             .pic-container{
-                width: 20%;
+                width: 25%;
             }
         }
     }
