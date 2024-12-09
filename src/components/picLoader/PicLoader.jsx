@@ -32,9 +32,8 @@ import pic029 from "../../assets/images/Black&Grey/pic029.jpg";
 import pic030 from "../../assets/images/Black&Grey/pic030.JPG";
 
 import color01 from "../../assets/images/colors/pic013.jpg";
-import color02 from "../../assets/images/colors/pic014.jpg";
 import color03 from "../../assets/images/colors/pic015.jpg";
-import color04 from "../../assets/images/colors/pic024.jpg";
+import color04 from "../../assets/images/colors/pic017.jpg";
 import color05 from "../../assets/images/colors/pic027.jpg";
 
 import pmu01 from "../../assets/images/pmu/huulet.JPG"
@@ -86,7 +85,6 @@ const pictures = {
     pic030:pic030,
 
     color01:color01,
-    color02:color02,
     color03:color03,
     color04:color04,
     color05:color05,
@@ -164,6 +162,7 @@ export const blackGrey = [
 export const colors = [
   'color01',
   'color03',
+  'color04',
   'color05', 
 ];
 export const pmu = [
