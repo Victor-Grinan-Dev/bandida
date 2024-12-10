@@ -1,1 +1,27 @@
-@import "./base.scss"
+@import "./base.scss";
+@import "./constants.scss";
+@import "./mixins.scss";
+@import "./animations.scss";
+
+/*pages*/
+@import "../pages/homePage/homePage.scss";
+@import "../pages/gallery/gallery.scss";
+@import "../pages/landingPage/landingPage.scss";
+@import "../pages/infoPage/infoPage.scss";
+@import "../pages/notFound/notFound.scss";
+
+/*components*/
+@import "../components/navegator/navegator.scss";
+@import "../components/InfiniteCarrusel/infiniteCarrusel.scss";
+@import "../components/contact/contact.scss";
+@import "../components/transparentSection/transparentSection.scss";
+@import "../components/appLink/appLink.scss";
+@import "../components/hamburger/hamburger.scss";
+@import "../components/some/some.scss";
+@import "../components/aboutMe/aboutMe.scss";
+@import "../components/samples/samples.scss";
+@import "../components/footer/footer.scss";
+@import "../components/menuModal/menuModal.scss";
+
+
+

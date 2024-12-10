@@ -1,0 +1,16 @@
+.some{
+    display: flex;
+    gap: 15px;
+
+    &-item{
+        height: 30px;
+        aspect-ratio: 1 1;
+    }
+
+    &-icon{
+        color: $bandida-golden-7;
+        font-size: 30px;
+    }
+
+    @include no-highlight;
+}
