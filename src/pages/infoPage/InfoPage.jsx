@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
 import AppLink from '../../components/appLink/AppLink';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const InfoPage = () => {
   const [tab, setTab] = useState('ennen')
-  //ennen
-  // hoito
-  // rajoitukset
-  // saapuminen
-  // varaus
-  // hinnasto
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   const fullTitle = {
     ennen:"Ennen tatuointia",
