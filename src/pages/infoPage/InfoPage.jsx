@@ -64,7 +64,6 @@ const InfoPage = () => {
               <br />
               {tab === 'ennen' &&
                 <div className="info-container">
-                  {/* <div className="title-container"><h5>Ennen tatuointia</h5></div> */}
                   <div className="text-container">
                     <ul>
                         <li><p>Ihoa on suositeltavaa rasvata vähintään viikon ajan ennen tatuointia.</p></li>
@@ -86,7 +85,6 @@ const InfoPage = () => {
 
               {tab === 'hoito' &&
                 <div className="info-container">
-                  {/* <div className="title-container"><h4>Hoito- ohjeet</h4></div> */}
                   <div className="text-container">
                     <ul>
                         <li><p>Tatuoinnin jälkeen iho suojataan kemulla tai haavakalvolla. Kelmu otetaan pois 2-3 tunnin kuluttua ja kalvo poistetaan 3-4 päivän kuluttua. </p></li>
@@ -107,21 +105,21 @@ const InfoPage = () => {
                         <li><p>Älä päästä lemmikkiäsi nuolemaan tatuointia. </p></li>
                         <li><p>Jos paranemisessa ilmenee ongelmia ja tatuointi ei ala paranemaan vaan kipeytymään ja punoittamaan niin ole yhteydessä tatuoijaasi. </p></li>
                         <li><p>Älä epäröi kysyä tatuoijaltasi jos mieltäsi askarruttaa jokin asia.</p></li>
-                        </ul>
-                    </div>
+                    </ul>
+                  </div>
                 </div>
               }
 
               {tab === 'rajoitukset' &&
                   <div className="info-container">
-                      {/* <div className="title-container"><h5>Rajoitukset</h5></div> */}
+    
                     <div className="text-container">
                         <ul>
-                          <li>Hiki / Rankka treeni 2 viikkoa</li>
-                          <li> Kuntosali 1 viikko</li>
-                          <li> Sauna 2 viikkoa</li>
-                          <li> Uiminen 4 viikkoa</li>
-                          <li> Aurinko ja solarium 4 viikkoa. Jos joudut olemaan auringossa, suojaa tatuointi vaatteilla ja tatuoinnin parannuttuakin käytä suojakerroin 50. Tatuoitu iho palaa herkästi.</li>
+                          <li><p>Hiki / Rankka treeni 2 viikkoa</p></li>
+                          <li><p>Kuntosali 1 viikko</p></li>
+                          <li><p>Sauna 2 viikkoa</p></li>
+                          <li><p>Uiminen 4 viikkoa</p></li>
+                          <li><p>Aurinko ja solarium 4 viikkoa. Jos joudut olemaan auringossa, suojaa tatuointi vaatteilla ja tatuoinnin parannuttuakin käytä suojakerroin 50. Tatuoitu iho palaa herkästi.</p></li>
                         </ul>
                       </div>
                   </div>
@@ -129,38 +127,58 @@ const InfoPage = () => {
 
               {tab === 'saapuminen' &&
                   <div className="info-container">
-                        {/* <div className="title-container"><h5>Saapuminen Studiolle</h5></div> */}
+      
                       <div className="text-container">
-                        <p>Studio sijaitsee aivan Linnanmäen kupeessa Alppilassa. Raitiovaunut 3 ja 4 pysähtyy suoraan studion eteen. Pysäkki on ”Alppila”. Sturenkadulta kulkee useita raitiovaunuja ja busseja ja siitä kävelee pari minuuttia studiolle. Pasilasta matkaa on 2km ja bussi nro 23 tulee Pasilasta suoraan Sturenkadulle. Autolle pysäköintipaikkoja on paljon kadun varsilla ja on ilmaista la-su, muina aikoina maksullista. Linnanmäen parkkialue on hiukan kalliimpi kuin kadun varret. 
-                       </p>
+                      <ul>
+                        <li><p>Raitiovaunut 3 ja 4 pysähtyy suoraan studion eteen. Pysäkki on ”Alppila”.</p></li>
+                        <li><p>Sturenkadulta kulkee useita raitiovaunuja ja busseja ja siitä kävelee pari minuuttia studiolle.</p></li>
+                        <li><p>Pasilasta matkaa on 2km ja bussi nro 23 tulee Pasilasta suoraan Sturenkadulle.</p></li>
+                        <li><p>Autolle pysäköintipaikkoja on paljon kadun varsilla ja on ilmaista la-su, muina aikoina maksullista. Linnanmäen parkkialue on hiukan kalliimpi kuin kadun varret.</p></li>
+                      </ul>
                     </div>
                   </div>
               }
 
               {tab === 'varaus' &&
                   <div className="info-container">
-                      {/* <div className="title-container"><h5>Ajan varaus</h5></div> */}
                       <div className="text-container">
-                      <p>Kerro viestiin oma nimi ja paikkakunta. Kerro tatuointi idean lisäksi mihin ja millä tyylillä kuvan haluaisit toteutettavan. Liitä muutamia referenssi kuva mukaan. En kuitenkaan kopioi suoraan toisten tekemiä tatuointeja. Logot ym. ovat asia erikseen. Jos alueella on muita tatuointeja tai haluat peittokuvaa, ota alueesta kuva ja kerro kumpi puoli esim kädestä on kyseessä. Tarkkaa hintaa on mahdoton sanoa heti alkuun ja hinta-arvio on aina arvio joka tarkentuu lopullisen suunnitelman ja toteutuksen mukaan. Suunnittelu ja varausmaksu on 100e jonka maksettua varaus on sitova ja suunnittelut tapahtuvat vasta maksun jälkeen. Varausmaksu hyvitetään tatuoinnin loppusummasta.  Jos idea muuttuu kuvan suunnittelun aikana/jälkeen, tästä otetaan uusi 100-150e  suunnittelumaksu. Jos sairastut, voi aikaa siirtää kaksi kertaa samalla varausmaksulla jonka jälkeen otetaan uusi varausmaksu.  Konsultaatio on maksuton ja se ei sido ottamaan vielä kuvaa. Siinä käydään ideaa tarkemmin läpi ja kysellään kaikenlaisia tarkentavia kysymyksiä jne. Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.  tatuointeja ei tehdä alle 18- vuotiaille. Tulethan tatuoitavaksi vain terveenä.</p>
-                    </div>
+                        <ul>
+                            <li><p>Kerro viestiin oma nimi ja paikkakunta.</p></li>
+                            <li><p>Kerro  tatuointi idean lisäksi mihin ja millä tyylillä kuvan haluaisit toteutettavan. Liitä muutamia referenssi kuva mukaan. En kuitenkaan kopioi suoraan toisten tekemiä tatuointeja. Logot ym. . ovat asia erikseen.</p></li>
+                            <li><p>Jos alueella on muita tatuointeja tai haluat peittokuvaa, ota alueesta kuva ja kerro kumpi puoli esim kädestä on kyseessä.</p></li>
+                            <li><p>Tarkkaa hintaa on mahdoton sanoa heti alkuun ja hinta-arvio on aina arvio joka tarkentuu lopullisen suunnitelman ja toteutuksen mukaan.</p></li>
+                            <li><p>Suunnittelu ja varausmaksu on 100e jonka maksettua varaus on sitova ja suunnittelut tapahtuvat vasta maksun jälkeen. Varausmaksu hyvitetään tatuoinnin loppusummasta.  Jos idea muuttuu kuvan suunnittelun aikana/jälkeen, tästä otetaan uusi 100-150e  suunnittelumaksu. Jos sairastut, voi aikaa siirtää kaksi kertaa samalla varausmaksulla jonka jälkeen otetaan uusi varausmaksu.</p></li>
+                            <li><p>Konsultaatio on maksuton ja se ei sido ottamaan vielä kuvaa. Siinä käydään ideaa tarkemmin läpi ja kysellään kaikenlaisia tarkentavia kysymyksiä jne.</p></li>
+                            <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li>
+                            <li><p>tatuointeja ei tehdä alle 18- vuotiaille.</p></li>
+                            <li><p>Tulethan tatuoitavaksi vain terveenä.</p></li>
+                          </ul>                    
+                      </div>
                   </div>
               }
 
               {tab === 'hinnasto' &&
                   <div className="info-container">
-                    {/* <div className="title-container"><h5>Hinnasto</h5></div> */}
+  
                       <div className="text-container">
-                        <ul>
-                              <li>Tatuoinnit: 100e/h</li> 
 
-                              <li>Walk-in kuvat alkaen 80e </li>
-                              <li>koko päivä 500-800e </li>
-                              <li>Pmu: 150-250e</li>
-                              <li>Varasumaksu 50-100e</li>
-                              <br />
-                              <p>Maksutavat </p>
-                              <p>Käteinen ja MobilePay</p>
+                        <p className="subject">
+                          Tatuoinnit:
+                        </p>
+                        <ul>
+                              <li><p>100e/h</p></li> 
+                              <li><p>Walk- In kuvat alkaen 80e</p></li>
+                              <li><p>koko päivä 500-800e</p></li>
+                              <li><p>Varausmaksu 50-100e</p></li>
                         </ul>
+                        <p className="subject">Kestopigmentoinnit:</p>
+                        <ul>
+                          <li><p>150-250e</p></li>
+                          <li><p>Varausmaksu 50-100e</p></li>
+                        </ul>
+                        <br />
+                        <p className="subject">Maksutavat:</p>
+                        <p>Käteinen ja MobilePay</p>
                     </div>
                 </div>
               }

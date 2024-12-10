@@ -12,12 +12,12 @@ const Bookings = () => {
 
   return (
     <div>
-        <h4>Bookings</h4>
         <div className="tabs-bar">
-        <div className="link-wrapper">
-            <AppLink caption="Takaisin" linkTo="/"/>
-        </div>
+          <div className="link-wrapper">
+              <AppLink caption="Takaisin" linkTo="/"/>
+          </div>
       </div>
+      <h4 style={{color:"white"}}>Bookings</h4>
     </div>
   )
 }
