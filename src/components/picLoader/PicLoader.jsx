@@ -36,6 +36,16 @@ import color03 from "../../assets/images/colors/pic015.jpg";
 import color04 from "../../assets/images/colors/pic017.jpg";
 import color05 from "../../assets/images/colors/pic027.jpg";
 
+import small001 from "../../assets/images/smalls/20220720_172939_Original.jpg";
+import small002 from "../../assets/images/smalls/20230426_135032_Original.jpg";
+import small003 from "../../assets/images/smalls/20230725_112826_Original.jpg";
+import small004 from "../../assets/images/smalls/20230804_173707_Original.jpg";
+import small005 from "../../assets/images/smalls/IMG_0101_Original.jpg";
+import small006 from "../../assets/images/smalls/IMG_5109.jpg";
+import small007 from "../../assets/images/smalls/IMG_5114.jpg";
+import small008 from "../../assets/images/smalls/IMG_5135.jpg";
+import small009 from "../../assets/images/smalls/matriushka.jpg";
+
 import pmu01 from "../../assets/images/pmu/huulet.JPG"
 import pmu02 from "../../assets/images/pmu/kulmat.JPG"
 
@@ -88,6 +98,16 @@ const pictures = {
     color03:color03,
     color04:color04,
     color05:color05,
+
+    small001:small001,
+    small002:small002,
+    small003:small003,
+    small004:small004,
+    small005:small005,
+    small006:small006,
+    small007:small007,
+    small008:small008,
+    small009:small009,
 
     pmu01:pmu01,
     pmu02:pmu02,
@@ -168,6 +188,17 @@ export const colors = [
 export const pmu = [
   'pmu01',
   'pmu02',
+];
+export const smalls = [
+  'small001',
+  'small002',
+  'small003',
+  'small004',
+  'small005',
+  'small006',
+  'small007',
+  'small008',
+  // 'small009',
 ];
 
 
