@@ -9,6 +9,7 @@ const mapStyle = {
 const Footer = () => {
   return (
     <section className='footer' >
+
         <div className="contact-bar">
 
           <div className='contact-bar__corner' id='left'>
@@ -21,10 +22,6 @@ const Footer = () => {
               <p className="address-right">Porvoonkatu 14, 00510 Helsinki.</p>
           </div>
 
-        </div>
-
-        <div className="footer-logo">
-          <PicLoader pic="logo169inv" style={{width:"150px", padding:"20px"}}/>
         </div>
 
         <div className="map-container" id='map'>
