@@ -1,5 +1,6 @@
 import React from 'react';
 import Some from '../some/Some';
+import PicLoader from '../picLoader/PicLoader';
 
 const mapStyle = {
   border:0,
@@ -20,6 +21,10 @@ const Footer = () => {
               <p className="address-right">Porvoonkatu 14, 00510 Helsinki.</p>
           </div>
 
+        </div>
+
+        <div className="footer-logo">
+          <PicLoader pic="logo169inv" style={{width:"150px", padding:"20px"}}/>
         </div>
 
         <div className="map-container" id='map'>
