@@ -32,7 +32,7 @@ const LandingPage = () => {
 
                 <div className='contact-bar__corner' id='right'>
                     <div>
-                        <span class="material-symbols-outlined" style={{fontSize:'40px',}}>
+                        <span className="material-symbols-outlined" style={{fontSize:'40px',}}>
                             settings
                         </span>
                     </div>
