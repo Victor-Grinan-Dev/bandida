@@ -18,23 +18,26 @@
         align-items: center;
         position: relative;
 
-        // @media (max-width:400px) {
-        //     width: 100%;
-        //     height: fit-content;
-        // }
         @media (max-width:665px) {
             width: 100%;
             height: fit-content;
         }
-
-
     }
 
     .panel-1{
-        justify-content: flex-end;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .omistaja{
+            padding-bottom: 40px;
+            padding-left: 20px;
+            font-size: x-large;
+            font-weight: 500;
+        }
 
         .profile-pic{
-            width: 500px;
+            width: 100%;
 
             .pic-item{
                 object-fit: cover;
@@ -42,14 +45,25 @@
 
             @media (min-width:400px) {
                 min-width: 200px;
+                flex-direction: row;
             }
             @media (max-width:665px) {
                 width: 80px;
             }
         }
 
+
+
         @media (max-width:665px) {
             justify-content: flex-start;
+            flex-direction: row;
+
+            .omistaja{
+                padding-bottom: 40px;
+                padding-left: 20px;
+                font-size: large;
+                font-weight: 500;
+            }
         }
 
     }

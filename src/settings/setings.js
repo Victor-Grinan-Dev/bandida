@@ -16,7 +16,7 @@ export const APPLINKS = [
         type:"b",
     },
     {
-        caption:"Taiteilija",
+        caption:"Artist",
         linksTo:"#about-me",
         type:"a",
     },

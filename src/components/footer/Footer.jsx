@@ -1,5 +1,6 @@
 import React from 'react';
 import Some from '../some/Some';
+import PicLoader from '../picLoader/PicLoader';
 
 const mapStyle = {
   border:0,
@@ -8,6 +9,7 @@ const mapStyle = {
 const Footer = () => {
   return (
     <section className='footer' >
+
         <div className="contact-bar">
 
           <div className='contact-bar__corner' id='left'>

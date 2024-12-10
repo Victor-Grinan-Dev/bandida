@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import AppLink from '../../components/appLink/AppLink';
+import { APPLINKS } from "../../settings/setings";
 
 const Navegator = () => {
       const navBarRef = useRef(null);
@@ -25,12 +26,15 @@ const Navegator = () => {
 
   return (
     <div className="nav-bar" id="nav-bar" ref={navBarRef}>
-          <AppLink caption="Kotisivu" linkTo="#" idLink={true}/>
-          <AppLink caption="Info"  linkTo="/info"/>
-          <AppLink caption="Studio"  />
-          <AppLink caption="Galleria" linkTo="/gallery" />
-          <AppLink caption="Taiteilija"  linkTo="#about-me" idLink={true}/>
-          <AppLink caption="Ajanvaraus" linkTo="/booking" />
+          {APPLINKS.map((link, idx)=>(
+                <div className="link-wraper" key={idx} >
+                    <AppLink 
+                        caption={link.caption} 
+                        linkTo={link?.linksTo}
+                        idLink={link.type === "a"}
+                    />
+                </div>
+            ))}
     </div>
   )
 }
