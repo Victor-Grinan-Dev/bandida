@@ -77,7 +77,6 @@ const InfoPage = () => {
                         <li><p>Joidenkin lääkitysten kohdalla (esim. verenohennuslääkeet) tai muita terveyteen liittyviä asioita, esim tulevat leikkaukset jne, on hyvä varmistaa lääkäriltäsi onko tautoiminen kannattavaa tässä kohtaa. </p></li>
                         <li><p>Tatuointi on ikuinen ja tulee elämään ihon mukana ajan kuluessa. Tämä ei kuitenkaan tarkoita että tatuoinnista on jäljellä vain musta/sininen mössö parin vuoden päästä. Tähän vaikuttavat tatuoinnin tyyli, paikka ja toteutus tapa. Hyvin ja oikein tehdyt tatuoinnit kestävät aikaa todella hyvin.</p></li>
                         <li><p>Tatuointeja ei tehdä alle 18-vuotiaille. </p></li>
-                        <li><p>Tatuointi on ikuinen ja tulee aina hiukan muuttumaan ajan kanssa, iho kun vanhenee ja muuttuu, myös tatuointi muuttuu mukana. </p></li>
                         <li><p>Tatuoinnilla on 6kk takuu. Jos hoito-ohjeita on noudatettu niin tatuointi paranee hyvin ja lopputulos on myös parempi. Jos jostain syystä jossain kohtaa väriä ei ole jäänyt tarpeeksi jne niin tämä korjataan ilman kuluja. Muissa tapauksissa korjauksesta veloitetaan normaali hinta. </p></li>
                     </ul>
                   </div>
