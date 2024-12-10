@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AppLink from '../../components/appLink/AppLink';
 import { useLocation } from 'react-router-dom';
-import PicLoader, { blackGrey, colors, pmu } from '../../components/picLoader/PicLoader';
+import PicLoader, { blackGrey, colors, pmu, smalls } from '../../components/picLoader/PicLoader';
 
 const Gallery = () => {
   const { pathname } = useLocation();
@@ -26,10 +26,13 @@ const handleTabs = (tabName) => {
             <AppLink caption="Black & Grey" active={colection==='bg'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('color')}>
-            <AppLink caption="värit" active={colection==='color'}/>
+            <AppLink caption="Värit" active={colection==='color'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
             <AppLink caption="PMU" active={colection==='pmu'}/>
+          </div>
+          <div className="tab-wrapper" onClick={()=>handleTabs('smalls')}>
+            <AppLink caption="Pienet" active={colection==='smalls'}/>
           </div>
         </div>
 
@@ -44,6 +47,9 @@ const handleTabs = (tabName) => {
             <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
         {(colection === 'pmu' ) && pmu.map((pic, idx)=> (       
+            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
+        )) }
+        {(colection === 'smalls' ) && smalls.map((pic, idx)=> (       
             <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
 
