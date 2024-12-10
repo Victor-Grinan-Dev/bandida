@@ -1,8 +1,7 @@
 import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
-// import AppLink from '../appLink/AppLink';
 
-const AboutMe = (props) => {
+const AboutMe = () => {
   return (
     <section className='about-me' id='about-me'>
 
