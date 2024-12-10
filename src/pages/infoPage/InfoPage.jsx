@@ -151,19 +151,12 @@ const InfoPage = () => {
                     {/* <div className="title-container"><h5>Hinnasto</h5></div> */}
                       <div className="text-container">
                         <ul>
-                              <li>Tatuoinnit:
-                              100e/h</li> 
+                              <li>Tatuoinnit: 100e/h</li> 
 
-                              <li>
-                              Walk-in kuvat alkaen 80e 
-                              koko päivä 500-800e
-                              </li>
-
-                              <li>
-                              Pmu:
-                              150-250e
-                              Varasumaksu 50-100e
-                              </li>
+                              <li>Walk-in kuvat alkaen 80e </li>
+                              <li>koko päivä 500-800e </li>
+                              <li>Pmu: 150-250e</li>
+                              <li>Varasumaksu 50-100e</li>
                               <br />
                               <p>Maksutavat </p>
                               <p>Käteinen ja MobilePay</p>
