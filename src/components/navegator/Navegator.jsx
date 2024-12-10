@@ -1,0 +1,38 @@
+import React, { useEffect, useRef } from "react";
+import AppLink from '../../components/appLink/AppLink';
+
+const Navegator = () => {
+      const navBarRef = useRef(null);
+
+    useEffect(() => {
+        const navBar = navBarRef.current;
+        const originalPosition = navBar.offsetTop;
+    
+        const handleScroll = () => {
+          if (window.scrollY >= originalPosition) {
+            navBar.classList.add("sticky");
+          } else {
+            navBar.classList.remove("sticky");
+          }
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
+
+  return (
+    <div className="nav-bar" id="nav-bar" ref={navBarRef}>
+          <AppLink caption="Kotisivu" linkTo="#" idLink={true}/>
+          <AppLink caption="Info"  linkTo="/info"/>
+          <AppLink caption="Studio"  />
+          <AppLink caption="Galleria" linkTo="/gallery" />
+          <AppLink caption="Taiteilija"  linkTo="#about-me" idLink={true}/>
+          <AppLink caption="Ajanvaraus" linkTo="/booking" />
+    </div>
+  )
+}
+
+export default Navegator;
