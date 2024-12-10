@@ -60,7 +60,7 @@ const InfoPage = () => {
             </div>
 
             <div className="info-wrapper">
-              <h4>Info: "{fullTitle[tab]}"</h4>
+              <h4>Info: {fullTitle[tab]}</h4>
               <br />
               {tab === 'ennen' &&
                 <div className="info-container">
