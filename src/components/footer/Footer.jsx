@@ -1,6 +1,5 @@
 import React from 'react';
 import Some from '../some/Some';
-import PicLoader from '../picLoader/PicLoader';
 
 const mapStyle = {
   border:0,
