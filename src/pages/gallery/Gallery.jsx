@@ -14,7 +14,6 @@ const Gallery = () => {
 const handleTabs = (tabName) => {
   console.log(tabName)
   setCollection(tabName);
-   
 }
   return (
     <section className='gallery'>
