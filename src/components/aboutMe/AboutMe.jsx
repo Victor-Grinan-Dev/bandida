@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="profile-pic">
           <PicLoader pic="paula_profile_1" />
         </div>
-        <div className='omistaja'>Artist / Omistaja</div>
+        <div className='omistaja'>Artist</div>
       </div>
       <div className="panel-2">
         <div className="text-area">
