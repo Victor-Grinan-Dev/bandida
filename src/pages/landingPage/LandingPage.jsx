@@ -13,7 +13,7 @@ import AboutMe from "../../components/aboutMe/AboutMe";
 import Studio from "../../components/studio/Studio";
 import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
-import MenuModal from "../../components/navegator/menuModal/MenuModal";
+import MenuModal from "../../components/menuModal/MenuModal";
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
