@@ -5,15 +5,6 @@ const studioimg = {
     filter: "grayscale(100%) brightness(1.2) saturate(1.5) hue-rotate(45deg)",
 }
 
-const styles = {
-    grayscale: {
-      filter: "",
-    },
-    golden: {
-      
-    },
-  };
-
 const Studio = () => {
   return (
     <section className='studio' id='studio'>

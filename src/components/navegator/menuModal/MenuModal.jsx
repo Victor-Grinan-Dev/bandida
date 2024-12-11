@@ -1,8 +1,8 @@
 import React from 'react';
-import AppLink from '../appLink/AppLink';
-import { APPLINKS } from '../../settings/setings';
+import AppLink from '../../appLink/AppLink';
+import { APPLINKS } from '../../../settings/setings';
 import { useDispatch } from 'react-redux';
-import { toggleIsModal } from '../../app/appSlice';
+import { toggleIsModal } from '../../../app/appSlice';
 import { useNavigate } from 'react-router-dom';
 
 const MenuModal = () => {
