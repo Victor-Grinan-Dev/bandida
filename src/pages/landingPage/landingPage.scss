@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     background-color: $bandidas-black-1;
-    background-color: rgb(61, 52, 52);
     color: white;
 
     background-image: url('../../assets/images/Black&Grey/pic027.jpg');
@@ -44,7 +43,10 @@
 
     &__corner{
         width: 230px;
-
+        a {
+            text-decoration: none;
+            color: $bandida-golden-6;
+        }
 
         .address-right{
             display: none;

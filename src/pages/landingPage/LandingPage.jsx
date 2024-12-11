@@ -24,7 +24,8 @@ const LandingPage = () => {
 
                 <div className='contact-bar__corner' id='left'>
                     <h1>Studio La Bandida&reg;</h1>
-                    <p className="address">Porvoonkatu 14 00510 Helsinki.</p>
+                    {/* <p className="address">Porvoonkatu 14 00510 Helsinki.</p> */}
+                    <a href="#footer" style={{textDecoration:"none", color:"$bandida-golden-6"}}><p className="address"  style={{cursor:"pointer"}}>Porvoonkatu 14 00510 Helsinki.</p></a>
 
                 </div>
 
@@ -32,9 +33,7 @@ const LandingPage = () => {
 
                 <div className='contact-bar__corner' id='right'>
                     <div>
-                        <span className="material-symbols-outlined" style={{fontSize:'40px',}}>
-                            settings
-                        </span>
+                        <i className="fa-solid fa-ellipsis-vertical"></i>
                     </div>
                 </div>
 

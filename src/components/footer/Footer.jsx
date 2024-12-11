@@ -7,7 +7,7 @@ const mapStyle = {
 
 const Footer = () => {
   return (
-    <section className='footer' >
+    <section className='footer' id='footer'>
 
         <div className="contact-bar">
 

@@ -5,13 +5,15 @@
     align-items: center;
     overflow-y: scroll;
 
-    -ms-overflow-style: none;  
-    scrollbar-width: none;     
-    overflow: auto; 
+    // -ms-overflow-style: none;  
+    // scrollbar-width: none;     
+    // overflow: auto; 
       
-    &::-webkit-scrollbar {
-        display: none; 
-    }
+    // &::-webkit-scrollbar {
+    //     display: none; 
+    // }
+
+    @include no-scrollbar-y;
       
     &-tabs{
         display: flex;
