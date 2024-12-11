@@ -62,6 +62,7 @@ import kollaasi from "../../assets/images/kollaasi.jpg";
 import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.jpg";
 import paula_medium from "../../assets/images/profiles pics/paula_profile.jpg";
 import paula_small from "../../assets/images/profiles pics/paula_small.jpg";
+import studio from "../../assets/images/profiles pics/studio.jpg";
 
 
 
@@ -138,6 +139,7 @@ const pictures = {
     paula_profile_1:paula_profile_1,
     paula_medium:paula_medium,
     paula_small:paula_small,
+    studio:studio,
 
  
 }
