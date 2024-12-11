@@ -10,6 +10,7 @@ import Navegator from "../../components/navegator/Navegator";
 import Hamburger from "../../components/hamburger/Hamburger";
 import Some from "../../components/some/Some";
 import AboutMe from "../../components/aboutMe/AboutMe";
+import Studio from "../../components/studio/Studio";
 import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
@@ -24,7 +25,6 @@ const LandingPage = () => {
 
                 <div className='contact-bar__corner' id='left'>
                     <h1>Studio La Bandida&reg;</h1>
-                    {/* <p className="address">Porvoonkatu 14 00510 Helsinki.</p> */}
                     <a href="#footer" style={{textDecoration:"none", color:"$bandida-golden-6"}}><p className="address"  style={{cursor:"pointer"}}>Porvoonkatu 14 00510 Helsinki.</p></a>
 
                 </div>
@@ -50,12 +50,12 @@ const LandingPage = () => {
 
         <Samples />
         <AboutMe />
+        <Studio />
         <Footer />
         { isModal && <MenuModal />}
     </div>
   )
 }
-
 export default LandingPage;
 
 
