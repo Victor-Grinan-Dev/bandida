@@ -27,7 +27,7 @@
     .panel-1{
         justify-content: center;
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: flex-end;
 
         .omistaja{
             padding-bottom: 40px;
@@ -38,6 +38,7 @@
 
         .profile-pic{
             width: 100%;
+            max-width: 400px;
 
             .pic-item{
                 object-fit: cover;
