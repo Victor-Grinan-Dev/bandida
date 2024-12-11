@@ -6,6 +6,9 @@
     width: 40px;
     z-index: 102;
     display: none;
+    &:hover{
+      cursor: pointer;
+    }
 
     &:before,
     &:after,
