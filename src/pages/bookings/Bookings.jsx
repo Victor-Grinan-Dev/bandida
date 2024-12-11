@@ -4,12 +4,6 @@ import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
 
 
-const copiedIcon = () => {
-  return (
-    <div>copied</div>
-  )
-}
-
 const Bookings = () => {
   const { pathname } = useLocation();
 
@@ -20,7 +14,7 @@ const Bookings = () => {
   const copyToClipboard = (copiedText) => {
 
     navigator.clipboard.writeText(copiedText)
-      .then(() => alert("Phone number copied to clipboard!"))
+      // .then(() => alert("Phone number copied to clipboard!"))
       .catch((err) => console.error("Failed to copy text: ", err));
   };
 
