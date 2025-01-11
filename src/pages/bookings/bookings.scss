@@ -29,7 +29,7 @@
         display: flex;
         justify-content: space-between;
         position: relative;
-        gap: 10px;
+        gap: 50px;
 
         &__column-a, &__column-b{
             width: 45%;
@@ -43,7 +43,7 @@
             justify-content: end;
 
             .pic-item{
-                max-width: 380px;
+                max-width: 70%;
                 object-fit:cover;
             }
 
