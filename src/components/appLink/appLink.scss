@@ -3,3 +3,10 @@
         @include link-styles;
     }
 }
+
+.active{
+    a{
+        border: 2px solid $bandida-golden-7;
+        color: #f6f6f3;
+    }
+}

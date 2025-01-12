@@ -12,7 +12,7 @@ const Studio = () => {
       <div className="panel-1">
 
         <div className="text-area">
-          <p>La Bandida Studio perustettiin vuonna 2024 pienyrityksenä. Studion perustaja, intohimoinen tatuoija, yhdistää luovuutensa ja yrittäjähenkensä tarjotakseen asiakkailleen ainutlaatuisia tatuointikokemuksia. Tämä startup-yritys keskittyy korkealaatuiseen työhön, asiakaslähtöisyyteen ja yksilöllisten visioiden toteuttamiseen. Studion tavoitteena on kasvaa ja tuoda lisää väriä ja merkitystä ihmisten elämään taiteen kautta.</p> 
+          <p>Studio La Bandida on vuonna 2024 perustettu tatuointeihin ja kestopigmentointeihin keskittynyt pieni studio Helsingin Alppilassa, aivan Linnanmäen kupeessa. Olipa ajatuksenasi pieni siro tatuointi tai isompi kokonaisuus mustaharmaana tai väreissä, toteutetaan nämä turvallisesti, huolella ja asiakkaan toiveita kuunnellen. Olet lämpimästi tervetullut juuri sellaisena kuin olet. </p> 
           <br />
           <p>   Saapuminen Studiolle
                 Studio sijaitsee aivan Linnanmäen kupeessa Alppilassa. 
