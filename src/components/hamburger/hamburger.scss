@@ -3,9 +3,15 @@
     position: fixed;
     top: 40px;
     right: 5%;
-    width: 40px;
+    width: 50px;
     z-index: 102;
     display: none;
+
+    background-color: rgba(0, 0, 0, 0.749);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+  
     &:hover{
       cursor: pointer;
     }
