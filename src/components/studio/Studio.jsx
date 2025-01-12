@@ -30,7 +30,7 @@ const Studio = () => {
         <div className="profile-pic">
           <PicLoader pic="studio" style={studioimg}/>
         </div>
-        <div className='omistaja'>Studio</div>
+        <div className='omistaja'><h3>Studio</h3></div>
 
       </div>
 

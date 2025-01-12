@@ -21,6 +21,10 @@
         @media (max-width:665px) {
             width: 100%;
             height: fit-content;
+            justify-content: flex-start;
+        }
+        @media (max-width:800px) {
+            justify-content: flex-start;
         }
     }
 
@@ -57,6 +61,7 @@
         @media (max-width:665px) {
             justify-content: flex-start;
             flex-direction: row;
+            align-items: flex-end;
 
             .omistaja{
                 padding-bottom: 40px;
@@ -87,6 +92,7 @@
         }
         @media (max-width:800px) {
             font-size: 14px;
+            justify-content: flex-start;
         }
     }
 
