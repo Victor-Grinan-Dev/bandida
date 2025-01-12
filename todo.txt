@@ -32,7 +32,3 @@ info
 akioloajat - away
 ajanvaus page
 icon for phone number (whatsapp)
-
-typogrfia
-artist about page
-hamburger bg
