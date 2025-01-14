@@ -49,20 +49,15 @@ import small009 from "../../assets/images/smalls/matriushka.jpg";
 import pmu01 from "../../assets/images/pmu/huulet.JPG"
 import pmu02 from "../../assets/images/pmu/kulmat.JPG"
 
-import logo32 from "../../assets/images/logo/la_bandida_logo_3-2(og).png";
-import logo32_ from "../../assets/images/logo/la_bandida_logo_3-2_(og).png";
-import logo43 from "../../assets/images/logo/la_bandida_logo_4-3(og).png";
-import logo54 from "../../assets/images/logo/la_bandida_logo_5-4(og).png";
-import logo54inv from "../../assets/images/logo/la_bandida_logo_5-4_inv.png";
-import logo75 from "../../assets/images/logo/la_bandida_logo_7-5(og)png.png";
-import logo169 from "../../assets/images/logo/la_bandida_logo_16-9(og).png";
-import logo169inv from "../../assets/images/logo/la_bandida_logo_16-9_inv.png";
+import logoOG from "../../assets/images/logo/LaBandida.jpg";
+import logoOG_no_bg from "../../assets/images/logo/LaBandida-removebg-preview.png";
+import logoSmall from "../../assets/images/logo/LaBandida-removebg-small.png";
+import logo169 from "../../assets/images/logo/LaBandida-removebg-169.png";
 
 import kollaasi from "../../assets/images/kollaasi.jpg";
 import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.jpg";
 import paula_medium from "../../assets/images/profiles pics/paula_profile.jpg";
-import paula_small from "../../assets/images/profiles pics/paula_small.jpg";
-import studio from "../../assets/images/profiles pics/studio.jpg";
+import studio from "../../assets/images/studio/studio.jpg";
 
 
 
@@ -126,19 +121,14 @@ const pictures = {
     fav008:pic029,
     fav009:pic001,
 
-    logo32:logo32, 
-    logo32_:logo32_,
-    logo43:logo43,
-    logo54:logo54,
-    logo54inv:logo54inv,
-    logo75:logo75,
+    logoOG:logoOG,
+    logoOG_no_bg:logoOG_no_bg,
+    logoSmall:logoSmall,
     logo169:logo169,
-    logo169inv:logo169inv,
 
     kollaasi:kollaasi,
     paula_profile_1:paula_profile_1,
     paula_medium:paula_medium,
-    paula_small:paula_small,
     studio:studio,
 
  
