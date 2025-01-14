@@ -2,7 +2,7 @@ import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
 
 const studioimg = {
-    filter: "grayscale(100%) brightness(1.2) saturate(1.5) hue-rotate(45deg)",
+    filter: "grayscale(100%) brightness(1.2) saturate(1.5) hue-rotate(45deg) sepia(0.1)",
 }
 
 const Studio = () => {
