@@ -42,7 +42,7 @@ const LandingPage = () => {
             <Hamburger />
 
             <div className="logo-wrapper" >
-                <PicLoader pic="logo169inv"/>
+                <PicLoader pic="logoSmall" style={{ width: "80vw", maxWidth: "550px"}}/>
             </div>
 
             <Navegator />
