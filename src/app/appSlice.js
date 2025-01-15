@@ -6,6 +6,8 @@ export const appSlice = createSlice({
         isLoading: true,
         currentLang: "en",
         isModal:false,
+
+        isPicModal:false,
     },
     reducers: {
         setIsLoading(state, action){
@@ -16,7 +18,10 @@ export const appSlice = createSlice({
         },
         toggleIsModal(state){
             state.isModal = !state.isModal;
-        }
+        },
+        togglePicModal(state){
+            state.picModal = !state.picModal;
+        },
     }
 })
 
@@ -24,6 +29,7 @@ export const {
     setIsLoading,
     setCurrentLang,
     toggleIsModal,
+    togglePicModal,
 } = appSlice.actions;
 
 export default appSlice.reducer;

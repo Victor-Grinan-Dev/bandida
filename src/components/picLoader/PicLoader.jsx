@@ -177,6 +177,7 @@ export const blackGrey = [
   'pic027',
   'pic028',
   'pic029',
+  'pic030',
 ];
 export const colors = [
   'color01',
