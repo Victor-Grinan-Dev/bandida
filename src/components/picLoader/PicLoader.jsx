@@ -53,6 +53,7 @@ import logoOG from "../../assets/images/logo/LaBandida.jpg";
 import logoOG_no_bg from "../../assets/images/logo/LaBandida-removebg-preview.png";
 import logoSmall from "../../assets/images/logo/LaBandida-removebg-small.png";
 import logo169 from "../../assets/images/logo/LaBandida-removebg-169.png";
+import logo169_old from "../../assets/images/logo/la_bandida_logo_196_old.png";
 
 import kollaasi from "../../assets/images/kollaasi.jpg";
 import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.jpg";
@@ -125,13 +126,13 @@ const pictures = {
     logoOG_no_bg:logoOG_no_bg,
     logoSmall:logoSmall,
     logo169:logo169,
+    logo169_old:logo169_old,
 
     kollaasi:kollaasi,
     paula_profile_1:paula_profile_1,
     paula_medium:paula_medium,
     studio:studio,
 
- 
 }
 
 const PicLoader = (props) => {
