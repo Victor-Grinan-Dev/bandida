@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import AppLink from '../../components/appLink/AppLink';
 import { useLocation } from 'react-router-dom';
 import PicLoader, { blackGrey, colors, pmu, smalls } from '../../components/picLoader/PicLoader';
+import PicModal from '../../components/picModal/PicModal';
 
 const Gallery = () => {
   const { pathname } = useLocation();
+  const isPicModal = useSelector(state => state.app.isPicLoader);
   const [colection, setCollection] = useState('bg');
 
   useEffect(() => {
@@ -54,6 +56,10 @@ const handleTabs = (tabName) => {
         )) }
 
       </div>
+
+      {isPicModal && <PicModal pic={'pic030'} />
+
+      }
 
     </section>
   )
