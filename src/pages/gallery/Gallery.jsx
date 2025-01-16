@@ -3,6 +3,7 @@ import AppLink from '../../components/appLink/AppLink';
 import { useLocation } from 'react-router-dom';
 import PicLoader, { blackGrey, colors, pmu, smalls } from '../../components/picLoader/PicLoader';
 import PicModal from '../../components/picModal/PicModal';
+import { useSelector } from 'react-redux';
 
 const Gallery = () => {
   const { pathname } = useLocation();

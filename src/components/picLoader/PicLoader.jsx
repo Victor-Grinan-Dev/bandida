@@ -54,6 +54,7 @@ import logoOG_no_bg from "../../assets/images/logo/LaBandida-removebg-preview.pn
 import logoSmall from "../../assets/images/logo/LaBandida-removebg-small.png";
 import logo169 from "../../assets/images/logo/LaBandida-removebg-169.png";
 import logo169_old from "../../assets/images/logo/la_bandida_logo_196_old.png";
+import logo_circle from "../../assets/images/logo/laBandida-circle-dark-no-bg.png";
 
 import kollaasi from "../../assets/images/kollaasi.jpg";
 import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.jpg";
@@ -127,6 +128,7 @@ const pictures = {
     logoSmall:logoSmall,
     logo169:logo169,
     logo169_old:logo169_old,
+    logo_circle:logo_circle,
 
     kollaasi:kollaasi,
     paula_profile_1:paula_profile_1,
