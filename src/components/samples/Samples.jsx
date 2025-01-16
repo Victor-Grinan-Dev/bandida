@@ -8,31 +8,31 @@ const Samples = () => {
     <section className='samples ' id='samples '>
         <div className="pics-sample" onClick={()=>navigate("/gallery")}>
             <div className="pic-container">
-                <PicLoader pic="fav001"/>
+                <PicLoader pic="fav001" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav002"/>
+                <PicLoader pic="fav002" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav003"/>
+                <PicLoader pic="fav003" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav004"/>
+                <PicLoader pic="fav004" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav005"/>
+                <PicLoader pic="fav005" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav006"/>
+                <PicLoader pic="fav006" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav007"/>
+                <PicLoader pic="fav007" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav008"/>
+                <PicLoader pic="fav008" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
-                <PicLoader pic="fav009"/>
+                <PicLoader pic="fav009" extraClass="pic-item"/>
             </div>
         </div>
 
