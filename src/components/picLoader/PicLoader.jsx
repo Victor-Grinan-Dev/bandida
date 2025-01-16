@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import pic001 from "../../assets/images/Black&Grey/pic001.jpg";
 import pic002 from "../../assets/images/Black&Grey/pic002.jpg";
@@ -138,15 +138,33 @@ const pictures = {
 }
 
 const PicLoader = (props) => {
-    const {pic, style, idx} = props;
+    const {pic, xtraStyle, extraClass, idx} = props;
+    const [isLoaded, setIsLoaded] = useState(false);
 
-
+    console.log(extraClass)
   return (
-    <img src={pictures[pic]} 
-    style={style} 
-    alt="picLoader object" 
-    className='pic-item' 
-    key={idx}/>
+    <>
+      {!isLoaded && (
+        <img
+          className={extraClass}
+          src={pictures[pic]}
+          alt="picLoader object"
+          key={idx}
+          style={{...xtraStyle, filter: 'blur(10px)',transition: 'opacity 0.3s'}}
+        />
+      )}
+      <img
+        className={extraClass}
+        src={pictures[pic]}
+        alt="picLoader object"
+        loading="lazy"
+        onLoad={() => setIsLoaded(true)}
+        style={{ ...xtraStyle,
+          opacity: isLoaded ? 1 : 0,
+          transition: 'opacity 0.3s',
+        }}
+      />
+    </>
   )
 }
 
