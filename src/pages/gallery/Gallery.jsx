@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 
 const Gallery = () => {
   const { pathname } = useLocation();
-  const isPicModal = useSelector(state => state.app.isPicLoader);
+  const isPicModal = useSelector(state => state.app.isPicModal);
   const [colection, setCollection] = useState('bg');
 
   useEffect(() => {
@@ -15,7 +15,6 @@ const Gallery = () => {
   }, [pathname]);
 
 const handleTabs = (tabName) => {
-  console.log(tabName)
   setCollection(tabName);
 }
   return (
