@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
@@ -6,17 +6,25 @@ import PicLoader from '../../components/picLoader/PicLoader';
 
 const Bookings = () => {
   const { pathname } = useLocation();
+  const [copied, setCopied] = useState(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
   const copyToClipboard = (copiedText) => {
-
     navigator.clipboard.writeText(copiedText)
-      // .then(() => alert("Phone number copied to clipboard!"))
       .catch((err) => console.error("Failed to copy text: ", err));
   };
+
+  const changeIconColor = (item) => {
+    setCopied(item)
+  }
+
+  const handleClicked = (text, item) => {
+    copyToClipboard(text)
+    changeIconColor(item)
+  }
 
   return (
     <div className='boobkings' style={{color:"white"}}>
@@ -53,7 +61,9 @@ const Bookings = () => {
                 <p>paulaannelica.tattoo@gmail.com</p>
               </div>
 
-              <i className="fa-regular fa-copy" onClick={()=>copyToClipboard("paulaannelica.tattoo@gmail.com")} />
+              <div className="copy-icon-wrapper">
+                <i className={`fa-regular fa-copy ${copied === "email" && "active"}`} onClick={()=>handleClicked("paulaannelica.tattoo@gmail.com", "email")} />
+              </div>
             </div>
             
             <div className="content-item" >
@@ -63,7 +73,9 @@ const Bookings = () => {
                 <p>+358 45 78392909</p>
               </div>
 
-              <i className="fa-regular fa-copy" onClick={()=>copyToClipboard("+358 45 78392909")} />
+              <div className="copy-icon-wrapper">
+                <i className={`fa-regular fa-copy ${copied === "phone" && "active"}`} onClick={()=>handleClicked("+358 45 78392909", "phone")} />
+              </div>
             </div>
 
             <div className="content-item" >
@@ -72,7 +84,9 @@ const Bookings = () => {
                 <span>Whatsapp</span>
                 <p>+358 45 78392909</p>
               </div>
-              <i className="fa-regular fa-copy" onClick={()=>copyToClipboard("+358 45 78392909")} />
+              <div className="copy-icon-wrapper">
+                <i className={`fa-regular fa-copy ${copied === "whatsapp" && "active"}`} onClick={()=>handleClicked("+358 45 78392909", "whatsapp")} />
+              </div>
 
             </div>
 
