@@ -1,5 +1,5 @@
 import { 
-  BrowserRouter, 
+  HashRouter, 
   Routes, 
   Route, 
   // Navigate  
@@ -16,7 +16,7 @@ import Bookings from "./pages/bookings/Bookings";
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<LandingPage />} />
@@ -26,7 +26,7 @@ function App() {
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
