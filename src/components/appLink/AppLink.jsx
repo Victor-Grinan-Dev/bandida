@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { HashLink } from 'react-router-hash-link';
 
 const AppLink = (props) => {
     const {linkTo, caption, idLink=false, active=false} = props;
@@ -15,7 +15,7 @@ const AppLink = (props) => {
     if(idLink){
       return (
         <div className={`app-link ${active && "active"}`}>
-            <a href={linkTo} onClick={() => scrollToSection(linkTo)}> { caption } </a>
+            <HashLink to={`${linkTo}`}> { caption } </HashLink>
         </div>
       )
     }
