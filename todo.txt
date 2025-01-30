@@ -38,3 +38,5 @@ boobking googgle:
 2- making a booking page: https://www.youtube.com/watch?v=Fk7FQ39LsR0
 3- handling bookings: https://www.youtube.com/watch?v=VKIQrYaUq-E
 4- embed booking: https://www.youtube.com/watch?v=MF3yXhiHN6k
+
+appwrite: https://www.youtube.com/watch?v=l-vkvrxssa8&list=PLUr_dKgYaKJbxDEf_SchTwukxb0FlHOFf
