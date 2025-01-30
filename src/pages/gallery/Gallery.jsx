@@ -8,11 +8,11 @@ import { useSelector } from 'react-redux';
 const Gallery = () => {
   const { pathname } = useLocation();
   const isPicModal = useSelector(state => state.app.isPicModal);
-  const [colection, setCollection] = useState('bg');
+  const [collection, setCollection] = useState('bg');
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [pathname, collection]);
 
 const handleTabs = (tabName) => {
   setCollection(tabName);
@@ -25,16 +25,16 @@ const handleTabs = (tabName) => {
 
         <div className='gallery-tabs'>
           <div className="tab-wrapper" onClick={()=>handleTabs('bg')}>
-            <AppLink caption="Black & Grey" active={colection==='bg'}/>
+            <AppLink caption="Black & Grey" active={collection==='bg'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('color')}>
-            <AppLink caption="Värit" active={colection==='color'}/>
+            <AppLink caption="Värit" active={collection==='color'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
-            <AppLink caption="PMU" active={colection==='pmu'}/>
+            <AppLink caption="PMU" active={collection==='pmu'}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('smalls')}>
-            <AppLink caption="Pienet" active={colection==='smalls'}/>
+            <AppLink caption="Pienet" active={collection==='smalls'}/>
           </div>
         </div>
 
@@ -42,16 +42,16 @@ const handleTabs = (tabName) => {
       </div>
 
       <div className="collage" >
-        {(colection === 'bg') && blackGrey.map((pic, idx)=> (       
+        {(collection === 'bg') && blackGrey.map((pic, idx)=> (       
             <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
-        {(colection === 'color') && colors.map((pic, idx)=> (       
+        {(collection === 'color') && colors.map((pic, idx)=> (       
             <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
-        {(colection === 'pmu' ) && pmu.map((pic, idx)=> (       
+        {(collection === 'pmu' ) && pmu.map((pic, idx)=> (       
             <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
-        {(colection === 'smalls' ) && smalls.map((pic, idx)=> (       
+        {(collection === 'smalls' ) && smalls.map((pic, idx)=> (       
             <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
         )) }
 
