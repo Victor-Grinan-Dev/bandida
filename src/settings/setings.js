@@ -1,3 +1,8 @@
+/**
+ * type a: is a normal anchor
+ * type b: is route 
+ */
+
 export const APPLINKS = [
 
     {

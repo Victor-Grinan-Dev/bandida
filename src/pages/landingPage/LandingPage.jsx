@@ -14,6 +14,7 @@ import Studio from "../../components/studio/Studio";
 import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
+import { HashLink } from "react-router-hash-link";
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
@@ -25,8 +26,7 @@ const LandingPage = () => {
 
                 <div className='contact-bar__corner' id='left'>
                     <h1>Studio La Bandida&reg;</h1>
-                    <a href="#footer" style={{textDecoration:"none", color:"$bandida-golden-6"}}><p className="address"  style={{cursor:"pointer"}}>Porvoonkatu 14 00510 Helsinki.</p></a>
-
+                    <HashLink to={`${"#footer"}`} style={{textDecoration:"none", color:"$bandida-golden-6"}} className="address">Porvoonkatu 14 00510 Helsinki.</HashLink>
                 </div>
 
                 <Some />
