@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="legal">
-          <p>All rights &reg; Reserved {new Date().getFullYear()} La Bandida&reg;</p>
+          <p>All rights &reg; Reserved {new Date().getFullYear()} Inky11&reg;</p>
         </div>
     </section>
   )
