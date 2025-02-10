@@ -25,7 +25,7 @@ const LandingPage = () => {
             <div className="contact-bar">
 
                 <div className='contact-bar__corner' id='left'>
-                    <h1>Studio La Bandida&reg;</h1>
+                    <h1>Inky11&reg;</h1>
                     <HashLink to={`${"#footer"}`} style={{textDecoration:"none", color:"$bandida-golden-6"}} className="address">Porvoonkatu 14 00510 Helsinki.</HashLink>
                 </div>
 
@@ -42,7 +42,7 @@ const LandingPage = () => {
             <Hamburger />
 
             <div className="logo-wrapper" >
-                <PicLoader pic="logo_circle" xtraStyle={{ width: "80vw", maxWidth: "550px"}}/>
+                <PicLoader pic="mainLogo" xtraStyle={{ width: "80vw", maxWidth: "550px"}}/>
             </div>
 
             <Navegator />
