@@ -14,8 +14,7 @@ const Studio = () => {
         <div className="text-area">
           <p>Studio Inky 11 on vuonna 2024 perustettu tatuointeihin ja kestopigmentointeihin keskittynyt pieni studio Helsingin Alppilassa, aivan Linnanmäen kupeessa. Olipa ajatuksenasi pieni siro tatuointi tai isompi kokonaisuus mustaharmaana tai väreissä, toteutetaan nämä turvallisesti, huolella ja asiakkaan toiveita kuunnellen. Olet lämpimästi tervetullut juuri sellaisena kuin olet. </p> 
           <br />
-          <p>   Saapuminen Studiolle
-                Studio sijaitsee aivan Linnanmäen kupeessa Alppilassa. 
+          <p>Studio sijaitsee aivan Linnanmäen kupeessa Alppilassa. 
                 Raitiovaunut 3 ja 4 pysähtyy suoraan studion eteen. Pysäkki on ”Alppila”.
                 Sturenkadulta kulkee useita raitiovaunuja ja busseja ja siitä kävelee pari minuuttia studiolle.
                 Pasilasta matkaa on 2km ja bussi nro 23 tulee Pasilasta suoraan Sturenkadulle. 
