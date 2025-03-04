@@ -15,7 +15,7 @@ const AppLink = (props) => {
 
     return (
       <div className={`app-link ${active && "active"}`}>
-          <Link to={linkTo}> { caption } </Link>
+          <Link aria-label={`Go To ${caption}`} to={linkTo}> { caption } </Link>
       </div>
     )
 }
