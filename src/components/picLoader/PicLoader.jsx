@@ -154,7 +154,7 @@ export const blackGrey = [
   'pic023',
   'pic024',
   'pic025',
-  'pic026',
+  // 'pic026',
   'pic027',
   'pic028',
   'pic029',
