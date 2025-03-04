@@ -154,7 +154,7 @@ export const blackGrey = [
   'pic023',
   'pic024',
   'pic025',
-  // 'pic026',
+  'pic026',
   'pic027',
   'pic028',
   'pic029',
@@ -181,6 +181,49 @@ export const smalls = [
   'small008',
 ];
 
+// const PicLoader = (props) => {
+//     const {pic, xtraStyle, extraClass, idx} = props;
+//     const [isLoaded, setIsLoaded] = useState(false);
+//     const dispatch = useDispatch();
+//     const modalPic = useSelector(state=>state.app.picModalCurrentPic);
+//     const isPicModal = useSelector(state=>state.app.isPicModal);
+
+
+//     const handleImgPopUp = () => {
+//       dispatch(setPicModal(pic));
+//       dispatch(togglePicModal());
+//     }
+
+//   return (
+//     <>
+//       {!isLoaded && (
+//         <img
+//           className={extraClass}
+//           src={pictures[pic? pic: modalPic]}
+//           alt="picLoader object"
+//           key={idx}
+//           style={{...xtraStyle, filter: 'blur(10px)',transition: 'opacity 0.3s'}}
+//         />
+//       )}
+//       <img
+//         className={extraClass}
+//         src={pictures[pic? pic: modalPic]}
+//         alt="picLoader object"
+//         loading="lazy"
+//         onLoad={() => setIsLoaded(true)}
+//         style={{ ...xtraStyle,
+//           opacity: isLoaded ? 1 : 0,
+//           transition: 'opacity 0.3s',
+//         }}
+//         onClick={!isPicModal ? handleImgPopUp : null }
+//       />
+//     </>
+//   )
+// }
+
+
+
+// export default PicLoader;
 
 const PicLoader = (props) => {
 
