@@ -154,7 +154,7 @@ export const blackGrey = [
   'pic023',
   'pic024',
   'pic025',
-  'pic026',
+  // 'pic026',
   'pic027',
   'pic028',
   'pic029',
@@ -181,47 +181,44 @@ export const smalls = [
   'small008',
 ];
 
+
 const PicLoader = (props) => {
-    const {pic, xtraStyle, extraClass, idx} = props;
-    const [isLoaded, setIsLoaded] = useState(false);
-    const dispatch = useDispatch();
-    const modalPic = useSelector(state=>state.app.picModalCurrentPic);
-    const isPicModal = useSelector(state=>state.app.isPicModal);
 
+  const [imgsLoaded, setImgsLoaded] = useState(false)
 
-    const handleImgPopUp = () => {
-      dispatch(setPicModal(pic));
-      dispatch(togglePicModal());
+  useEffect(() => {
+    const loadImage = image => {
+      return new Promise((resolve, reject) => {
+        const loadImg = new Image()
+        loadImg.src = image.url
+        // wait 2 seconds to simulate loading time
+        loadImg.onload = () =>
+          setTimeout(() => {
+            resolve(image.url)
+          }, 2000)
+
+        loadImg.onerror = err => reject(err)
+      })
     }
+
+    Promise.all(IMAGES.map(image => loadImage(image)))
+      .then(() => setImgsLoaded(true))
+      .catch(err => console.log("Failed to load images", err))
+  }, [])
 
   return (
     <>
-      {!isLoaded && (
-        <img
-          className={extraClass}
-          src={pictures[pic? pic: modalPic]}
-          alt="picLoader object"
-          key={idx}
-          style={{...xtraStyle, filter: 'blur(10px)',transition: 'opacity 0.3s'}}
-        />
-      )}
-      <img
-        className={extraClass}
-        src={pictures[pic? pic: modalPic]}
-        alt="picLoader object"
-        loading="lazy"
-        onLoad={() => setIsLoaded(true)}
-        style={{ ...xtraStyle,
-          opacity: isLoaded ? 1 : 0,
-          transition: 'opacity 0.3s',
-        }}
-        onClick={!isPicModal ? handleImgPopUp : null }
-      />
+      <main className="images">
+        {imgsLoaded ? (
+          IMAGES.map(image => (
+            <img key={image.id} src={image.url} alt="Human" />
+          ))
+        ) : (
+          <h1>Loading images...</h1>
+        )}
+      </main>
     </>
   )
 }
-
-
-
 
 export default PicLoader;
