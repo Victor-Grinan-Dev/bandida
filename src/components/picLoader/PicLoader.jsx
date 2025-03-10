@@ -1,62 +1,61 @@
 import React, { useState } from 'react';
 import { setPicModal, togglePicModal } from '../../app/appSlice';
 
-import pic001 from "../../assets/images/Black&Grey/pic001.jpg";
-import pic002 from "../../assets/images/Black&Grey/pic002.jpg";
-import pic003 from "../../assets/images/Black&Grey/pic003.jpg";
-import pic004 from "../../assets/images/Black&Grey/pic004.jpg";
-import pic005 from "../../assets/images/Black&Grey/pic005.jpg";
-import pic006 from "../../assets/images/Black&Grey/pic006.jpg";
-import pic007 from "../../assets/images/Black&Grey/pic007.jpg";
-import pic008 from "../../assets/images/Black&Grey/pic008.jpg";
-import pic009 from "../../assets/images/Black&Grey/pic009.jpg";
-import pic010 from "../../assets/images/Black&Grey/pic010.jpg";
-import pic011 from "../../assets/images/Black&Grey/pic011.jpg";
-import pic012 from "../../assets/images/Black&Grey/pic012.jpg";
-import pic013 from "../../assets/images/Black&Grey/pic013.jpg";
-import pic014 from "../../assets/images/Black&Grey/pic014.jpg";
-import pic015 from "../../assets/images/Black&Grey/pic015.jpg";
-import pic016 from "../../assets/images/Black&Grey/pic016.jpg";
-import pic017 from "../../assets/images/Black&Grey/pic017.jpg";
-import pic018 from "../../assets/images/Black&Grey/pic018.jpg";
-import pic019 from "../../assets/images/Black&Grey/pic019.jpg";
-import pic020 from "../../assets/images/Black&Grey/pic020.jpg";
-import pic021 from "../../assets/images/Black&Grey/pic021.jpg";
-import pic022 from "../../assets/images/Black&Grey/pic022.jpg";
-import pic023 from "../../assets/images/Black&Grey/pic023.jpg";
-import pic024 from "../../assets/images/Black&Grey/pic024.jpg";
-import pic025 from "../../assets/images/Black&Grey/pic025.jpg";
-import pic026 from "../../assets/images/Black&Grey/pic026.jpg";
-import pic027 from "../../assets/images/Black&Grey/pic027.jpg";
-import pic028 from "../../assets/images/Black&Grey/pic028.jpg";
-import pic029 from "../../assets/images/Black&Grey/pic029.jpg";
-import pic030 from "../../assets/images/Black&Grey/pic030.JPG";
+import pic001 from "../../assets/images/Black&Grey/pic001.webp";
+import pic002 from "../../assets/images/Black&Grey/pic002.webp";
+import pic003 from "../../assets/images/Black&Grey/pic003.webp";
+import pic004 from "../../assets/images/Black&Grey/pic004.webp";
+import pic005 from "../../assets/images/Black&Grey/pic005.webp";
+import pic006 from "../../assets/images/Black&Grey/pic006.webp";
+import pic007 from "../../assets/images/Black&Grey/pic007.webp";
+import pic008 from "../../assets/images/Black&Grey/pic008.webp";
+import pic009 from "../../assets/images/Black&Grey/pic009.webp";
+import pic010 from "../../assets/images/Black&Grey/pic010.webp";
+import pic011 from "../../assets/images/Black&Grey/pic011.webp";
+import pic012 from "../../assets/images/Black&Grey/pic012.webp";
+import pic013 from "../../assets/images/Black&Grey/pic013.webp";
+import pic014 from "../../assets/images/Black&Grey/pic014.webp";
+import pic015 from "../../assets/images/Black&Grey/pic015.webp";
+import pic016 from "../../assets/images/Black&Grey/pic016.webp";
+import pic017 from "../../assets/images/Black&Grey/pic017.webp";
+import pic018 from "../../assets/images/Black&Grey/pic018.webp";
+import pic019 from "../../assets/images/Black&Grey/pic019.webp";
+import pic020 from "../../assets/images/Black&Grey/pic020.webp";
+import pic021 from "../../assets/images/Black&Grey/pic021.webp";
+import pic022 from "../../assets/images/Black&Grey/pic022.webp";
+import pic023 from "../../assets/images/Black&Grey/pic023.webp";
+import pic024 from "../../assets/images/Black&Grey/pic024.webp";
+import pic025 from "../../assets/images/Black&Grey/pic025.webp";
+import pic026 from "../../assets/images/Black&Grey/pic026.webp";
+import pic027 from "../../assets/images/Black&Grey/pic027.webp";
+import pic028 from "../../assets/images/Black&Grey/pic028.webp";
+import pic029 from "../../assets/images/Black&Grey/pic029.webp";
+import pic030 from "../../assets/images/Black&Grey/pic030.webp";
 
-import color01 from "../../assets/images/colors/pic013.jpg";
-import color03 from "../../assets/images/colors/pic015.jpg";
-import color04 from "../../assets/images/colors/pic017.jpg";
-import color05 from "../../assets/images/colors/pic027.jpg";
+import color01 from "../../assets/images/colors/pic013.webp";
+import color03 from "../../assets/images/colors/pic015.webp";
+import color04 from "../../assets/images/colors/pic017.webp";
+import color05 from "../../assets/images/colors/pic027.webp";
 
-import small001 from "../../assets/images/smalls/20220720_172939_Original.jpg";
-import small002 from "../../assets/images/smalls/20230426_135032_Original.jpg";
-import small003 from "../../assets/images/smalls/20230725_112826_Original.jpg";
-import small004 from "../../assets/images/smalls/20230804_173707_Original.jpg";
-import small005 from "../../assets/images/smalls/IMG_0101_Original.jpg";
-import small006 from "../../assets/images/smalls/IMG_5109.jpg";
-import small007 from "../../assets/images/smalls/IMG_5114.jpg";
-import small008 from "../../assets/images/smalls/IMG_5135.jpg";
-import small009 from "../../assets/images/smalls/matriushka.jpg";
+import small001 from "../../assets/images/smalls/20220720_172939_Original.webp";
+import small002 from "../../assets/images/smalls/20230426_135032_Original.webp";
+import small003 from "../../assets/images/smalls/20230725_112826_Original.webp";
+import small004 from "../../assets/images/smalls/20230804_173707_Original.webp";
+import small005 from "../../assets/images/smalls/IMG_0101_Original.webp";
+import small006 from "../../assets/images/smalls/IMG_5109.webp";
+import small007 from "../../assets/images/smalls/IMG_5114.webp";
+import small008 from "../../assets/images/smalls/IMG_5135.webp";
+import small009 from "../../assets/images/smalls/matriushka.webp";
 
-import pmu01 from "../../assets/images/pmu/huulet.JPG"
-import pmu02 from "../../assets/images/pmu/kulmat.JPG"
+import pmu01 from "../../assets/images/pmu/huulet.webp"
+import pmu02 from "../../assets/images/pmu/kulmat.webp"
 
 import mainLogo from "../../assets/images/logo/inky-logo.png";
 
-
-import kollaasi from "../../assets/images/kollaasi.jpg";
-import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.jpg";
-import paula_medium from "../../assets/images/profiles pics/paula_profile.jpg";
-import studio from "../../assets/images/studio/studio.jpg";
+import kollaasi from "../../assets/images/banner/kollaasi.jpg";
+import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.webp";
+import paula_medium from "../../assets/images/profiles pics/paula_profile.webp";
+import studio from "../../assets/images/studio/studio.webp";
 import { useDispatch, useSelector } from 'react-redux';
 
 
