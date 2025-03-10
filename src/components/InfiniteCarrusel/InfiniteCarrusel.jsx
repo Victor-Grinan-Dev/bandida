@@ -16,28 +16,28 @@ const InfiniteCarrusel = () => {
     <section className='portfolio homepage-section homepage-section-dark' id='porfolio'>
         <div className="carrusel wrapper to-left" >
             <div className='carrusel-item item1'>
-                <img src={test1} alt="tattoo" />
+                <img loading="lazy" src={test1} alt="tattoo" />
             </div>
             <div className='carrusel-item item2'>
-                <img src={test2} alt="tattoo" /> 
+                <img loading="lazy" src={test2} alt="tattoo" /> 
             </div>
             <div className='carrusel-item item3'>
-                <img src={test3} alt="tattoo" />
+                <img loading="lazy" src={test3} alt="tattoo" />
             </div>
             <div className='carrusel-item item4'>
-                <img src={test4} alt="tattoo" />
+                <img loading="lazy" src={test4} alt="tattoo" />
             </div>
             <div className='carrusel-item item5'>
-                <img src={test5} alt="tattoo" />
+                <img loading="lazy" src={test5} alt="tattoo" />
             </div>
             <div className='carrusel-item item6'>
-                <img src={test6} alt="tattoo" />
+                <img loading="lazy" src={test6} alt="tattoo" />
             </div>
             <div className='carrusel-item item7'>
-                <img src={test7} alt="tattoo" />
+                <img loading="lazy" src={test7} alt="tattoo" />
             </div>
             <div className='carrusel-item item8'>
-                <img src={test8} alt="tattoo" />
+                <img loading="lazy" src={test8} alt="tattoo" />
             </div>
         </div>
 

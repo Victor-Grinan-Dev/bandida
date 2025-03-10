@@ -202,6 +202,7 @@ const PicLoader = (props) => {
           alt="picLoader object"
           key={idx}
           style={{...xtraStyle, filter: 'blur(10px)',transition: 'opacity 0.3s'}}
+          loading="lazy"
         />
       )}
       <img
