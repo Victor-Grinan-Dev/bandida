@@ -42,7 +42,7 @@ const LandingPage = () => {
             <Hamburger />
 
             <div className="logo-wrapper" >
-                <PicLoader pic="mainLogo" xtraStyle={{ width: "80vw", maxWidth: "550px"}}/>
+                <PicLoader pic="mainLogo" xtraStyle={{ width: "50vw", maxWidth: "250px"}}/>
             </div>
 
             <Navegator />
