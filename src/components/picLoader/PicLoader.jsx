@@ -58,8 +58,6 @@ import paula_medium from "../../assets/images/profiles pics/paula_profile.webp";
 import studio from "../../assets/images/studio/studio.webp";
 import { useDispatch, useSelector } from 'react-redux';
 
-
-
 const pictures = {
     pic001:pic001,
     pic002:pic002,
@@ -186,7 +184,6 @@ const PicLoader = (props) => {
     const dispatch = useDispatch();
     const modalPic = useSelector(state=>state.app.picModalCurrentPic);
     const isPicModal = useSelector(state=>state.app.isPicModal);
-
 
     const handleImgPopUp = () => {
       dispatch(setPicModal(pic));

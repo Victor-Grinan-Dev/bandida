@@ -9,17 +9,35 @@ const Gallery = () => {
   const { pathname } = useLocation();
   const isPicModal = useSelector(state => state.app.isPicModal);
   const [collection, setCollection] = useState('bg');
+  const [visibleCount, setVisibleCount] = useState(5);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    setVisibleCount(5);
   }, [pathname, collection]);
 
-const handleTabs = (tabName) => {
-  setCollection(tabName);
-}
+  const handleTabs = (tabName) => {
+    setCollection(tabName);
+  };
+
+  const loadMore = () => {
+    setVisibleCount(prev => prev + 5);
+  };
+
+  const getPics = () => {
+    switch (collection) {
+      case 'bg': return blackGrey;
+      case 'color': return colors;
+      case 'pmu': return pmu;
+      case 'smalls': return smalls;
+      default: return [];
+    }
+  };
+
+  const currentPics = getPics();
+
   return (
     <section className='gallery'>
-
       <div className="link-warpper">
         <AppLink caption="Takaisin" linkTo="/" />
 
@@ -41,28 +59,23 @@ const handleTabs = (tabName) => {
         <div className="holder"></div>
       </div>
 
-      <div className="collage" >
-        {(collection === 'bg') && blackGrey.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
-        )) }
-        {(collection === 'color') && colors.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
-        )) }
-        {(collection === 'pmu' ) && pmu.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
-        )) }
-        {(collection === 'smalls' ) && smalls.map((pic, idx)=> (       
-            <div className="img-wrapper" id={pic} key={idx} ><PicLoader pic={pic} idx={idx}/></div>
-        )) }
-
+      <div className="collage">
+        {currentPics.slice(0, visibleCount).map((pic, idx)=> (       
+          <div className="img-wrapper" id={pic} key={idx}>
+            <PicLoader pic={pic} idx={idx}/>
+          </div>
+        ))}
       </div>
 
-      {isPicModal && <PicModal pic={'pic030'} />
+      {visibleCount < currentPics.length && (
+        <div style={{ textAlign: 'center', margin: '20px' }}>
+          <button onClick={loadMore}>Lataa lisää</button>
+        </div>
+      )}
 
-      }
-
+      {isPicModal && <PicModal pic={'pic030'} />}
     </section>
-  )
-}
+  );
+};
 
 export default Gallery;

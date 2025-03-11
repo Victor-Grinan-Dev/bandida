@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
 
-
 const Bookings = () => {
   const { pathname } = useLocation();
   const [copied, setCopied] = useState(null);
