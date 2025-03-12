@@ -22,7 +22,6 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-
         padding: 10px 2vw;
         position: fixed;
         top: 20px;
@@ -41,38 +40,34 @@
     }
 
     .collage {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         gap: 20px;
-        justify-content: center;
-
+        justify-items: center;
         padding-top: 7vh;
-
+    
         .img-wrapper {
-            width: 50vw;
             height: 85dvh;
             max-width: 400px;
-            min-width: 200px;
+            min-width: 150px;
             box-sizing: border-box;
             flex: 1 ; 
             margin-bottom: 16px;
-
-            img{
+    
+            img {
                 height: 100%;
                 width: auto;
                 object-fit: cover;
                 cursor: pointer;
             }
-
-            @media (max-width: 1200px) {
-                width: 40vw;
-                flex: 1 1 calc(40vw - 20px);
-            }
-
-            @media (max-width: 800px) {
-                width: 80vw;
-                flex: 1 1 calc(80vw - 20px);
-            }
+        }
+    
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        @media (max-width: 500px) {
+            grid-template-columns: 1fr;
         }
     }
 }

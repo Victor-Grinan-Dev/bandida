@@ -5,7 +5,7 @@ import pic030 from "../../assets/images/Black&Grey/pic001.webp";
 import pic029 from "../../assets/images/Black&Grey/pic002.webp";
 import pic028 from "../../assets/images/Black&Grey/pic003.webp";
 import pic027 from "../../assets/images/Black&Grey/pic004.webp";
-import pic026 from "../../assets/images/Black&Grey/pic005.webp";
+import pic026 from "../../assets/images/Black&Grey/pic016.webp";
 import pic025 from "../../assets/images/Black&Grey/pic006.webp";
 import pic024 from "../../assets/images/Black&Grey/pic007.webp";
 import pic023 from "../../assets/images/Black&Grey/pic008.webp";
@@ -16,9 +16,9 @@ import pic019 from "../../assets/images/Black&Grey/pic012.webp";
 import pic018 from "../../assets/images/Black&Grey/pic013.webp";
 import pic017 from "../../assets/images/Black&Grey/pic014.webp";
 import pic016 from "../../assets/images/Black&Grey/pic015.webp";
-import pic015 from "../../assets/images/Black&Grey/pic016.webp";
+import pic015 from "../../assets/images/Black&Grey/pic005.webp";
 import pic014 from "../../assets/images/Black&Grey/pic017.webp";
-import pic013 from "../../assets/images/Black&Grey/pic018.webp";
+import pic013 from "../../assets/images/Black&Grey/pic029.webp";
 import pic012 from "../../assets/images/Black&Grey/pic019.webp";
 import pic011 from "../../assets/images/Black&Grey/pic020.webp";
 import pic010 from "../../assets/images/Black&Grey/pic021.webp";
@@ -29,7 +29,7 @@ import pic006 from "../../assets/images/Black&Grey/pic025.webp";
 import pic005 from "../../assets/images/Black&Grey/pic026.webp";
 import pic004 from "../../assets/images/Black&Grey/pic027.webp";
 import pic003 from "../../assets/images/Black&Grey/pic028.webp";
-import pic002 from "../../assets/images/Black&Grey/pic029.webp";
+import pic002 from "../../assets/images/Black&Grey/pic018.webp";
 import pic001 from "../../assets/images/Black&Grey/pic030.webp";
 
 import color01 from "../../assets/images/colors/pic013.webp";
@@ -128,17 +128,18 @@ const pictures = {
 
 export const blackGrey = [
   // 'pic001',
-  'pic002',
+  'pic002', //nice fem face
   'pic003',
   'pic004',
   'pic005',
-  'pic006',
+  // 'pic006', //two arms tattoo
+  'pic007',
   'pic008',
-  'pic009',
+  // 'pic009', //paula's hand
   'pic010',
-  'pic011',
+  'pic011', //panther
   'pic012',
-  'pic013',
+  'pic013', 
   'pic014',
   'pic015',
   'pic016',
@@ -149,13 +150,13 @@ export const blackGrey = [
   'pic021',
   'pic022',
   'pic023',
-  'pic024',
-  'pic025',
-  'pic026',
-  'pic027',
-  'pic028',
-  'pic029',
-  'pic030',
+  // 'pic024', //crying lion
+  // 'pic025',
+  // 'pic026',
+  // 'pic027',
+  // 'pic028',
+  // 'pic029',
+  // 'pic030', // rocker
 ];
 export const colors = [
   'color01',
