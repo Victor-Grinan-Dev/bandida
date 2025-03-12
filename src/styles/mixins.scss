@@ -9,6 +9,8 @@
     margin-top: 10px;
     font-size: large;
     cursor: pointer;
+    background-color: transparent;
+    width: fit-content;
 
     &:hover {
         border: 2px solid $bandida-golden-7;
@@ -16,7 +18,7 @@
     }
 
     &.active{
-      a{
+      a, button{
         border: 2px solid $bandida-golden-7;
         color: #f6f6f3;
       }
