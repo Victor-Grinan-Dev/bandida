@@ -127,7 +127,7 @@ const pictures = {
 }
 
 export const blackGrey = [
-  'pic001',
+  // 'pic001',
   'pic002',
   'pic003',
   'pic004',
@@ -155,7 +155,7 @@ export const blackGrey = [
   'pic027',
   'pic028',
   'pic029',
-  // 'pic030',
+  'pic030',
 ];
 export const colors = [
   'color01',

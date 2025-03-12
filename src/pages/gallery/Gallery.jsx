@@ -11,7 +11,6 @@ const Gallery = () => {
   const isPicModal = useSelector(state => state.app.isPicModal);
   const [collection, setCollection] = useState('bg');
   const [visibleCount, setVisibleCount] = useState(5);
-  const [enableScroll, setEnableScroll] = useState(false)
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,22 +21,8 @@ const Gallery = () => {
     setCollection(tabName);
   };
 
-
   const loadMore = () => {
     setVisibleCount(prev => prev + 5);
-    // setTimeout(() => {
-    //   setEnableScroll(true);
-    //   window.scrollTo({ top: 0, behavior: 'smooth' });
-    // }, 50);
-    setTimeout(() => {
-      const element = document.querySelector('.collage-wrapper');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, 100);
-    setTimeout(() => {
-      setEnableScroll(false);
-    }, 50);
   };
 
   const getPics = () => {
@@ -75,22 +60,15 @@ const Gallery = () => {
         <div className="holder"></div>
       </div>
 
-      <div
-        className="collage-wrapper"
-        style={{
-          maxHeight: enableScroll ? 'auto' : 'auto',
-          overflowY: enableScroll ? 'hidden' : 'scroll',
-        }}>
-
+      <div className="collage-wrapper" >
         <div className="collage">
-          {[...currentPics].reverse().slice(0, visibleCount).map((pic, idx) => (
+          {[...currentPics].slice(0, visibleCount).map((pic, idx) => (
             <div className="img-wrapper" id={pic} key={idx}>
               <PicLoader pic={pic} idx={idx} />
             </div>
           ))}
       </div>
       </div>
-
 
       {visibleCount < currentPics.length && (
         <div style={{ textAlign: 'center', margin: '20px' }}>
