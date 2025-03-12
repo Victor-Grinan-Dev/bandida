@@ -108,15 +108,15 @@ const pictures = {
     pmu01:pmu01,
     pmu02:pmu02,
 
-    fav001:pic028,
-    fav002:pic018,
-    fav003:pic014,
-    fav004:pic011,
-    fav005:pic009,
-    fav006:pic027,
+    fav001:pic002,
+    fav002:pic003,
+    fav003:pic004,
+    fav004:pic005,
+    fav005:pic007,
+    fav006:pic008,
     fav007:pic010,
-    fav008:pic029,
-    fav009:pic001,
+    fav008:pic011,
+    fav009:pic012,
 
     mainLogo:mainLogo,
 
