@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
 import { setPicModal, togglePicModal } from '../../app/appSlice';
 
-import pic001 from "../../assets/images/Black&Grey/pic001.webp";
-import pic002 from "../../assets/images/Black&Grey/pic002.webp";
-import pic003 from "../../assets/images/Black&Grey/pic003.webp";
-import pic004 from "../../assets/images/Black&Grey/pic004.webp";
-import pic005 from "../../assets/images/Black&Grey/pic005.webp";
-import pic006 from "../../assets/images/Black&Grey/pic006.webp";
-import pic007 from "../../assets/images/Black&Grey/pic007.webp";
-import pic008 from "../../assets/images/Black&Grey/pic008.webp";
-import pic009 from "../../assets/images/Black&Grey/pic009.webp";
-import pic010 from "../../assets/images/Black&Grey/pic010.webp";
-import pic011 from "../../assets/images/Black&Grey/pic011.webp";
-import pic012 from "../../assets/images/Black&Grey/pic012.webp";
-import pic013 from "../../assets/images/Black&Grey/pic013.webp";
-import pic014 from "../../assets/images/Black&Grey/pic014.webp";
-import pic015 from "../../assets/images/Black&Grey/pic015.webp";
-import pic016 from "../../assets/images/Black&Grey/pic016.webp";
-import pic017 from "../../assets/images/Black&Grey/pic017.webp";
-import pic018 from "../../assets/images/Black&Grey/pic018.webp";
-import pic019 from "../../assets/images/Black&Grey/pic019.webp";
-import pic020 from "../../assets/images/Black&Grey/pic020.webp";
-import pic021 from "../../assets/images/Black&Grey/pic021.webp";
-import pic022 from "../../assets/images/Black&Grey/pic022.webp";
-import pic023 from "../../assets/images/Black&Grey/pic023.webp";
-import pic024 from "../../assets/images/Black&Grey/pic024.webp";
-import pic025 from "../../assets/images/Black&Grey/pic025.webp";
-import pic026 from "../../assets/images/Black&Grey/pic026.webp";
-import pic027 from "../../assets/images/Black&Grey/pic027.webp";
-import pic028 from "../../assets/images/Black&Grey/pic028.webp";
-import pic029 from "../../assets/images/Black&Grey/pic029.webp";
-import pic030 from "../../assets/images/Black&Grey/pic030.webp";
+import pic030 from "../../assets/images/Black&Grey/pic001.webp";
+import pic029 from "../../assets/images/Black&Grey/pic002.webp";
+import pic028 from "../../assets/images/Black&Grey/pic003.webp";
+import pic027 from "../../assets/images/Black&Grey/pic004.webp";
+import pic026 from "../../assets/images/Black&Grey/pic005.webp";
+import pic025 from "../../assets/images/Black&Grey/pic006.webp";
+import pic024 from "../../assets/images/Black&Grey/pic007.webp";
+import pic023 from "../../assets/images/Black&Grey/pic008.webp";
+import pic022 from "../../assets/images/Black&Grey/pic009.webp";
+import pic021 from "../../assets/images/Black&Grey/pic010.webp";
+import pic020 from "../../assets/images/Black&Grey/pic011.webp";
+import pic019 from "../../assets/images/Black&Grey/pic012.webp";
+import pic018 from "../../assets/images/Black&Grey/pic013.webp";
+import pic017 from "../../assets/images/Black&Grey/pic014.webp";
+import pic016 from "../../assets/images/Black&Grey/pic015.webp";
+import pic015 from "../../assets/images/Black&Grey/pic016.webp";
+import pic014 from "../../assets/images/Black&Grey/pic017.webp";
+import pic013 from "../../assets/images/Black&Grey/pic018.webp";
+import pic012 from "../../assets/images/Black&Grey/pic019.webp";
+import pic011 from "../../assets/images/Black&Grey/pic020.webp";
+import pic010 from "../../assets/images/Black&Grey/pic021.webp";
+import pic009 from "../../assets/images/Black&Grey/pic022.webp";
+import pic008 from "../../assets/images/Black&Grey/pic023.webp";
+import pic007 from "../../assets/images/Black&Grey/pic024.webp";
+import pic006 from "../../assets/images/Black&Grey/pic025.webp";
+import pic005 from "../../assets/images/Black&Grey/pic026.webp";
+import pic004 from "../../assets/images/Black&Grey/pic027.webp";
+import pic003 from "../../assets/images/Black&Grey/pic028.webp";
+import pic002 from "../../assets/images/Black&Grey/pic029.webp";
+import pic001 from "../../assets/images/Black&Grey/pic030.webp";
 
 import color01 from "../../assets/images/colors/pic013.webp";
 import color03 from "../../assets/images/colors/pic015.webp";
@@ -57,8 +57,6 @@ import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.w
 import paula_medium from "../../assets/images/profiles pics/paula_profile.webp";
 import studio from "../../assets/images/studio/studio.webp";
 import { useDispatch, useSelector } from 'react-redux';
-
-
 
 const pictures = {
     pic001:pic001,
@@ -129,7 +127,7 @@ const pictures = {
 }
 
 export const blackGrey = [
-  'pic001',
+  // 'pic001',
   'pic002',
   'pic003',
   'pic004',
@@ -157,7 +155,7 @@ export const blackGrey = [
   'pic027',
   'pic028',
   'pic029',
-  // 'pic030',
+  'pic030',
 ];
 export const colors = [
   'color01',
@@ -186,7 +184,6 @@ const PicLoader = (props) => {
     const dispatch = useDispatch();
     const modalPic = useSelector(state=>state.app.picModalCurrentPic);
     const isPicModal = useSelector(state=>state.app.isPicModal);
-
 
     const handleImgPopUp = () => {
       dispatch(setPicModal(pic));

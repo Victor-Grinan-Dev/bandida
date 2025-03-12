@@ -4,9 +4,8 @@ import { togglePicModal } from '../../app/appSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 const PicModal = () => {
-    const pic = useSelector(state => state.picModalCurrentPic);
-
     const dispatch = useDispatch();
+    const pic = useSelector(state => state.picModalCurrentPic);
 
     const handleClose = () => {
         dispatch(togglePicModal());
@@ -14,9 +13,9 @@ const PicModal = () => {
 
   return (
     <div className='picmodal'>
-        <div className="close" onClick={handleClose}>X</div>
         <div className="pic-wrapper">
-            <PicLoader pic={pic}/>
+          <div className="close" onClick={handleClose}>X</div>
+          <PicLoader pic={pic}/>
         </div>
     </div>
   )
