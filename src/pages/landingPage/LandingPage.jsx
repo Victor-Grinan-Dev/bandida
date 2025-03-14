@@ -1,6 +1,6 @@
 import React from "react";
 import PicLoader from '../../components/picLoader/PicLoader';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 
 /*redux*/
 import { useSelector } from "react-redux";
