@@ -60,6 +60,10 @@
                 object-fit: cover;
                 cursor: pointer;
             }
+        
+            @media (max-width: 393px) {
+                min-width: 85vw;
+            }
         }
     
         @media (max-width: 800px) {
