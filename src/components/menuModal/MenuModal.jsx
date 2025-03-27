@@ -24,6 +24,7 @@ const MenuModal = () => {
                         caption={link.caption} 
                         linkTo={link?.linksTo}
                         idLink={link.type === "a"}
+                        extraStyle={{fontSize:"xx-large"}}
                     />
                 </div>
             ))}
