@@ -200,7 +200,7 @@ const InfoPage = () => {
                         <ul>
                               <li><p>100e/h</p></li> 
                               <li><p>Walk- In kuvat alkaen 60e</p></li>
-                              <li><p>koko päivä 500-700e</p></li>
+                              <li><p>koko päivä 500-600e</p></li>
                               <li><p>Varausmaksu 50-100e</p></li>
                         </ul>
                         <br />
