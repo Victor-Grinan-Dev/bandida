@@ -25,8 +25,8 @@ const LandingPage = () => {
             <div className="contact-bar">
 
                 <div className='contact-bar__corner' id='left'>
-                    <h1>Inky11&reg;</h1>
-                    <HashLink to={`${"#footer"}`} style={{textDecoration:"none", color:"$bandida-golden-6"}} className="address">Porvoonkatu 14 00510 Helsinki.</HashLink>
+                    <h1 style={{fontSize:"30px"}}>Inky11&reg;</h1>
+                    <HashLink to={`${"#footer"}`} style={{textDecoration:"none", color:"$bandida-golden-6", fontSize:"19px"}} className="address">Porvoonkatu 14 00510 Helsinki.</HashLink>
                 </div>
 
                 <Some />
