@@ -2,7 +2,8 @@
     background-color: $bandidas-black-1;
     width: 100%;
     color: white;
-    padding-top: 80px;
+    padding-top: 100px;
+
 
     .pics-sample{
         display: flex;
@@ -75,5 +76,12 @@
             margin-bottom: 0;
             transform: translateY(00px);
         }
+    }
+
+    @media (max-width:665px) {
+        padding-top: 300px;
+        min-height: none;
+        max-height: none;
+        height: 130dvh;
     }
 }
