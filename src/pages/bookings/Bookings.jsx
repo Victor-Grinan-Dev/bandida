@@ -77,17 +77,17 @@ const Bookings = () => {
               </div>
             </div>
 
-            <div className="content-item" >
+            {/* <div className="content-item" >
               <div className='content-item__head'> 
                 <i className="fab fa-whatsapp some-icon"/>
                 <span>Whatsapp</span>
                 <p>+358 45 78392909</p>
               </div>
+
               <div className="copy-icon-wrapper">
                 <i className={`fa-regular fa-copy ${copied === "whatsapp" && "active"}`} onClick={()=>handleClicked("+358 45 78392909", "whatsapp")} />
               </div>
-
-            </div>
+            </div> */}
 
           </div>
 
