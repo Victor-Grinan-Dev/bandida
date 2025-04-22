@@ -178,8 +178,6 @@ const InfoPage = () => {
                       <div className="text-container">
                         <ul>
                             <li><p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p></li>
-                            <br />
-                            <li><p>Luethan info-osiosta ajanvaraus ohjeet.</p></li>
                             {/* <br />
                             <li><p>Kerro viestiin oma nimi ja paikkakunta.</p></li>
                             <br />
