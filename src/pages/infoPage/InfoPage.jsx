@@ -42,9 +42,9 @@ const InfoPage = () => {
                   <div className="link-wrapper" onClick={()=>handleTabs('hoito')}>
                     <AppLink caption="Hoito- ohjeet" active={tab==='hoito'}/>
                   </div>
-                  <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
+                  {/* <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
                     <AppLink caption="Saapuminen Studiolle" active={tab==='saapuminen'}/>
-                  </div>
+                  </div> */}
                   <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
                     <AppLink caption="Ajan varaus" active={tab==='varaus'}/>
                   </div>
@@ -177,13 +177,17 @@ const InfoPage = () => {
                   <div className="info-container">
                       <div className="text-container">
                         <ul>
+                            <li><p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p></li>
+                            <br />
+                            <li><p>Luethan info-osiosta ajanvaraus ohjeet.</p></li>
+                            {/* <br />
                             <li><p>Kerro viestiin oma nimi ja paikkakunta.</p></li>
                             <br />
                             <li><p>Kerro  tatuointi idean lisäksi mihin ja millä tyylillä kuvan haluaisit toteutettavan. Liitä muutamia referenssi kuva mukaan. En kuitenkaan kopioi suoraan toisten tekemiä tatuointeja. Logot ym. ovat asia erikseen</p></li>
                             <br />
                             <li><p>Jos alueella on muita tatuointeja tai haluat peittokuvaa, ota alueesta kuva ja kerro kumpi puoli esim kädestä on kyseessä.</p></li>
                             <br />
-                            <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li>
+                            <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li> */}
                           </ul>                    
                       </div>
                   </div>
