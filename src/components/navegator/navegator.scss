@@ -4,11 +4,12 @@
     justify-content: center;
     gap: 10px;
     font-size: xx-large;
-    height: 50px;
+    height: 55px;
     background-color: rgb(7, 7, 7);
     width: 100%;
     // top: 20vh;
     z-index: 1000;
+    padding: 2px;
 
 
     @media(max-width:800px){
