@@ -13,9 +13,8 @@ const Gallery = () => {
   const [visibleCount, setVisibleCount] = useState(5);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     setVisibleCount(5);
-  }, [pathname, collection]);
+  }, [pathname]);
 
   const handleTabs = (tabName) => {
     setCollection(tabName);
