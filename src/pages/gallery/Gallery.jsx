@@ -48,11 +48,11 @@ const Gallery = () => {
           <div className="tab-wrapper" onClick={()=>handleTabs('color')}>
             <AppLink caption="Värit" active={collection==='color'}/>
           </div>
-          <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
-            <AppLink caption="PMU" active={collection==='pmu'}/>
-          </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('smalls')}>
             <AppLink caption="Pienet" active={collection==='smalls'}/>
+          </div>
+          <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
+            <AppLink caption="PMU" active={collection==='pmu'}/>
           </div>
         </div>
 
