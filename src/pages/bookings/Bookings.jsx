@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom';
 import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
 
+import Some from '../../components/some/Some';
+
 const Bookings = () => {
   const { pathname } = useLocation();
   const [copied, setCopied] = useState(null);
@@ -26,9 +28,9 @@ const Bookings = () => {
   }
 
   return (
-    <div className='boobkings' style={{color:"white"}}>
+    <div className='bookings' style={{color:"white"}}>
 
-        <div className="boobkings__tabs-bar" >
+        <div className="bookings__tabs-bar" >
 
           <div className="link-wrapper">
               <AppLink caption="Takaisin" linkTo="/"/>
@@ -50,8 +52,12 @@ const Bookings = () => {
 
           <div className="content-wrapper__column-b">
 
-            <div className="content-item" >
+            {/* <div className="content-item" >
               <p>Työskentelemme varausjärjestelmän parissa, mutta toistaiseksi varaukset voi tehdä sähköpostitse, puhelimitse tai WhatsAppin kautta. Kiitos.</p>
+            </div> */}
+
+            <div className="content-item" >
+              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p>
             </div>
 
             <div className="content-item" >
@@ -64,8 +70,33 @@ const Bookings = () => {
                 <i className={`fa-regular fa-copy ${copied === "email" && "active"}`} onClick={()=>handleClicked("paulaannelica.tattoo@gmail.com", "email")} />
               </div>
             </div>
-            
+
             <div className="content-item" >
+              <div className='content-item__head'>              
+                <i className="fab fa-facebook some-icon"></i>
+                <a className="bookings-link" target='blank' href="https://www.facebook.com/profile.php?id=61550417768685&mibextid=LQQJ4d"><p>Paula Annelica Tattoo</p></a>
+              </div>
+
+              <div className="copy-icon-wrapper">
+                <i className={`fa-regular fa-copy ${copied === "fb" && "active"}`} onClick={()=>handleClicked("https://www.facebook.com/profile.php?id=61550417768685&mibextid=LQQJ4d", "fb")} />
+              </div>
+            </div>
+
+            <div className="content-item" >
+              <div className='content-item__head'>              
+                <i className="fab fa-instagram some-icon"></i>
+                <a className="bookings-link" target='blank' href="https://www.instagram.com/paulaannelica.tattoo"><p>paulaannelica.tattoo</p></a>
+              </div>
+
+              <div className="copy-icon-wrapper">
+                <i className={`fa-regular fa-copy ${copied === "ig" && "active"}`} onClick={()=>handleClicked("https://www.instagram.com/paulaannelica.tattoo", "ig")} />
+              </div>
+            </div>
+
+            
+
+            
+            {/* <div className="content-item" >
               <div className='content-item__head'>              
                 <i className="fas fa-phone some-icon"/>
                 <span>Puh.</span>
@@ -75,7 +106,7 @@ const Bookings = () => {
               <div className="copy-icon-wrapper">
                 <i className={`fa-regular fa-copy ${copied === "phone" && "active"}`} onClick={()=>handleClicked("+358 45 78392909", "phone")} />
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="content-item" >
               <div className='content-item__head'> 

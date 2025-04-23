@@ -45,9 +45,9 @@ const InfoPage = () => {
                   {/* <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
                     <AppLink caption="Saapuminen Studiolle" active={tab==='saapuminen'}/>
                   </div> */}
-                  <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
+                  {/* <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
                     <AppLink caption="Ajan varaus" active={tab==='varaus'}/>
-                  </div>
+                  </div> */}
                   <div className="link-wrapper" onClick={()=>handleTabs('hinnasto')}>
                     <AppLink caption="Hinnasto" active={tab==='hinnasto'}/>
                   </div>
