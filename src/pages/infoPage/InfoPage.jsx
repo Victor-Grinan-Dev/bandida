@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const InfoPage = () => {
-  const [tab, setTab] = useState('ennen')
+  const location = useLocation();          
+  const [tab, setTab] = useState(location.state?.toTab ?? 'ennen');
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -12,10 +13,10 @@ const InfoPage = () => {
 
   const fullTitle = {
     ennen:"Ennen tatuointia",
-    hoito:"Hoito- ohjeet",
+    hoito:"Hoito-ohjeet",
     rajoitukset:"Rajoitukset",
     saapuminen:"Saapuminen Studiolle",
-    varaus:"Ajan varaus",
+    varaus:"Ajanvaraus",
     hinnasto:"Hinnasto",
   }
 
@@ -40,13 +41,13 @@ const InfoPage = () => {
                     <AppLink caption="Ennen tatuointia" active={tab==='ennen'}/>
                   </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hoito')}>
-                    <AppLink caption="Hoito- ohjeet" active={tab==='hoito'}/>
+                    <AppLink caption="Hoito-ohjeet" active={tab==='hoito'}/>
                   </div>
                   {/* <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
                     <AppLink caption="Saapuminen Studiolle" active={tab==='saapuminen'}/>
                   </div> */}
                   <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
-                    <AppLink caption="Ajan varaus" active={tab==='varaus'}/>
+                    <AppLink caption="Ajanvaraus" active={tab==='varaus'}/>
                   </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hinnasto')}>
                     <AppLink caption="Hinnasto" active={tab==='hinnasto'}/>

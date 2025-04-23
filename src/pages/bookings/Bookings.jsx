@@ -41,7 +41,6 @@ const Bookings = () => {
 
         <div className="booking-text">
           <h4 style={{color:"white"}}>Ajanvaraus:</h4>
-          
         </div>
 
 
@@ -58,7 +57,7 @@ const Bookings = () => {
             </div> */}
 
             <div className="content-item" >
-              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta. Luethan <Link className='bookings-link-highlight' aria-label="info-osiosta" to="/info" >  info-osiosta </Link> ajanvaraus ohjeet</p>
+              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta. Luethan <Link className='bookings-link-highlight' aria-label="info-osiosta" to='/info' state={{ toTab: 'varaus' }} >  info-osiosta </Link> ajanvaraus ohjeet</p>
             </div>
 
             <div className="content-item" >
