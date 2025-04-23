@@ -45,9 +45,9 @@ const InfoPage = () => {
                   {/* <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
                     <AppLink caption="Saapuminen Studiolle" active={tab==='saapuminen'}/>
                   </div> */}
-                  {/* <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
+                  <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
                     <AppLink caption="Ajan varaus" active={tab==='varaus'}/>
-                  </div> */}
+                  </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hinnasto')}>
                     <AppLink caption="Hinnasto" active={tab==='hinnasto'}/>
                   </div>
@@ -105,7 +105,6 @@ const InfoPage = () => {
                 <div className="info-container">
                   <div className="text-container">
                     <ul>
-                        
                         <li><p>Tatuoinnin jälkeen iho suojataan kelmulla tai haavakalvolla. Kelmu otetaan pois 2-3 tunnin kuluttua ja kalvo poistetaan 3-4 päivän kuluttua.</p></li>
                         <br />
                         <li><p>Haavakalvo on hengittävä ja vedenkestävä joten sen kanssa voi käydä suihkussa huoletta. Poista kalvo 3-4 päivän päästä varovasti veden alla. Älä riuhtaise! Tämä saattaa aiheuttaa iholle vaurioita ja pahimmassa tapauksessa rikkoa ihoa. Pese varovasti ja taputtele iho kuivaksi talouspaperilla tai ilma kuivaten. Anna ihon hengittää noin 15 min jonka jälkeen rasvaa alue ohuesti.</p></li>
@@ -177,15 +176,14 @@ const InfoPage = () => {
                   <div className="info-container">
                       <div className="text-container">
                         <ul>
-                            <li><p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p></li>
-                            {/* <br />
+                            <br />
                             <li><p>Kerro viestiin oma nimi ja paikkakunta.</p></li>
                             <br />
-                            <li><p>Kerro  tatuointi idean lisäksi mihin ja millä tyylillä kuvan haluaisit toteutettavan. Liitä muutamia referenssi kuva mukaan. En kuitenkaan kopioi suoraan toisten tekemiä tatuointeja. Logot ym. ovat asia erikseen</p></li>
+                            <li><p>Kerro tatuointi idean lisäksi mihin ja millä tyylillä kuvan haluaisit toteutettavan. Liitä muutamia referenssi kuva mukaan. En kuitenkaan kopioi suoraan toisten tekemiä tatuointeja. Logot ym. ovat asia erikseen</p></li>
                             <br />
                             <li><p>Jos alueella on muita tatuointeja tai haluat peittokuvaa, ota alueesta kuva ja kerro kumpi puoli esim kädestä on kyseessä.</p></li>
                             <br />
-                            <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li> */}
+                            <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li>
                           </ul>                    
                       </div>
                   </div>

@@ -26,6 +26,14 @@
         text-decoration: none;
         color: white;
     }
+
+    .bookings-link-highlight{
+        text-decoration: none;
+        color: $bandida-golden-7;
+        &:hover{
+            color: $bandida-golden-6;
+        }
+    }
     .content-wrapper{
         width: 100%;
         flex: 1;

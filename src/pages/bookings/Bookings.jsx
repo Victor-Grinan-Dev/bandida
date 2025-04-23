@@ -4,6 +4,7 @@ import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
 
 import Some from '../../components/some/Some';
+import { Link } from 'react-router-dom';
 
 const Bookings = () => {
   const { pathname } = useLocation();
@@ -57,7 +58,7 @@ const Bookings = () => {
             </div> */}
 
             <div className="content-item" >
-              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p>
+              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta. Luethan <Link className='bookings-link-highlight' aria-label="info-osiosta" to="/info" >  info-osiosta </Link> ajanvaraus ohjeet</p>
             </div>
 
             <div className="content-item" >
