@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
-
-import Some from '../../components/some/Some';
 import { Link } from 'react-router-dom';
 
 const Bookings = () => {
