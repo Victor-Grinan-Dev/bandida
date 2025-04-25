@@ -4,7 +4,7 @@ export const appSlice = createSlice({
     name: "app",
     initialState: {
         isLoading: true,
-        currentLang: "en",
+        currentLang: "fi",
         isModal:false,
         isPicModal:false,
         picModalCurrentPic:null,
