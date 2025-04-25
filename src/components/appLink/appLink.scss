@@ -1,6 +1,7 @@
 .app-link{
     a {
         @include link-styles;
+        text-transform: capitalize;
     }
 }
 

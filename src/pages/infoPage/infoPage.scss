@@ -9,7 +9,9 @@
         width: fit-content;
         max-width: 46vw;
         min-height: 100dvh;
+
         padding-left: 20px;
+        padding-right: 3px;
 
         position: fixed;
         z-index: 2;
@@ -60,7 +62,7 @@
             padding-left: 170px;
         }
         @media (max-width:400px) {
-            padding-left: 140px;
+            padding-left: 150px;
         }
         
     }
