@@ -12,12 +12,12 @@ const InfoPage = () => {
   }, [pathname, tab]);
 
   const fullTitle = {
-    ennen:"Ennen tatuointia",
-    hoito:"Hoito-ohjeet",
-    rajoitukset:"Rajoitukset",
-    saapuminen:"Saapuminen Studiolle",
-    varaus:"Ajanvaraus",
-    hinnasto:"Hinnasto",
+    ennen:"ennen tatuointia",
+    hoito:"hoito-ohjeet",
+    rajoitukset:"rajoitukset",
+    saapuminen:"saapuminen studiolle",
+    varaus:"ajanvaraus",
+    hinnasto:"hinnasto",
   }
 
   const handleTabs = (tab) => {
@@ -34,23 +34,23 @@ const InfoPage = () => {
                 <div className="links-wrapper">
 
                   <div className="link-wrapper" id='back'>
-                    <AppLink caption="Takaisin" linkTo="/"/>
+                    <AppLink caption="takaisin" linkTo="/"/>
                   </div>
 
                   <div className="link-wrapper" onClick={()=>handleTabs('ennen')}>
-                    <AppLink caption="Ennen tatuointia" active={tab==='ennen'}/>
+                    <AppLink caption="ennen tatuointia" active={tab==='ennen'}/>
                   </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hoito')}>
-                    <AppLink caption="Hoito-ohjeet" active={tab==='hoito'}/>
+                    <AppLink caption="hoito-ohjeet" active={tab==='hoito'}/>
                   </div>
                   {/* <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
                     <AppLink caption="Saapuminen Studiolle" active={tab==='saapuminen'}/>
                   </div> */}
                   <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
-                    <AppLink caption="Ajanvaraus" active={tab==='varaus'}/>
+                    <AppLink caption="ajanvaraus" active={tab==='varaus'}/>
                   </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hinnasto')}>
-                    <AppLink caption="Hinnasto" active={tab==='hinnasto'}/>
+                    <AppLink caption="hinnasto" active={tab==='hinnasto'}/>
                   </div>
                 </div>
               </div>

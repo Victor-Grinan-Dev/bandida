@@ -32,7 +32,7 @@ const Bookings = () => {
         <div className="bookings__tabs-bar" >
 
           <div className="link-wrapper">
-              <AppLink caption="Takaisin" linkTo="/"/>
+              <AppLink caption="takaisin" linkTo="/"/>
           </div>
 
         </div>
