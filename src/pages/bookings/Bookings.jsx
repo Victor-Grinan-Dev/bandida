@@ -3,10 +3,13 @@ import { useLocation } from 'react-router-dom';
 import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
 import { Link } from 'react-router-dom';
+import { translate } from '../../translation/translator';
+import { useSelector } from 'react-redux';
 
 const Bookings = () => {
   const { pathname } = useLocation();
   const [copied, setCopied] = useState(null);
+  const currentLang = useSelector((state) => state.app.currentLang); 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -38,7 +41,7 @@ const Bookings = () => {
         </div>
 
         <div className="booking-text">
-          <h4 style={{color:"white"}}>Ajanvaraus:</h4>
+          <h4 style={{color:"white"}}>{translate("ajanvaraus", currentLang)}:</h4>
         </div>
 
 

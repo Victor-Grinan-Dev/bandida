@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PicLoader from '../picLoader/PicLoader';
+import { translate } from '../../translation/translator'
+import { useSelector } from 'react-redux';
 
 const AboutMe = () => {
+  const currentLang = useSelector((state) => state.app.currentLang);
+
   return (
     <section className='about-me' id='about-me'>
 
@@ -9,7 +13,7 @@ const AboutMe = () => {
         <div className="profile-pic">
           <PicLoader pic="paula_profile_1" />
         </div>
-        <div className='omistaja'><h3>Artist</h3></div>
+        <div className='omistaja'><h3>{translate("artist", currentLang)}</h3></div>
       </div>
       <div className="panel-2">
         <div className="text-area">
