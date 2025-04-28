@@ -32,9 +32,7 @@ const LandingPage = () => {
                 <Some />
 
                 <div className='contact-bar__corner' id='right'>
-                    <div>
-                        <i className="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
+
                 </div>
 
             </div>

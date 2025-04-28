@@ -6,27 +6,27 @@
 export const APPLINKS = [
 
     {
-        caption:"Info",
+        caption:"info",
         linksTo:"/info",
         type:"b",
     },
     {
-        caption:"Studio",
+        caption:"studio",
         linksTo:"#studio",
         type:"a",
     },
     {
-        caption:"Galleria",
+        caption:"galleria",
         linksTo:"/gallery",
         type:"b",
     },
     {
-        caption:"Artist",
+        caption:"artist",
         linksTo:"#about-me",
         type:"a",
     },
     {
-        caption:"Ajanvaraus",
+        caption:"ajanvaraus",
         linksTo:"booking",
         type:"b",
     },

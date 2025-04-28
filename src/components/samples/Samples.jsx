@@ -10,28 +10,28 @@ const Samples = () => {
             <div className="pic-container">
                 <PicLoader pic="fav001" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav002" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
                 <PicLoader pic="fav003" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav004" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav005" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
                 <PicLoader pic="fav006" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav007" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav008" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav009" extraClass="pic-item"/>
             </div>
         </div>

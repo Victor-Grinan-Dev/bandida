@@ -1,11 +1,15 @@
 import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
+import { translate } from '../../translation/translator';
+import { useSelector } from 'react-redux';
 
 const studioimg = {
     filter: "grayscale(100%) brightness(1.2) saturate(1.5) hue-rotate(45deg) sepia(0.1)",
 }
 
 const Studio = () => {
+  const currentLang = useSelector((state) => state.app.currentLang);
+  
   return (
     <section className='studio' id='studio'>
 
@@ -33,7 +37,7 @@ const Studio = () => {
           <PicLoader pic="studio" style={studioimg}/>
         </div>
 
-        <div className='omistaja'><h3>Studio</h3></div>
+        <div className='omistaja'><h3>{translate("studio", currentLang)}</h3></div>
 
       </div>
 

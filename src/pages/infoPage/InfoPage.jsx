@@ -1,23 +1,26 @@
 import AppLink from '../../components/appLink/AppLink';
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { translate } from '../../translation/translator';
+import { useSelector } from 'react-redux';
 
 const InfoPage = () => {
   const location = useLocation();          
   const [tab, setTab] = useState(location.state?.toTab ?? 'ennen');
   const { pathname } = useLocation();
+  const curentLang = useSelector((state) => state.app.currentLang);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname, tab]);
 
   const fullTitle = {
-    ennen:"Ennen tatuointia",
-    hoito:"Hoito-ohjeet",
-    rajoitukset:"Rajoitukset",
-    saapuminen:"Saapuminen Studiolle",
-    varaus:"Ajanvaraus",
-    hinnasto:"Hinnasto",
+    ennen:"ennen tatuointia",
+    hoito:"hoito-ohjeet",
+    rajoitukset:"rajoitukset",
+    saapuminen:"saapuminen studiolle",
+    varaus:"ajanvaraus",
+    hinnasto:"hinnasto",
   }
 
   const handleTabs = (tab) => {
@@ -34,23 +37,23 @@ const InfoPage = () => {
                 <div className="links-wrapper">
 
                   <div className="link-wrapper" id='back'>
-                    <AppLink caption="Takaisin" linkTo="/"/>
+                    <AppLink caption="takaisin" linkTo="/"/>
                   </div>
 
                   <div className="link-wrapper" onClick={()=>handleTabs('ennen')}>
-                    <AppLink caption="Ennen tatuointia" active={tab==='ennen'}/>
+                    <AppLink caption="ennen tatuointia" active={tab==='ennen'}/>
                   </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hoito')}>
-                    <AppLink caption="Hoito-ohjeet" active={tab==='hoito'}/>
+                    <AppLink caption="hoito-ohjeet" active={tab==='hoito'}/>
                   </div>
                   {/* <div className="link-wrapper" onClick={()=>handleTabs('saapuminen')}>
                     <AppLink caption="Saapuminen Studiolle" active={tab==='saapuminen'}/>
                   </div> */}
                   <div className="link-wrapper" onClick={()=>handleTabs('varaus')}>
-                    <AppLink caption="Ajanvaraus" active={tab==='varaus'}/>
+                    <AppLink caption="ajanvaraus" active={tab==='varaus'}/>
                   </div>
                   <div className="link-wrapper" onClick={()=>handleTabs('hinnasto')}>
-                    <AppLink caption="Hinnasto" active={tab==='hinnasto'}/>
+                    <AppLink caption="hinnasto" active={tab==='hinnasto'}/>
                   </div>
                 </div>
               </div>
@@ -58,7 +61,7 @@ const InfoPage = () => {
             </div>
 
             <div className="info-wrapper">
-              <h4>{fullTitle[tab]}</h4>
+              <h4>{translate(fullTitle[tab], curentLang)}</h4>
               <br />
               {tab === 'ennen' &&
                 <div className="info-container">

@@ -45,11 +45,15 @@
         }
 
         @media (max-width:700px) {
-            height: 30dvh;
+            // height: 30dvh;
             flex-wrap: wrap;
             
             .pic-container{
-                width: 25%;
+                width: 30%;
+
+                &.secundary{
+                    display: none;
+                }
             }
         }
     }

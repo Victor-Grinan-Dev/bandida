@@ -11,6 +11,7 @@ const Gallery = () => {
   const isPicModal = useSelector(state => state.app.isPicModal);
   const [collection, setCollection] = useState('bg');
   const [visibleCount, setVisibleCount] = useState(5);
+  const currentLang = useSelector((state) => state.app.currentLang);
 
   useEffect(() => {
     setVisibleCount(5);
@@ -34,25 +35,29 @@ const Gallery = () => {
     }
   };
 
+  const eSExtraStyle = {
+    padding: "5px 10px",
+
+  }
   const currentPics = getPics();
 
   return (
     <section className='gallery'>
       <div className="link-warpper">
-        <AppLink caption="Takaisin" linkTo="/" />
+        <AppLink caption="takaisin" linkTo="/"  extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
 
         <div className='gallery-tabs'>
           <div className="tab-wrapper" onClick={()=>handleTabs('bg')}>
-            <AppLink caption="Black & Grey" active={collection==='bg'}/>
+            <AppLink caption="Black & Grey" active={collection==='bg'} extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('color')}>
-            <AppLink caption="Värit" active={collection==='color'}/>
+            <AppLink caption="värit" active={collection==='color'} extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('smalls')}>
-            <AppLink caption="Pienet" active={collection==='smalls'}/>
+            <AppLink caption="pienet" active={collection==='smalls'} extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
           </div>
           <div className="tab-wrapper" onClick={()=>handleTabs('pmu')}>
-            <AppLink caption="PMU" active={collection==='pmu'}/>
+            <AppLink caption="PMU" active={collection==='pmu'} extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
           </div>
         </div>
 
