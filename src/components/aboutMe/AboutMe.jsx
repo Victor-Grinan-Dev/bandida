@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
 import { translate } from '../../translation/translator'
 import { useSelector } from 'react-redux';
