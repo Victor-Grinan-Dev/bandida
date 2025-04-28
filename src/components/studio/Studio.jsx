@@ -34,7 +34,7 @@ const Studio = () => {
       <div className="panel-2">
 
         <div className="profile-pic">
-          <PicLoader pic="studio" style={studioimg}/>
+          <PicLoader pic="studio" style={studioimg} seoAlt={"Inkky11 tattoo studio Helsinki"}/>
         </div>
 
         <div className='omistaja'><h3>{translate("studio", currentLang)}</h3></div>

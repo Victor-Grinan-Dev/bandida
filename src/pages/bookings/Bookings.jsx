@@ -48,7 +48,7 @@ const Bookings = () => {
         <div className="content-wrapper">
 
           <div className="content-wrapper__column-a">
-            <PicLoader pic="paula_medium" style={{objectFit:"cover"}} />
+            <PicLoader pic="paula_medium" style={{objectFit:"cover"}} seoAlt={"Inkky11 tattoo artist Paula Annelica"} />
           </div>
 
           <div className="content-wrapper__column-b">

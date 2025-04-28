@@ -180,7 +180,7 @@ export const smalls = [
 ];
 
 const PicLoader = (props) => {
-    const {pic, xtraStyle, extraClass, idx} = props;
+    const {pic, xtraStyle, extraClass, idx, seoAlt} = props;
     const [isLoaded, setIsLoaded] = useState(false);
     const dispatch = useDispatch();
     const modalPic = useSelector(state=>state.app.picModalCurrentPic);
@@ -197,7 +197,7 @@ const PicLoader = (props) => {
         <img
           className={extraClass}
           src={pictures[pic? pic: modalPic]}
-          alt="picLoader object"
+          alt={seoAlt || "picLoader object"}
           key={idx}
           style={{...xtraStyle, filter: 'blur(10px)',transition: 'opacity 0.3s'}}
           loading="lazy"
@@ -206,7 +206,7 @@ const PicLoader = (props) => {
       <img
         className={extraClass}
         src={pictures[pic? pic: modalPic]}
-        alt="picLoader object"
+        alt={seoAlt || "picLoader object"}
         loading="lazy"
         onLoad={() => setIsLoaded(true)}
         style={{ ...xtraStyle,
