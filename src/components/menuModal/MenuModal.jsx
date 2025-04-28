@@ -35,7 +35,7 @@ const MenuModal = () => {
             ))}
                 <div className="link-wraper">
                     <AppLabel
-                        caption={"Kieli:"} 
+                        caption={"Muu Kieli:"} 
                         extraStyle={{fontSize:"xx-large"}}
                     />
 

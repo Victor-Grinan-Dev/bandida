@@ -37,9 +37,13 @@
         "en":"Load more",
         "es":"Cargar más"
     },
-    "Kieli:": {
-        "en":"Language:",
-        "es":"Lenguaje:"
+    "muu:": {
+        "en":"Other:",
+        "es":"Otro:"
+    },
+    "Muu Kieli:": {
+        "en":"Other Language:",
+        "es":"Otro Lenguaje:"
     },
     "Suomi": {
         "en":"English",
