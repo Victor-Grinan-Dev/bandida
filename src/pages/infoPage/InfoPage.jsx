@@ -1,11 +1,14 @@
 import AppLink from '../../components/appLink/AppLink';
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { translate } from '../../translation/translator';
+import { useSelector } from 'react-redux';
 
 const InfoPage = () => {
   const location = useLocation();          
   const [tab, setTab] = useState(location.state?.toTab ?? 'ennen');
   const { pathname } = useLocation();
+  const curentLang = useSelector((state) => state.app.currentLang);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -58,7 +61,7 @@ const InfoPage = () => {
             </div>
 
             <div className="info-wrapper">
-              <h4>{fullTitle[tab]}</h4>
+              <h4>{translate(fullTitle[tab], curentLang)}</h4>
               <br />
               {tab === 'ennen' &&
                 <div className="info-container">
