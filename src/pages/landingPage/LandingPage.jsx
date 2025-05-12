@@ -1,6 +1,5 @@
 import React from "react";
 import PicLoader from '../../components/picLoader/PicLoader';
-// import "@fortawesome/fontawesome-free/css/all.min.css";
 
 /*redux*/
 import { useSelector } from "react-redux";
@@ -15,6 +14,20 @@ import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
 import { HashLink } from "react-router-hash-link";
+// import AppLabel from "../../components/appLabel/AppLabel";
+
+// const keywords = {
+//         display: "flex",
+//         alignItems: "center",
+//         justifyContent: "center",
+//         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important",
+    
+//         fontSize: "25px",
+//         fontWeight: "200",
+//         color: "$bandida-golden-6",
+    
+
+// }
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
@@ -41,8 +54,30 @@ const LandingPage = () => {
 
             <div className="logo-wrapper" >
                 <PicLoader pic="mainLogo" xtraStyle={{ width: "50vw", maxWidth: "250px"}}/>
-            </div>
 
+                {/* <div className="keywords">
+                    <h1>
+                        <AppLabel extraStyle={keywords} 
+                        caption="tatuoinnit"
+                        />
+                    </h1>
+
+                    <AppLabel extraStyle={keywords} caption={"&"} />
+
+                    <h1>
+                        <AppLabel extraStyle={keywords} 
+                        caption="kestopigmentointi"
+                        />
+                    </h1>
+                    <div className="pmu" style={{display:"flex", alignItems:"center", justifyContent:"center", gap:"0"}}>
+                        <AppLabel extraStyle={{...keywords, padding:"5px 0"}} caption={"("} />
+                        <h1><AppLabel extraStyle={{...keywords, padding:"5px 0"}} caption={"PMU"} /></h1>
+                        <AppLabel extraStyle={{...keywords, padding:"5px 0"}} caption={")"} />
+                    </div>
+                </div> */}
+
+            </div>
+            
             <Navegator />
         </section>
 

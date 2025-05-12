@@ -3,6 +3,16 @@
         "en":"",
         "es":""
     },
+    "tatuoinnit": {
+        "en":"Tattoos ",
+        "es":"Tatuajes"
+    },
+
+    
+    "kestopigmentointi": {
+        "en":"Permanent makeup",
+        "es":"Maquillaje permanente"
+    },
     "värit": {
         "en":"colors",
         "es":"colores"

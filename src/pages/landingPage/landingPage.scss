@@ -31,6 +31,20 @@
     }
 }
 
+.keywords{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+    // gap: 5px;
+    // margin-top: 10px;
+    font-size: 19px;
+    font-weight: 100;
+    color: $bandida-golden-6;
+
+}
+
 .contact-bar{
     display: flex;
     align-items: flex-start;

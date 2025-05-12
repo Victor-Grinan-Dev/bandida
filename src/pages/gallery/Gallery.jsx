@@ -68,7 +68,7 @@ const Gallery = () => {
         <div className="collage">
           {[...currentPics].slice(0, visibleCount).map((pic, idx) => (
             <div className="img-wrapper" id={pic} key={idx}>
-              <PicLoader pic={pic} idx={idx} />
+              <PicLoader pic={pic} idx={idx} seoAlt={collection==="bg" ? "Tattoo design by Inkky11 – custom black and grey" : collection==="pmu" ? "Permanent makeup tattoo by Inkky11": "Detailed tattoo by Inkky11"}/>
             </div>
           ))}
       </div>

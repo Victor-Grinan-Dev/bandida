@@ -11,7 +11,7 @@ const AboutMe = () => {
 
       <div className="panel-1">
         <div className="profile-pic">
-          <PicLoader pic="paula_profile_1" />
+          <PicLoader pic="paula_profile_1" seoAlt={"Portrait of Inkky11 tattoo artist Paula Annelica"} picModalOn={false}/>
         </div>
         <div className='omistaja'><h3>{translate("artist", currentLang)}</h3></div>
       </div>
