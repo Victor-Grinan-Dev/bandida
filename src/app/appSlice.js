@@ -22,6 +22,9 @@ export const appSlice = createSlice({
         togglePicModal(state){
             state.isPicModal = !state.isPicModal;
         },
+        setIsPicModal(state, action){
+            state.isPicModal = action.payload;
+        },
         setPicModal(state, action){
             state.picModalCurrentPic = action.payload;
         },
@@ -33,6 +36,7 @@ export const {
     setCurrentLang,
     toggleIsModal,
     togglePicModal,
+    setIsPicModal,
     setPicModal,
 } = appSlice.actions;
 

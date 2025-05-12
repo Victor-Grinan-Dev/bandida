@@ -180,7 +180,7 @@ export const smalls = [
 ];
 
 const PicLoader = (props) => {
-    const {pic, xtraStyle, extraClass, idx, seoAlt} = props;
+    const {pic, xtraStyle, extraClass, idx, seoAlt, picModalOn=true} = props;
     const [isLoaded, setIsLoaded] = useState(false);
     const dispatch = useDispatch();
     const modalPic = useSelector(state=>state.app.picModalCurrentPic);
@@ -213,7 +213,7 @@ const PicLoader = (props) => {
           opacity: isLoaded ? 1 : 0,
           transition: 'opacity 0.3s',
         }}
-        onClick={!isPicModal ? handleImgPopUp : null }
+        onClick={picModalOn ? !isPicModal ? handleImgPopUp : null : null}
       />
     </>
   )
