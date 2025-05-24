@@ -1,4 +1,3 @@
-import React from 'react';
 import Some from '../some/Some';
 
 const mapStyle = {

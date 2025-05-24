@@ -1,4 +1,3 @@
-import React from 'react';
 import PicLoader from '../picLoader/PicLoader';
 import { togglePicModal } from '../../app/appSlice';
 import { useDispatch, useSelector } from 'react-redux';

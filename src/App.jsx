@@ -29,14 +29,14 @@ function App() {
 
             <Route index element={<LandingPage />} />
             <Route path="gallery" element={<Gallery />} />
-            <Route path="info" element={<InfoPage />} />
+            {/* <Route path="info" element={<InfoPage />} /> */}
             <Route path="booking" element={<Bookings />} />
 
             <Route path="ajanvaraus" element={<Ajanvaraus />} />
             <Route path="ennen-tatuointia" element={<EnnenTatuointia />} />
             <Route path="hinnasto" element={<Hinnasto />} />
             <Route path="hoito-ohjeet" element={<HoitoOhjeet />} />
-            
+
             <Route path="studio" element={<StudioPage />} />
             <Route path="artist" element={<Artist />} />
 

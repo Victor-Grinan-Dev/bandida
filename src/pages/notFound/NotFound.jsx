@@ -1,4 +1,3 @@
-import React from 'react';
 import AppLink from '../../components/appLink/AppLink';
 
 const NotFound = () => {
@@ -8,7 +7,7 @@ const NotFound = () => {
         <AppLink linkTo="/" caption="Takaisin" />
       </div>
       <div className="content">
-        <p>Oh no... you just broke the Internet!!!</p>
+        <p>Oh no, you just broke the Internet!!!</p>
       </div>
     </div>
   )

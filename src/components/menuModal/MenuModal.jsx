@@ -1,4 +1,3 @@
-import React from 'react';
 import AppLink from '../appLink/AppLink';
 import { APPLINKS } from '../../settings/setings';
 import { useDispatch, useSelector } from 'react-redux';

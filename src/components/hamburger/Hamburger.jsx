@@ -1,4 +1,3 @@
-import React from 'react';
 import { toggleIsModal } from '../../app/appSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
