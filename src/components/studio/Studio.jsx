@@ -27,6 +27,15 @@ const Studio = () => {
             Pasilasta matkaa on 2km ja bussi nro 23 tulee Pasilasta suoraan Sturenkadulle. 
             Autolle pysäköintipaikkoja on paljon kadun varsilla ja on ilmaista la-su, muina aikoina maksullista. Linnanmäen parkkialue on hiukan kalliimpi kuin kadun varret. 
           </p>
+
+          {/*
+          <p>Pieni, mutta persoonallinen studio, jossa taide kohtaa ammattitaidon.</p> 
+          <p>Studiomme sijaitsee Porvoonkatu 14:ssä, Helsingissä, aivan Linnanmäen naapurissa. Se on suunniteltu tarjoamaan rauhallinen, rento ja turvallinen ympäristö niin tatuoinneille kuin kestopigmentoinneillekin.</p> 
+          <p>Panostamme puhtauteen, laatuun ja asiakaskokemukseen – jokainen asiakas kohdataan yksilöllisesti ja suurella huolella. Käytössämme ovat korkealuokkaiset välineet ja tuotteet, ja hygienia on meille ensiarvoisen tärkeää. Tavoitteenamme on kestävä lopputulos, joka on juuri sinun toiveidesi mukainen.</p> 
+          <p>Olitpa ensikertalainen tai kokenut tatuointien tai pigmentointien ystävä, olet lämpimästi tervetullut.</p> 
+          <p>Varaa aika tai tule paikan päälle piipahtamaan – tehdään yhdessä jotain upeaa.</p> 
+          <p>Täällä tehdään kauneutta ja taidetta tunteella ja taidolla!</p>
+          */}
           
         </div>
       </div>
