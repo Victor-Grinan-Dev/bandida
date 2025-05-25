@@ -1,4 +1,5 @@
 .hamburger {
+    display: none;
     transform: translate(-50%, -50%);
     position: fixed;
     top: 31px;
@@ -39,6 +40,7 @@
 
     @media (max-width: 665px){
       right: -2%;
+      display: block;
     }
 
   }
