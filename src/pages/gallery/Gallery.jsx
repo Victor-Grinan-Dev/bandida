@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import AppLink from '../../components/appLink/AppLink';
 import { useLocation } from 'react-router-dom';
 import PicLoader, { blackGrey, colors, pmu, smalls } from '../../components/picLoader/PicLoader';
@@ -44,7 +44,7 @@ const Gallery = () => {
   return (
     <section className='gallery'>
       <div className="link-warpper">
-        <AppLink caption="takaisin" linkTo="/"  extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
+        <AppLink caption="kotiin" linkTo="/"  extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
 
         <div className='gallery-tabs'>
           <div className="tab-wrapper" onClick={()=>handleTabs('bg')}>

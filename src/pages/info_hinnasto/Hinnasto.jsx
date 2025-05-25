@@ -1,8 +1,8 @@
-import React from 'react'
-
+import InfoPage from "../infoPage/InfoPage"
 const Hinnasto = () => {
   return (
     <div>
+      <InfoPage >
       <div className="info-container">
           <div className="text-container">
               <p className="subject">
@@ -28,6 +28,7 @@ const Hinnasto = () => {
               </ul>
           </div>
         </div>
+      </InfoPage>
     </div>
   )
 }

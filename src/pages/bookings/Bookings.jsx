@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
@@ -35,7 +35,7 @@ const Bookings = () => {
         <div className="bookings__tabs-bar" >
 
           <div className="link-wrapper">
-              <AppLink caption="takaisin" linkTo="/"/>
+              <AppLink caption="ko" linkTo="/"/>
           </div>
 
         </div>

@@ -1,7 +1,8 @@
-
+import InfoPage from "../infoPage/InfoPage"
 const EnnenTatuointia = () => {
   return (
     <div>
+      <InfoPage >
       <div className="" style={{ color: 'white' }}>
         <ul>
             <li><p>Ihoa on suositeltavaa rasvata vähintään viikon ajan ennen tatuointia.</p></li>
@@ -37,6 +38,7 @@ const EnnenTatuointia = () => {
             <li><p>Tulethan tatuoitavaksi vain terveenä.</p></li>
         </ul>
       </div>
+      </InfoPage>
     </div>
   )
 }

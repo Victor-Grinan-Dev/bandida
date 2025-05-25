@@ -4,10 +4,6 @@ import InfoPage from '../infoPage/InfoPage';
 const Ajanvaraus = () => {
   return (
     <div>
-      <AppLink caption="takaisin" linkTo="/"  
-      //extraStyle={currentLang === "es" ? eSExtraStyle : null}
-      />
-
       <InfoPage>
       <div className="info-container">
            <div className="text-container">

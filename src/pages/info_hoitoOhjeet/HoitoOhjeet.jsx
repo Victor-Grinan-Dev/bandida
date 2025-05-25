@@ -1,6 +1,8 @@
+import InfoPage from "../infoPage/InfoPage"
 const HoitoOhjeet = () => {
   return (
     <div className="hoito-ohjeet" style={{ color: 'white' }}>
+        <InfoPage>
         <div className="text-container">
             <ul>
               <li><p>Tatuoinnin jälkeen iho suojataan kelmulla tai haavakalvolla. Kelmu otetaan pois 2-3 tunnin kuluttua ja kalvo poistetaan 3-4 päivän kuluttua.</p></li>
@@ -49,6 +51,7 @@ const HoitoOhjeet = () => {
             <li><p>Aurinko ja solarium 4 viikkoa. Jos joudut olemaan auringossa, suojaa tatuointi vaatteilla ja tatuoinnin parannuttuakin käytä suojakerroin 50. Tatuoitu iho palaa herkästi.</p></li>
           </ul>
         </div>
+        </InfoPage>
     </div>
   )
 }

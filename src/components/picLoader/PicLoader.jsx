@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { setPicModal, togglePicModal } from '../../app/appSlice';
 
 import pic030 from "../../assets/images/Black&Grey/pic001.webp";
