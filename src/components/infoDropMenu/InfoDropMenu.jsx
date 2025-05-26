@@ -12,13 +12,13 @@ const InfoDropMenu = (props) => {
     }
 
     useEffect(() => {
-        const handleScroll = () => {
-            if (linkRef.current) {
-                const rect = linkRef.current.getBoundingClientRect();
-                const viewportHeight = window.innerHeight;
-                setIsAtTop(rect.top <= 0 || rect.bottom + 150 > viewportHeight); // 150 = dropdown height
-            }
-        };
+    const handleScroll = () => {
+        if (linkRef.current) {
+            const rect = linkRef.current.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            setIsAtTop(rect.top <= 0 || rect.bottom + 150 > viewportHeight); // 150 = dropdown height
+        }
+    };
 
         window.addEventListener("scroll", handleScroll);
  
@@ -32,21 +32,25 @@ const InfoDropMenu = (props) => {
                 ref={linkRef}
                 className={`app-link ${active && "active"} ${isAtTop ? "at-top" : ""}`}
             >
-                info
+                    info    
             </span>
             {isOpen && (
                 <div
-                        className="info-drop-menu"
-                        style={{
-                            position: "absolute",
-                            zIndex: 3000,
-                            top: isAtTop ? "auto" : "100%",
-                            bottom: isAtTop ? "100%" : "auto"
-                        }}
-                    >                    
-                    <AppLink caption="Item 1" />
-                    <AppLink caption="Item 2" />
-                    <AppLink caption="Item 3" />
+                    className="info-drop-menu"
+                    style={{
+                        position: "absolute",
+                        zIndex: 2000,
+                        top: isAtTop ? "auto" : "100%",
+                        bottom: isAtTop ? "100%" : "auto",
+                        whiteSpace: "nowrap",
+                        backgroundColor: "black",
+                        padding: "2px",
+                    }}
+                >                    
+                    <AppLink caption="ajanvaraus" linkTo="/info-ajanvaraus" />
+                    <AppLink caption="ennen-tatuointia" linkTo="/ennen-tatuointia" />
+                    <AppLink caption="tatuoinnin-hinta" linkTo="/tatuoinnin-hinta" />
+                    <AppLink caption="tatuoinnin-hoito" linkTo="/tatuoinnin-hoito" />
                 </div>
             )}
         </AppLink>
