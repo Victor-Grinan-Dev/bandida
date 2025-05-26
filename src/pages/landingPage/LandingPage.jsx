@@ -38,7 +38,7 @@ const LandingPage = () => {
             <div className="contact-bar">
 
                 <div className='contact-bar__corner' id='left'>
-                    <h1 style={{fontSize:"30px"}}>Inky11&reg;</h1>
+                    <h1 style={{fontSize:"30px"}}><span>Inky</span><span>11&reg;</span></h1>
                     <HashLink to={`${"#footer"}`} style={{textDecoration:"none", color:"$bandida-golden-6", fontSize:"19px"}} className="address">Porvoonkatu 14 00510 Helsinki.</HashLink>
                 </div>
 
@@ -80,7 +80,6 @@ const LandingPage = () => {
             
             <Navegator />
         </section>
-
         <Samples />
         <AboutMe />
         <Studio />
