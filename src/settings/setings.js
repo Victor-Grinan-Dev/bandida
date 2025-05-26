@@ -17,7 +17,7 @@ export const APPLINKS = [
     },
     {
         caption:"galleria",
-        linksTo:"/gallery",
+        linksTo:"/galleria",
         type:"b",
     },
     {
@@ -27,7 +27,7 @@ export const APPLINKS = [
     },
     {
         caption:"ajanvaraus",
-        linksTo:"booking",
+        linksTo:"ajanvaraus",
         type:"b",
     },
 ];
