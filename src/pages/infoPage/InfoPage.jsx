@@ -1,9 +1,7 @@
 import AppLink from '../../components/appLink/AppLink';
-import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
 import { translate } from '../../translation/translator';
 import { useSelector } from 'react-redux';
-import App from '../../App';
+import InfoDropMenu from '../../components/infoDropMenu/InfoDropMenu';
 
 const InfoPage = ({ children }) => {      
   const curentLang = useSelector((state) => state.app.currentLang);
@@ -12,7 +10,7 @@ const InfoPage = ({ children }) => {
     <div className='info-page' style={{color:"white"}}>
       <div className="link-wrapper">
         <AppLink caption={translate("kotiin", curentLang)} linkTo="/"/>
-
+        <InfoDropMenu />
       </div>
 
 

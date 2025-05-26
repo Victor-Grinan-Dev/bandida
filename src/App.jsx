@@ -10,7 +10,6 @@ import Layout from './layout/Layout';
 // import HomePage from './pages/homePage/HomePage';
 import NotFound from './pages/notFound/NotFound';
 import Gallery from "./pages/gallery/Gallery";
-import InfoPage from "./pages/infoPage/InfoPage";
 import LandingPage from "./pages/landingPage/LandingPage";
 import Bookings from "./pages/bookings/Bookings";
 
@@ -28,14 +27,13 @@ function App() {
           <Route path="/" element={<Layout />}>
 
             <Route index element={<LandingPage />} />
-            <Route path="gallery" element={<Gallery />} />
-            {/* <Route path="info" element={<InfoPage />} /> */}
-            <Route path="booking" element={<Bookings />} />
+            <Route path="galleria" element={<Gallery />} />
+            <Route path="ajanvaraus" element={<Bookings />} />
 
-            <Route path="ajanvaraus" element={<Ajanvaraus />} />
+            <Route path="info-ajanvaraus" element={<Ajanvaraus />} />
             <Route path="ennen-tatuointia" element={<EnnenTatuointia />} />
-            <Route path="hinnasto" element={<Hinnasto />} />
-            <Route path="hoito-ohjeet" element={<HoitoOhjeet />} />
+            <Route path="tatuoinnin-hinta" element={<Hinnasto />} />
+            <Route path="tatuoinnin-hoito" element={<HoitoOhjeet />} />
 
             <Route path="studio" element={<StudioPage />} />
             <Route path="artist" element={<Artist />} />

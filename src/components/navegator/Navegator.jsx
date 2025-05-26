@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import AppLink from '../../components/appLink/AppLink';
 import { APPLINKS } from "../../settings/setings";
-
+import InfoDropMenu from "../infoDropMenu/InfoDropMenu";
 const Navegator = () => {
       const navBarRef = useRef(null);
-
+      
     useEffect(() => {
         const navBar = navBarRef.current;
         const originalPosition = navBar.offsetTop;
@@ -18,6 +18,7 @@ const Navegator = () => {
         };
     
         window.addEventListener("scroll", handleScroll);
+        console.log(navBarRef.current, "navBarRef.current")
     
         return () => {
           window.removeEventListener("scroll", handleScroll);
@@ -28,7 +29,7 @@ const Navegator = () => {
     <div className="nav-bar" id="nav-bar" ref={navBarRef}>
           {APPLINKS.map((link, idx)=>(
             link.caption === "info" ? 
-            null 
+            <InfoDropMenu key={idx} /> 
             : <div className="link-wraper" key={idx} >
                     <AppLink 
                         caption={link.caption} 

@@ -40,3 +40,13 @@ boobking googgle:
 4- embed booking: https://www.youtube.com/watch?v=MF3yXhiHN6k
 
 appwrite: https://www.youtube.com/watch?v=l-vkvrxssa8&list=PLUr_dKgYaKJbxDEf_SchTwukxb0FlHOFf
+
+/*ANNUS HAND*/
+
+make every tab it own page:
+- hinnasto
+- artisti
+- microplating
+- studio
+
+alts of each pictures

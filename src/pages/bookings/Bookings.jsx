@@ -58,7 +58,7 @@ const Bookings = () => {
             </div> */}
 
             <div className="content-item" >
-              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta. Luethan <Link className='bookings-link-highlight' aria-label="info-osiosta" to='/info' state={{ toTab: 'varaus' }} >  info-osiosta </Link> ajanvaraus ohjeet</p>
+              <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta. Luethan <Link className='bookings-link-highlight' aria-label="info-osiosta" to='/info-ajanvaraus' state={{ toTab: 'varaus' }} >  info-osiosta </Link> ajanvaraus ohjeet</p>
             </div>
 
             <div className="content-item" >
@@ -93,33 +93,7 @@ const Bookings = () => {
                 <i className={`fa-regular fa-copy ${copied === "ig" && "active"}`} onClick={()=>handleClicked("https://www.instagram.com/paulaannelica.tattoo", "ig")} />
               </div>
             </div>
-
-            
-
-            
-            {/* <div className="content-item" >
-              <div className='content-item__head'>              
-                <i className="fas fa-phone some-icon"/>
-                <span>Puh.</span>
-                <p>+358 45 78392909</p>
-              </div>
-
-              <div className="copy-icon-wrapper">
-                <i className={`fa-regular fa-copy ${copied === "phone" && "active"}`} onClick={()=>handleClicked("+358 45 78392909", "phone")} />
-              </div>
-            </div> */}
-
-            {/* <div className="content-item" >
-              <div className='content-item__head'> 
-                <i className="fab fa-whatsapp some-icon"/>
-                <span>Whatsapp</span>
-                <p>+358 45 78392909</p>
-              </div>
-
-              <div className="copy-icon-wrapper">
-                <i className={`fa-regular fa-copy ${copied === "whatsapp" && "active"}`} onClick={()=>handleClicked("+358 45 78392909", "whatsapp")} />
-              </div>
-            </div> */}
+ 
 
           </div>
 
