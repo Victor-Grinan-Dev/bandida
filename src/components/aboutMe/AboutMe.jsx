@@ -1,6 +1,7 @@
 import PicLoader from '../picLoader/PicLoader';
 import { translate } from '../../translation/translator'
 import { useSelector } from 'react-redux';
+import ReadMore from '../readMore/ReadMore';
 
 const AboutMe = () => {
   const currentLang = useSelector((state) => state.app.currentLang);
@@ -16,11 +17,9 @@ const AboutMe = () => {
       </div>
       <div className="panel-2">
         <div className="text-area">
-          <p>Paula Annelica on kotoisin Sawon sydämestä Kuopiosta jota piirtäminen ja kaikenlainen käsillä tekeminen ovat kiinnostaneet pienestä lähtien. Pohjakoulutuksia on vaatetusalan artesaani- ja rakennusalan kouluista samoin kuin kuvataidekoulusta ja ravintola-alalta.</p> 
+          <p>Hei, olen Paula, Tatuoija & sertifioitu tuore kestopigmentoija.</p> 
           <br />
-          <p> Ensimmäiset tatuoinnit Paula teki vuonna 2010. Tässä vaiheessa elämä kuitenkin vei ympäri maailmaa ja tatuoimiset jäi haaveeksi odottamaan oikeaa aikaansa. Monenlaisessa mukana olleena ja erinäisiä hommia tehneenä palo tatuointeihin oli kuitenkin kova ja vuoden 2019 lopulla alkoi ura tatuoijana studiolla Lahdessa. Muutamassa studiossa työskennelleenä Lahdessa ja Helsingissä, myös kiinnostus ja osaamisen kehittäminen laajeni kestopigmentointeihin. Tästä lähti ajatus myös oman studion perustamiselle. Paula on käynyt microblading- ja kestopigmentointikoulutukset vuonna 2024.</p> 
-          <br />
-          <p>Tatuoinneissa näkyy pääsääntöisesti mustaharmaa realismi mutta värikuvat ovat yhtä lähellä sydäntä, samoin kuin pienemmät sirot kuvatkin. Eri tyylien kokeileminen ja kehittäminen on aina mielenkiintoista joten älä epäröi kysyä jos jokin haluamasi aihe tai tyyli olisi mahdollista toteuttaa.</p>
+          <p>Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.</p>
 
           {/*
           Tatuoija & sertifioitu kestopigmentoija
@@ -39,8 +38,11 @@ const AboutMe = () => {
 
           Tervetuloa toteuttamaan juuri sinun visiosi – oli se sitten herkkä pieni symboli tai näyttävämpi kokonaisuus.
           */}
+          <ReadMore caption="lue lisää" linkTo="/artist"/>
         </div>
+        
       </div>
+      
     </section>
   )
 }

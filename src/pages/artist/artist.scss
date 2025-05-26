@@ -1,19 +1,18 @@
-.about-me{
+.artist{
     background-color: $bandidas-black-1;
-    width: 100%;
+    // width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
-    padding: 0 5%;
-    padding-top: 150px;
+    // max-height: 100dvh;
     
     color: white;
     position: relative;
     gap: 40px;
     font-size: 16px;
-    height: 100dvh;;
-    max-height: none;
+    // height: 137dvh;;
+    // max-height: none;
 
     .panel-1, .panel-2{
         width: 50%;
@@ -58,7 +57,6 @@
         }
 
 
-
         @media (max-width:665px) {
             justify-content: flex-start;
             flex-direction: row;
@@ -67,7 +65,6 @@
             .omistaja{
                 padding-bottom: 40px;
                 padding-left: 20px;
-                // font-size: large;
                 font-weight: 500;
             }
         }
@@ -88,9 +85,7 @@
         @media (max-width:665px) {
             max-width: none;
         }
-        // @media (max-width:800px) {
-        //     font-size: 14px;
-        // }
+
     }
 
     @media (max-width:665px) {

@@ -35,7 +35,7 @@ const Bookings = () => {
         <div className="bookings__tabs-bar" >
 
           <div className="link-wrapper">
-              <AppLink caption="ko" linkTo="/"/>
+              <AppLink caption="kotiin" linkTo="/"/>
           </div>
 
         </div>

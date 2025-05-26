@@ -1,5 +1,27 @@
 .read-more-link{
-    color: $bandida-golden-6;
-    text-decoration: none;
-    font-weight: 400;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .readlink-Wrapper{
+        font-weight: 400;
+        
+        border: 2px solid $bandida-golden-6;
+        border-radius: 50px;
+        width: fit-content;
+        padding: 0.25rem 0.5rem;
+
+    a{
+        color: $bandida-golden-6;
+        text-decoration: none;
+        text-transform: capitalize;
+
+        &:hover{
+            border: $bandida-golden-7;
+            color: #f6f6f3;
+        }
+    }
+    }
+
 }

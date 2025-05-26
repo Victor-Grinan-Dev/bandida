@@ -1,4 +1,4 @@
-import AppLink from '../../components/appLink/AppLink'; 
+import ReadMore from '../../components/readMore/ReadMore';
 import InfoPage from '../infoPage/InfoPage';
 
 const Ajanvaraus = () => {
@@ -18,6 +18,7 @@ const Ajanvaraus = () => {
                  <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li>
                </ul>                    
            </div>
+           <ReadMore caption="varaa nyt" linkTo="/ajanvaraus" />
        </div>
       </InfoPage>
 
