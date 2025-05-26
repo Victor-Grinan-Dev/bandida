@@ -18,7 +18,6 @@ const Navegator = () => {
         };
     
         window.addEventListener("scroll", handleScroll);
-        console.log(navBarRef.current, "navBarRef.current")
     
         return () => {
           window.removeEventListener("scroll", handleScroll);

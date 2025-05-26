@@ -21,6 +21,7 @@ import StudioPage from "./pages/studio/StudioPage";
 import Artist from "./pages/artist/Artist";
 
 function App() {
+
   return (
       <HashRouter>
         <Routes>

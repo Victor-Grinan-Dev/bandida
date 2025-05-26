@@ -1,4 +1,3 @@
-import React from "react";
 import PicLoader from '../../components/picLoader/PicLoader';
 
 /*redux*/
@@ -14,23 +13,14 @@ import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
 import { HashLink } from "react-router-hash-link";
-// import AppLabel from "../../components/appLabel/AppLabel";
-
-// const keywords = {
-//         display: "flex",
-//         alignItems: "center",
-//         justifyContent: "center",
-//         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important",
-    
-//         fontSize: "25px",
-//         fontWeight: "200",
-//         color: "$bandida-golden-6",
-    
-
-// }
+import { useEffect } from 'react';
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
+    useEffect(() => {
+    console.log(document.getElementById("studio")); // should not be null
+    }, []);
+
     
   return (
     <div className='landinpage' id="landingpage">

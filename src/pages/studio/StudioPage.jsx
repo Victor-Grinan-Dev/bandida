@@ -11,7 +11,7 @@ const StudioPage = () => {
   return (
    <section className='studio' id='studio'>
       <div style={{position:"absolute", top:"50px", left:"50px", zIndex:"1000"}}>
-        <AppLink caption="kotiin" linkTo="/" />
+        <AppLink  caption="kotiin" linkTo="/#studio" idLink={true}/>
       </div>
       <div className="panel-1">
         <div className="text-area">

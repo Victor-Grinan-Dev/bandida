@@ -1,19 +1,16 @@
 .artist{
     background-color: $bandidas-black-1;
-    // width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    // max-height: 100dvh;
-    
     color: white;
     position: relative;
     gap: 40px;
     font-size: 16px;
-    // height: 137dvh;;
-    // max-height: none;
 
+    padding-top: 100px;
+    
     .panel-1, .panel-2{
         width: 50%;
         height: 100%;

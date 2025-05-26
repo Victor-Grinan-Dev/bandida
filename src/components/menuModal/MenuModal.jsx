@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import AppButton from '../appButton/AppButton';
 import AppLabel from '../appLabel/AppLabel';
 import { setCurrentLang } from '../../app/appSlice';
+import InfoDropMenu from '../infoDropMenu/InfoDropMenu';
 
 const MenuModal = () => {
     const dispatch = useDispatch();
@@ -23,7 +24,9 @@ const MenuModal = () => {
         <div className="links-wrapper">
 
             {APPLINKS.map((link, idx)=>(
-                <div className="link-wraper" key={idx} onClick={()=>handleLinks(link.linksTo)}>
+                link.caption === "info" ? 
+                <InfoDropMenu key={idx} extraStyle={{fontSize: "xx-large"}}/> 
+                : <div className="link-wraper" key={idx} onClick={()=>handleLinks(link.linksTo)}>
                     <AppLink 
                         caption={link.caption} 
                         linkTo={link?.linksTo}

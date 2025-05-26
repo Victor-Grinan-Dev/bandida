@@ -9,8 +9,8 @@ const Artist = () => {
   return (
     <section className='artist'>
 
-      <div style={{position:"absolute", top:"50px", left:"50px", zIndex:"1000"}}>
-        <AppLink caption="kotiin" linkTo="/" />
+      <div style={{position:"absolute", top:"20px", left:"20px", zIndex:"1000"}}>
+        <AppLink idLink={true} caption="kotiin" linkTo="/#about-me" />
       </div>
   
       <div className="panel-1">

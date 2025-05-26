@@ -6,6 +6,7 @@
 
     padding-top: 100px;
     padding-left: 50px;
+    padding-right: 50px;
     
 
     .link-wrapper{
@@ -18,7 +19,7 @@
         position: fixed;
         width: fit-content;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         width: 100vw;
         background-color: $bandidas-black-1;
