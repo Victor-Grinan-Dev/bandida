@@ -1,7 +1,7 @@
 import { translate } from '../../translation/translator';
 import { useSelector } from 'react-redux';
 
-const AppLabel = ({ caption, extraStyle }) => {
+const AppLabel = ({children},{ caption, extraStyle }) => {
   const currentLang = useSelector((state) => state.app.currentLang);
 
   const isNotSpecialCharacter = str => /^[a-zA-Z0-9]+$/.test(str);
@@ -15,6 +15,7 @@ const AppLabel = ({ caption, extraStyle }) => {
   return (
     <div className='app-label' style={extraStyle}>
       {translate(caption, currentLang)}
+      {children}
     </div>
   );
 };
