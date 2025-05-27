@@ -44,9 +44,16 @@ appwrite: https://www.youtube.com/watch?v=l-vkvrxssa8&list=PLUr_dKgYaKJbxDEf_Sch
 /*ANNUS HAND*/
 
 make every tab it own page:
-- hinnasto
-- artisti
-- microplating
-- studio
+- hinnasto ok
+- artisti ok
+- microplating ok
+- studio ok
+
+info for mobile
+
+language for desktop
+
+
 
 alts of each pictures
+
