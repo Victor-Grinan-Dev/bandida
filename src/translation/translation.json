@@ -7,7 +7,6 @@
         "en":"Tattoos ",
         "es":"Tatuajes"
     },
-
     
     "kestopigmentointi": {
         "en":"Permanent makeup",
@@ -55,7 +54,7 @@
         "en":"Other:",
         "es":"Otro:"
     },
-    "Muu Kieli:": {
+    "muu kieli:": {
         "en":"Other Language:",
         "es":"Otro Lenguaje:"
     },
@@ -267,6 +266,14 @@
         "en":"booking",
         "es":"reservación"
     },
+    "tatuoinnin hinta": {
+        "en":"tattoo prices",
+        "es":"precios de tatuajes"
+    },
+    "tatuoinnin hoito": {
+        "en":"tattoo care",
+        "es":"cuidado del tatuaje"
+    },
     "Kerro viestiin oma nimi ja paikkakunta.": {
         "en":"",
         "es":"reservación"
@@ -331,8 +338,16 @@
         "en":"",
         "es":""
     },
+    "lue lisää": {
+        "en":"read more",
+        "es":"leer más"
+    },
+    "varaa nyt": {
+        "en":"book now",
+        "es":"reservar ahora"
+    },
     "katso lisää kuvia galleriasta": {
-        "en":"",
-        "es":""
+        "en":"see more pictures in the gallery",
+        "es":"ver mas fotos en la galería"
     }
 }

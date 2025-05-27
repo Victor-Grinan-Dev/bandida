@@ -27,7 +27,7 @@ const InfoDropMenu = (props) => {
     }, []);
 
     return (
-        <AppLink fx={toggleMenu}>
+        <AppLink fx={toggleMenu} translation={false}>
             <span
                 ref={linkRef}
                 className={`app-link ${active && "active"} ${isAtTop ? "at-top" : ""}`}
@@ -47,10 +47,10 @@ const InfoDropMenu = (props) => {
                         padding: "2px",
                     }}
                 >                    
-                    <AppLink caption="ajanvaraus" linkTo="/info-ajanvaraus" extraStyle={extraStyle}/>
-                    <AppLink caption="ennen-tatuointia" linkTo="/ennen-tatuointia" extraStyle={extraStyle}/>
-                    <AppLink caption="tatuoinnin-hinta" linkTo="/tatuoinnin-hinta" extraStyle={extraStyle}/>
-                    <AppLink caption="tatuoinnin-hoito" linkTo="/tatuoinnin-hoito" extraStyle={extraStyle}/>
+                    <AppLink caption="ajanvaraus" linkTo="/info-ajanvaraus" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="ennen tatuointia" linkTo="/ennen-tatuointia" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="tatuoinnin hinta" linkTo="/tatuoinnin-hinta" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="tatuoinnin hoito" linkTo="/tatuoinnin-hoito" extraStyle={extraStyle} translation={true}/>
                 </div>
             )}
         </AppLink>

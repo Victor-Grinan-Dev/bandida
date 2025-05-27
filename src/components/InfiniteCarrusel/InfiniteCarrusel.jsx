@@ -41,7 +41,7 @@ const InfiniteCarrusel = () => {
 
 
         <div className='app-link-container'>
-            <AppLink caption="katso Lisää kuvia Galleriasta" linkTo="/gallery"/>
+            <AppLink caption="katso Lisää kuvia Galleriasta" linkTo="/gallery" translation={false}/>
         </div>
 
         <div className="my-style">

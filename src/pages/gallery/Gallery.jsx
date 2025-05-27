@@ -76,7 +76,7 @@ const Gallery = () => {
 
       {visibleCount < currentPics.length && (
         <div style={{ textAlign: 'center', margin: '20px' }}>
-          <AppButton caption="Lataa lisää" fx={loadMore} />
+          <AppButton caption="lataa lisää" fx={loadMore} />
         </div>
       )}
 

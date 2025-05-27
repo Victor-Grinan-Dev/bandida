@@ -1,6 +1,6 @@
 import AppLink from "../../components/appLink/AppLink";
 import PicLoader from "../../components/picLoader/PicLoader";
-import { translate } from "../../translation/translator";
+// import { translate } from "../../translation/translator";
 import { useSelector } from "react-redux";  
 
 
@@ -17,7 +17,8 @@ const Artist = () => {
         <div className="profile-pic">
           <PicLoader pic="paula_profile_1" seoAlt={"Portrait of Inkky11 tattoo artist Paula Annelica"} picModalOn={false}/>
         </div>
-        <div className='omistaja'><h1>{translate("Paula Annelica", currentLang)}</h1></div>
+        <div className='omistaja'><h1>Paula Annelica</h1></div>
+  
       </div>
       <div className="panel-2">
         <div className="text-area">
