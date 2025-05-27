@@ -13,15 +13,27 @@ import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
 import { HashLink } from "react-router-hash-link";
-import { useEffect } from 'react';
+import { useEffect, useState  } from 'react';
 import LangPanel from '../../components/langPanel/LangPanel';
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
+    const [showScrollTop, setShowScrollTop] = useState(false);
+
     useEffect(() => {
+        const handleScroll = () => {
+            const scrolled = window.scrollY;
+            setShowScrollTop(scrolled > window.innerHeight);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
   return (
     <div className='landinpage' id="landingpage">
         <section className="landinpage-banner" style={{width:"100%"}}>
@@ -77,6 +89,14 @@ const LandingPage = () => {
         <Studio />
         <Footer />
         { isModal && <MenuModal />}
+
+        { showScrollTop && 
+        
+            <button onClick={scrollToTop} className="scroll-to-top">
+                ↑ Top
+            </button>
+        }
+
     </div>
   )
 }
