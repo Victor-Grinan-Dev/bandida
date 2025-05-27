@@ -14,11 +14,11 @@ import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
 import { HashLink } from "react-router-hash-link";
 import { useEffect } from 'react';
+import LangPanel from '../../components/langPanel/LangPanel';
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
     useEffect(() => {
-    console.log(document.getElementById("studio")); // should not be null
     }, []);
 
     
@@ -30,17 +30,19 @@ const LandingPage = () => {
                 <div className='contact-bar__corner' id='left'>
                     <h1 style={{fontSize:"30px"}}><span>Inky</span><span>11&reg;</span></h1>
                     <HashLink to={`${"#footer"}`} style={{textDecoration:"none", color:"$bandida-golden-6", fontSize:"19px"}} className="address">Porvoonkatu 14 00510 Helsinki.</HashLink>
+                    
                 </div>
 
                 <Some />
 
                 <div className='contact-bar__corner' id='right'>
-
+                    <LangPanel showLabel={false}/>
                 </div>
 
             </div>
 
             <Hamburger />
+            
 
             <div className="logo-wrapper" >
                 <PicLoader pic="mainLogo" xtraStyle={{ width: "50vw", maxWidth: "250px"}}/>
