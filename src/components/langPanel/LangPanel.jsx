@@ -4,7 +4,7 @@ import AppButton from "../appButton/AppButton"
 import AppLabel from "../appLabel/AppLabel"
 
 const LangPanel = (props) => {
-    const {showLabel}= props;
+    const {showLabel=true} = props;
     const dispatch = useDispatch();
     const currentLang = useSelector((state) => state.app.currentLang);
   return (

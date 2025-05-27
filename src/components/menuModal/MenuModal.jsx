@@ -7,6 +7,7 @@ import AppButton from '../appButton/AppButton';
 import AppLabel from '../appLabel/AppLabel';
 import { setCurrentLang } from '../../app/appSlice';
 import InfoDropMenu from '../infoDropMenu/InfoDropMenu';
+import LangPanel from '../langPanel/LangPanel';
 
 const MenuModal = () => {
     const dispatch = useDispatch();
@@ -32,37 +33,13 @@ const MenuModal = () => {
                         linkTo={link?.linksTo}
                         idLink={link.type === "a"}
                         extraStyle={{fontSize:"xx-large"}}
+                        translation={true}
                     />
                 </div>
             ))}
-                <div className="link-wraper">
-                    <AppLabel
-                        caption={"Muu Kieli:"} 
-                        extraStyle={{fontSize:"xx-large"}}
-                    />
 
-                    <div className="options-wrapper">
-                        { currentLang !== "fi" && <AppButton
-                            caption={"Suomi"} 
-                            lang={"fi"}
-                            fx={()=>dispatch(setCurrentLang("fi"))}
-                            extraStyle={{fontSize:"xx-large"}}
-                        />        }            
-                        { currentLang !== "en" && <AppButton
-                            caption={"Suomi"} 
-                            lang={"en"}
-                            fx={()=>dispatch(setCurrentLang("en"))}
-                            extraStyle={{fontSize:"xx-large"}}
-                        />}
-                        { currentLang !== "es" && <AppButton
-                            caption={"Suomi"} 
-                            lang={"es"}
-                            fx={()=>dispatch(setCurrentLang("es"))}
-                            extraStyle={{fontSize:"xx-large"}}
-                        />}
-                    </div>
+            <LangPanel />
 
-                </div>
         </div>
     </div>
   )
