@@ -1,11 +1,11 @@
 import AppLink from "../../components/appLink/AppLink";
 import PicLoader from "../../components/picLoader/PicLoader";
 // import { translate } from "../../translation/translator";
-import { useSelector } from "react-redux";  
+// import { useSelector } from "react-redux";  
 
 
 const Artist = () => {
-  const currentLang = useSelector((state) => state.app.currentLang);
+  // const currentLang = useSelector((state) => state.app.currentLang);
   return (
     <section className='artist'>
 
