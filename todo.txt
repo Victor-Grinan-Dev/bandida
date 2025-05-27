@@ -27,7 +27,6 @@ contact form to add pictures.
 grey scale carrusell
 nav bar index
 
-
 info
 akioloajat - away
 ajanvaus page
