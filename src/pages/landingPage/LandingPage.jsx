@@ -1,4 +1,7 @@
+import { useEffect, useState  } from 'react';
+import { HashLink } from "react-router-hash-link";
 import PicLoader from '../../components/picLoader/PicLoader';
+import { translate } from '../../translation/translator';
 
 /*redux*/
 import { useSelector } from "react-redux";
@@ -12,12 +15,11 @@ import Studio from "../../components/studio/Studio";
 import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
-import { HashLink } from "react-router-hash-link";
-import { useEffect, useState  } from 'react';
 import LangPanel from '../../components/langPanel/LangPanel';
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
+    const currentLang = useSelector(state => state.app.currentLang);
     const [showScrollTop, setShowScrollTop] = useState(false);
 
     useEffect(() => {
@@ -93,7 +95,8 @@ const LandingPage = () => {
         { showScrollTop && 
         
             <button onClick={scrollToTop} className="scroll-to-top">
-                ↑ Top
+                ↑ {translate("ylös", currentLang) }
+                 
             </button>
         }
 
