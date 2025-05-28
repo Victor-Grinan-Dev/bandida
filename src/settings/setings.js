@@ -17,7 +17,7 @@ export const APPLINKS = [
     },
     {
         caption:"galleria",
-        linksTo:"/galleria",
+        linksTo:"/galleria/mustavalkoinen-tatuointi",
         type:"b",
     },
     {

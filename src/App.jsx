@@ -19,6 +19,10 @@ import Hinnasto from "./pages/info_hinnasto/Hinnasto";
 import HoitoOhjeet from "./pages/info_hoitoOhjeet/HoitoOhjeet";
 import StudioPage from "./pages/studio/StudioPage";
 import Artist from "./pages/artist/Artist";
+import Smalls from "./pages/gallery/smalls/Smalls";
+import BlackNWhite from "./pages/gallery/blackNWhite/BlackNWhite";
+import Colored from "./pages/gallery/colored/Colored";
+import PMU from "./pages/gallery/PMU/PMU";
 
 function App() {
 
@@ -28,7 +32,13 @@ function App() {
           <Route path="/" element={<Layout />}>
 
             <Route index element={<LandingPage />} />
-            <Route path="galleria" element={<Gallery />} />
+
+            {/* <Route path="galleria" element={<Gallery />} /> */}
+            <Route path="galleria/pienet-tatuointi" element={<Smalls />} />
+            <Route path="galleria/mustavalkoinen-tatuointi" element={<BlackNWhite />} />
+            <Route path="galleria/värilliset-tatuointi" element={<Colored />} />
+            <Route path="galleria/pmu-tatuointi" element={<PMU />} />
+
             <Route path="ajanvaraus" element={<Bookings />} />
 
             <Route path="info-ajanvaraus" element={<Ajanvaraus />} />

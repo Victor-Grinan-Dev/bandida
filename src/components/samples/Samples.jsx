@@ -5,7 +5,7 @@ const Samples = () => {
     const navigate = useNavigate();
   return (
     <section className='samples ' id='samples '>
-        <div className="pics-sample" onClick={()=>navigate("/gallery")}>
+        <div className="pics-sample" onClick={()=>navigate("/gallery/mustavalkoinen-tatuointi")}>
             <div className="pic-container">
                 <PicLoader pic="fav001" extraClass="pic-item"/>
             </div>
