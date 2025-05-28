@@ -1,3 +1,59 @@
+
+NEW NEW TEXT
+
+INKY 11 on pieni, mutta persoonallinen tatuointistudio H1
+Tervetuloa tatuointistudioon, jossa taide kohtaa ammattitaidon.
+Pieni ja persoonallinen studiomme sijaitsee Porvoonkatu 14:ssä, Helsingin Alppilassa, aivan Linnanmäen naapurissa. Meille pääset nopeasti esimerkiksi Kalliosta, Pasilasta ja keskustasta.
+INKY 11 on rauhallinen, rento ja turvallinen ympäristö niin tatuoinneille kuin kestopigmentoinneillekin.
+Panostamme puhtauteen, laatuun ja asiakaskokemukseen – jokainen asiakas kohdataan yksilöllisesti ja suurella huolella. Käytössämme ovat korkealuokkaiset välineet ja tuotteet, ja hygienia on meille ensiarvoisen tärkeää. Tavoitteenamme on kestävä lopputulos, joka on juuri sinun toiveidesi mukainen.
+Walk-in-tatuointi ilman ajanvarausta H2
+Olitpa ensikertalainen tai kokenut tatuointien tai pigmentointien ystävä, olet lämpimästi tervetullut.
+Varaa aika tai tule paikan päälle piipahtamaan – tehdään yhdessä jotain upeaa. Studiolla onnistuu myös walk-in-tatuointi ilman ajanvarausta.
+INKY 11 on suunniteltu sinua varten.
+Täällä tehdään kauneutta ja taidetta tunteella ja taidolla!
+Näin löydät perille:
+Raitiovaunut 3 ja 4 pysähtyvät suoraan studion eteen. Pysäkki on ”Alppila”.
+Sturenkadulta kulkee useita raitiovaunuja ja busseja, ja kävely studiolle kestää pari minuuttia.
+Pasilasta matkaa on 2 km, ja bussi nro 23 tulee Pasilasta suoraan Sturenkadulle. 
+Autolle on paljon pysäköintipaikkoja kadun varsilla. Pysäköinti on ilmaista la-su, muina aikoina maksullista. Linnanmäen parkkialue on hiukan kalliimpi kuin kadunvarret.
+
+Artisti
+Paula - tatuointiartisti H1
+Tatuoija & sertifioitu kestopigmentoija H2 (sub)
+Hei, olen Paula, INKY 11:n perustaja, tatuoija ja koulutettu kestopigmentoija.
+Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä. Olen helposti lähestyttävä, tarkka ja sydämellä mukana jokaisessa projektissa.
+Kestopigmentointi ja microblading H2
+Olen äskettäin laajentanut osaamistani kestopigmentointeihin ja microbladingiin, joihin olen saanut viralliset koulutukset. Nyt tarjoan palveluita myös niille, jotka kaipaavat luonnollista ja kestävää kauneuden korostamista – esimerkiksi kauniisti muotoillut kulmat tai huulten kevyt sävytys voivat tehdä arjesta asteen huolettomampaa. Luonnollinen kauneus kestää aikaa ja korostaa omaa persoonaasi.
+Lähestyn jokaista työtä luonnollisuuden ja yksilöllisyyden kautta. (tähän tulisi jatkossa linkki blogitekstiin “Mitä on kestopigmentointi ja microblading”)
+Realistinen mustavalkotatuointi, väritatuointi vai pieni symboli? H2
+Minulle tärkeintä on, että asiakas tuntee olonsa tervetulleeksi, turvalliseksi ja kuulluksi. Jokainen iho on ainutlaatuinen, ja siksi jokainen työ on tarkkaan mietitty ja huolella tehty juuri sinua varten.
+Vaikka töissäni näkyy pääsääntöisesti mustaharmaa realismi, rakastan värejä ja teen myös värikuvia oikein mielelläni kuten myös pieniä yksinkertaisempiakin kuvia.
+Tervetuloa toteuttamaan juuri sinun visiosi – oli se sitten herkkä pieni symboli tai näyttävämpi kokonaisuus.
+Lue lisää: miten valmistautua tatuointiin? (linkki alasivuun)
+
+Käytetyt asiasanat
+tatuointistudio
+INKY 11
+tatuointistudio Helsinki
+persoonallinen tatuointistudio
+persoonallinen tatuoija
+tatuoija
+tatuointi Helsingissä
+turvallinen tatuointi
+kestopigmentoija
+koulutettu kestopigmentoija
+kestopigmentointi
+microblading
+luonnollinen kauneus
+kestävä kauneus
+väritatuointi
+realistinen tatuointi
+symbolitatuointi
+walk-in-tatuointi
+
+
+OLD TEXT
+
 Studio
 Studio La Bandida on vuonna 2024 perustettu pieni privaattistudio Helsingissä joka sijaitsee aivan Linnanmäen kupeessa Alppilassa. Studiolla toteutetaan tatuoinnit ja kestopigmentoinnit turvallisesti, huolella ja asiakkaan toiveita kuunnellen. Olipa ajatuksenasi sitten pieni siro tatuointi tai isompi kokonaisuus vaikkapa kokonainen hiha, molemmat luonnistuvat samoin kuin mustaharmaat ja värilliset kuvat. Olet lämpimästi tervetullut juuri sellaisena kuin olet. 
 
@@ -71,3 +127,5 @@ Varasumaksu 50-100e
 
 Maksutavat 
 Käteinen ja MobilePay
+
+
