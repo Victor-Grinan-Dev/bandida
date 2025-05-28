@@ -30,6 +30,11 @@ export const APPLINKS = [
         linksTo:"ajanvaraus",
         type:"b",
     },
+    {
+        caption:"sijainti",
+        linksTo:"#footer",
+        type:"a",
+    },
 ];
 
 

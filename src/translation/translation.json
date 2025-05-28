@@ -7,6 +7,10 @@
         "en":"Tattoos ",
         "es":"Tatuajes"
     },
+    "sijainti": {
+        "en":"location ",
+        "es":"locación"
+    },
     
     "kestopigmentointi": {
         "en":"Permanent makeup",
