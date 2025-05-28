@@ -1,47 +1,17 @@
-import { useEffect, useState } from 'react';
 import AppLink from '../../components/appLink/AppLink';
-import { useLocation } from 'react-router-dom';
-import PicLoader, { blackGrey, colors, pmu, smalls } from '../../components/picLoader/PicLoader';
 import PicModal from '../../components/picModal/PicModal';
 import { useSelector } from 'react-redux';
-import AppButton from '../../components/appButton/AppButton';
+
 
 const Gallery = (props) => {
   const {children, collection} = props;
-  const { pathname } = useLocation();
   const isPicModal = useSelector(state => state.app.isPicModal);
-  // const [collection, setCollection] = useState('bg');
-  const [visibleCount, setVisibleCount] = useState(5);
   const currentLang = useSelector((state) => state.app.currentLang);
   const picModalCurrentPic = useSelector((state) => state.app.picModalCurrentPic);
 
-  useEffect(() => {
-    setVisibleCount(5);
-  }, [pathname]);
-
-  // const handleTabs = (tabName) => {
-  //   setCollection(tabName);
-  // };
-
-  const loadMore = () => {
-    setVisibleCount(prev => prev + 5);
-  };
-
-  // const getPics = () => {
-  //   switch (collection) {
-  //     case 'bg': return blackGrey;
-  //     case 'color': return colors;
-  //     case 'pmu': return pmu;
-  //     case 'smalls': return smalls;
-  //     default: return [];
-  //   }
-  // };
-
   const eSExtraStyle = {
     padding: "5px 10px",
-
   }
-  // const pics = getPics();
 
   return (
     <section className='gallery'>
@@ -66,14 +36,8 @@ const Gallery = (props) => {
 
         <div className="holder"></div>
       </div>
-{children}
 
-
-      {/* {visibleCount < pics.length && (
-        <div style={{ textAlign: 'center', margin: '20px' }}>
-          <AppButton caption="lataa lisää" fx={loadMore} />
-        </div>
-      )} */}
+      {children}
 
       {isPicModal && <PicModal pic={picModalCurrentPic} />}
     </section>
