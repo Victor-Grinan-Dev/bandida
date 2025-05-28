@@ -48,15 +48,10 @@ const Bookings = () => {
         <div className="content-wrapper">
 
           <div className="content-wrapper__column-a">
-            <PicLoader pic="paula_medium" style={{objectFit:"cover"}} seoAlt={"Inkky11 tattoo artist Paula Annelica"} />
+            <PicLoader pic="paula_medium" picModalOn={false} style={{objectFit:"cover"}} seoAlt={"Inkky11 tattoo artist Paula Annelica"} />
           </div>
 
           <div className="content-wrapper__column-b">
-
-            {/* <div className="content-item" >
-              <p>Työskentelemme varausjärjestelmän parissa, mutta toistaiseksi varaukset voi tehdä sähköpostitse, puhelimitse tai WhatsAppin kautta. Kiitos.</p>
-            </div> */}
-
             <div className="content-item" >
               <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta. Luethan <Link className='bookings-link-highlight' aria-label="info-osiosta" to='/info-ajanvaraus' state={{ toTab: 'varaus' }} >  info-osiosta </Link> ajanvaraus ohjeet</p>
             </div>

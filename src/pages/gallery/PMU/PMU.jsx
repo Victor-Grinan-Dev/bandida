@@ -14,7 +14,7 @@ const PMU = () => {
     <Gallery>
         <div className="collage-wrapper" >
         
-            <div className="collage">
+            <div className="collage" style={{ gridTemplateColumns:`repeat(${pics.length < 5 ? pics.length : 5 }, 1fr);` }}>
             {[...pics].slice(0, visibleCount).map((pic, idx) => (
                 <div className="img-wrapper" id={pic} key={idx}>
                 <PicLoader pic={pic} idx={idx} seoAlt={"Permanent makeup by Inky11 tattoo " + idx}/>

@@ -1,15 +1,12 @@
 import { 
   HashRouter, 
   Routes, 
-  Route, 
-  // Navigate  
+  Route,  
 } from "react-router-dom";
 
 //pages
 import Layout from './layout/Layout';
-// import HomePage from './pages/homePage/HomePage';
 import NotFound from './pages/notFound/NotFound';
-import Gallery from "./pages/gallery/Gallery";
 import LandingPage from "./pages/landingPage/LandingPage";
 import Bookings from "./pages/bookings/Bookings";
 
@@ -33,7 +30,6 @@ function App() {
 
             <Route index element={<LandingPage />} />
 
-            {/* <Route path="galleria" element={<Gallery />} /> */}
             <Route path="galleria/pienet-tatuointi" element={<Smalls />} />
             <Route path="galleria/mustavalkoinen-tatuointi" element={<BlackNWhite />} />
             <Route path="galleria/värilliset-tatuointi" element={<Colored />} />
