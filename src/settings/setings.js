@@ -12,7 +12,7 @@ export const APPLINKS = [
     },
     {
         caption:"studio",
-        linksTo:"#studio",
+        linksTo:"#studio-section",
         type:"a",
     },
     {
