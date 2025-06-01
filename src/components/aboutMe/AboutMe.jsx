@@ -17,7 +17,9 @@ const AboutMe = () => {
       </div>
       <div className="panel-2">
         <div className="text-area">
-          <p>Hei, olen Paula, Tatuoija & sertifioitu tuore kestopigmentoija.</p> 
+          <p> 
+            Hei, olen Paula, INKY 11:n perustaja, tatuoija ja koulutettu kestopigmentoija. 
+          </p> 
           <br />
           <p>Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.</p>
 
