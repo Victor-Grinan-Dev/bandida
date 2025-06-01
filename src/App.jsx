@@ -20,6 +20,8 @@ import Smalls from "./pages/gallery/smalls/Smalls";
 import BlackNWhite from "./pages/gallery/blackNWhite/BlackNWhite";
 import Colored from "./pages/gallery/colored/Colored";
 import PMU from "./pages/gallery/PMU/PMU";
+import PermantMakeUp from "./pages/permanentMakeUp/PermantMakeUp";
+import TattooIdea from "./pages/tattooIdea/TattooIdea";
 
 function App() {
 
@@ -41,6 +43,8 @@ function App() {
             <Route path="ennen-tatuointia" element={<EnnenTatuointia />} />
             <Route path="tatuoinnin-hinta" element={<Hinnasto />} />
             <Route path="tatuoinnin-hoito" element={<HoitoOhjeet />} />
+            <Route path="kestopigmentointi-ja-microblading" element={<PermantMakeUp />} />
+            <Route path="ideat-tatuointiin" element={<TattooIdea />} />
 
             <Route path="studio" element={<StudioPage />} />
             <Route path="artist" element={<Artist />} />
