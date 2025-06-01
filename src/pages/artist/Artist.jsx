@@ -1,32 +1,63 @@
-import AppLink from "../../components/appLink/AppLink";
 import PicLoader from "../../components/picLoader/PicLoader";
+import ReadMore from "../../components/readMore/ReadMore";
+import InfoPage from "../infoPage/InfoPage";
 
 const Artist = () => {
 
   return (
-    <section className='artist'>
+    <InfoPage hashLink={true} caption="kotiin" linkTo="/#about-me">
 
-      <div style={{position:"absolute", top:"20px", left:"20px", zIndex:"1000"}}>
-        <AppLink idLink={true} caption="kotiin" linkTo="/#about-me" />
-      </div>
+      {/* <div style={{position:"absolute", top:"20px", left:"20px", zIndex:"1000"}}>
+        <AppLink hashLink={true} caption="kotiin" linkTo="/#about-me" />
+      </div> */}
   
-      <div className="panel-1">
+      <div className="">
         <div className="profile-pic">
           <PicLoader pic="paula_profile_1" seoAlt={"Portrait of Inkky11 tattoo artist Paula Annelica"} picModalOn={false}/>
         </div>
-        <div className='omistaja'><h1>Paula Annelica</h1></div>
+        <div className='omistaja'><h1>Paula Annelica - tatuointiartisti</h1></div>
+        <div><h2>Tatuoija & sertifioitu kestopigmentoija</h2></div>
   
       </div>
-      <div className="panel-2">
-        <div className="text-area">
-          <p>Paula Annelica on kotoisin Sawon sydämestä Kuopiosta jota piirtäminen ja kaikenlainen käsillä tekeminen ovat kiinnostaneet pienestä lähtien. Pohjakoulutuksia on vaatetusalan artesaani- ja rakennusalan kouluista samoin kuin kuvataidekoulusta ja ravintola-alalta.</p> 
+      <div className="">
+        <div className="">
+          {/* <p>
+            Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä. Olen helposti lähestyttävä, tarkka ja sydämellä mukana jokaisessa projektissa.
+          </p>
+          <br /> */}
+          <h2>Kestopigmentointi ja microblading</h2>
           <br />
-          <p> Ensimmäiset tatuoinnit Paula teki vuonna 2010. Tässä vaiheessa elämä kuitenkin vei ympäri maailmaa ja tatuoimiset jäi haaveeksi odottamaan oikeaa aikaansa. Monenlaisessa mukana olleena ja erinäisiä hommia tehneenä palo tatuointeihin oli kuitenkin kova ja vuoden 2019 lopulla alkoi ura tatuoijana studiolla Lahdessa. Muutamassa studiossa työskennelleenä Lahdessa ja Helsingissä, myös kiinnostus ja osaamisen kehittäminen laajeni kestopigmentointeihin. Tästä lähti ajatus myös oman studion perustamiselle. Paula on käynyt microblading- ja kestopigmentointikoulutukset vuonna 2024.</p> 
+          <p> 
+            Olen äskettäin laajentanut osaamistani kestopigmentointeihin ja microbladingiin, joihin olen saanut viralliset koulutukset. Nyt tarjoan palveluita myös niille, jotka kaipaavat luonnollista ja kestävää kauneuden korostamista – esimerkiksi kauniisti muotoillut kulmat tai huulten kevyt sävytys voivat tehdä arjesta asteen huolettomampaa. Luonnollinen kauneus kestää aikaa ja korostaa omaa persoonaasi.          
+          </p> 
+
           <br />
-          <p>Tatuoinneissa näkyy pääsääntöisesti mustaharmaa realismi mutta värikuvat ovat yhtä lähellä sydäntä, samoin kuin pienemmät sirot kuvatkin. Eri tyylien kokeileminen ja kehittäminen on aina mielenkiintoista joten älä epäröi kysyä jos jokin haluamasi aihe tai tyyli olisi mahdollista toteuttaa.</p>
+          <p>
+            Lähestyn jokaista työtä luonnollisuuden ja yksilöllisyyden kautta
+          </p>
+
+          <ReadMore caption="Lue lisää: Mitä on kestopigmentointi ja microblading?" linkTo="/kestopigmentointi-ja-microblading"/> 
+          <br />
+          <h2>
+            Realistinen mustavalkotatuointi, väritatuointi vai pieni symboli?
+          </h2>
+          <br />
+          <p>
+            Minulle tärkeintä on, että asiakas tuntee olonsa tervetulleeksi, turvalliseksi ja kuulluksi. Jokainen iho on ainutlaatuinen, ja siksi jokainen työ on tarkkaan mietitty ja huolella tehty juuri sinua varten.
+          </p>
+          <br />
+          <p>
+          Vaikka töissäni näkyy pääsääntöisesti mustaharmaa realismi, rakastan värejä ja teen myös värikuvia oikein mielelläni kuten myös pieniä yksinkertaisempiakin kuvia.
+          </p>
+          <br />
+          <p>
+            Tervetuloa toteuttamaan juuri sinun visiosi - oli se sitten herkkä pieni symboli tai näyttävämpi kokonaisuus
+          </p>
+          <ReadMore caption="Lue lisää: miten valmistautua tatuointiin" linkTo="/ennen-tatuointia"/> 
+          <br />
         </div>
       </div>
-    </section>
+    </InfoPage>
   )
 }
 
