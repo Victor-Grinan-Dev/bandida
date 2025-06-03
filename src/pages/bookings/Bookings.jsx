@@ -1,17 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import AppLink from '../../components/appLink/AppLink';
 import PicLoader from '../../components/picLoader/PicLoader';
-import { Link } from 'react-router-dom';
-import { translate } from '../../translation/translator';
-import { useSelector } from 'react-redux';
 import InfoPage from '../infoPage/InfoPage';
 import ReadMore from '../../components/readMore/ReadMore';
 
 const Bookings = () => {
   const { pathname } = useLocation();
   const [copied, setCopied] = useState(null);
-  const currentLang = useSelector((state) => state.app.currentLang); 
 
   useEffect(() => {
     window.scrollTo(0, 0);
