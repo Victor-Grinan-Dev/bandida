@@ -1,6 +1,4 @@
-import AppLink from "../../components/appLink/AppLink";
 import PicLoader from "../../components/picLoader/PicLoader";
-import ReadMore from "../../components/readMore/ReadMore";
 import InfoPage from "../infoPage/InfoPage";
 import { mapStyle } from "../../components/footer/Footer";
 // import { translate } from "../../translation/translator";
