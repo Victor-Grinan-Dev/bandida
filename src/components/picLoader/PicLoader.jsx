@@ -56,6 +56,7 @@ import kollaasi from "../../assets/images/banner/kollaasi.jpg";
 import paula_profile_1 from "../../assets/images/profiles pics/paula_profile_1.webp";
 import paula_medium from "../../assets/images/profiles pics/paula_profile.webp";
 import studio from "../../assets/images/studio/studio.webp";
+import studio2 from "../../assets/images/studio/studio2.webp";
 import { useDispatch, useSelector } from 'react-redux';
 
 const pictures = {
@@ -124,6 +125,7 @@ const pictures = {
     paula_profile_1:paula_profile_1,
     paula_medium:paula_medium,
     studio:studio,
+    studio2:studio2,
 }
 
 export const blackGrey = [

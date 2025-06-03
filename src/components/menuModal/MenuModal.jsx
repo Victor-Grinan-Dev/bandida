@@ -26,7 +26,7 @@ const MenuModal = () => {
                     <AppLink 
                         caption={link.caption} 
                         linkTo={link?.linksTo}
-                        idLink={link.type === "a"}
+                        hashLink={link.type === "a"}
                         extraStyle={{fontSize:"xx-large"}}
                         translation={true}
                     />

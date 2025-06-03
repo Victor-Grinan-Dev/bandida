@@ -4,18 +4,18 @@ import { translate } from '../../translation/translator';
 import { useSelector } from 'react-redux';
 
 const AppLink = (props) => {
-    const {linkTo, caption, translation=true, idLink=false, active=false, extraStyle, children, fx} = props;
+    const {linkTo, caption,  hashLink=false, type="primary", active=false, extraStyle, children, fx} = props;
     const currentLang = useSelector((state) => state.app.currentLang);
-    console.log(`AppLink: ${caption} - ${currentLang}`);
+
     if (children) {
       return (
-        <div className={`app-link ${active && "active"}`} style={extraStyle} onClick={fx} >
-          {translation ? translate(caption, currentLang) : caption}
+        <div className={`${type === "primary" && "app-link"} ${active && "active"}`} style={extraStyle} onClick={fx} >
           {children}
         </div>
       )
     }
-    else if(idLink){
+
+    else if(hashLink){
       return (
         <div className={`app-link ${active && "active"}`} >
             <HashLink to={`${linkTo}`} style={extraStyle} > { translate(caption, currentLang) } </HashLink>

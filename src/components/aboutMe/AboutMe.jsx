@@ -9,11 +9,11 @@ const AboutMe = () => {
   return (
     <section className='about-me' id='about-me'>
 
-      <div className="panel-1">
+      <div className="panel-1" id="artist-section">
         <div className="profile-pic">
           <PicLoader pic="paula_profile_1" seoAlt={"Portrait of Inkky11 tattoo artist Paula Annelica"} picModalOn={false}/>
         </div>
-        <div className='omistaja'><h3>{translate("artist", currentLang)}</h3></div>
+        <div className='omistaja' ><h3>{translate("artist", currentLang)}</h3></div>
       </div>
       <div className="panel-2">
         <div className="text-area">

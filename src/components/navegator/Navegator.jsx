@@ -33,7 +33,7 @@ const Navegator = () => {
                     <AppLink 
                         caption={link.caption} 
                         linkTo={link?.linksTo}
-                        idLink={link.type === "a"}
+                        hashLink={link.type === "a"}
                         translation={true}
                     />
                 </div>

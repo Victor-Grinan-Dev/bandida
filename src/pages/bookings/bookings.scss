@@ -1,46 +1,42 @@
-.bookings{
-    max-height: 100dvh;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    background-color: $bandidas-black-1;
+// .bookings{
 
-    @include no-scrollbar-y;
 
-    &__tabs-bar{
-        width: 100%;
+//     &__tabs-bar{
+//         width: 100%;
 
-    }
+//     }
     
-    .booking-text{
-        padding-bottom: 40px;
+//     .booking-text{
+//         padding-bottom: 40px;
 
-        @media (max-width:700px) {
-            padding-bottom: 10px;
-        }
-    }
-    .bookings-link{
-        text-decoration: none;
-        color: white;
-    }
+//         @media (max-width:700px) {
+//             padding-bottom: 10px;
+//         }
+//     }
+//     .bookings-link{
+//         text-decoration: none;
+//         color: white;
+//     }
 
-    .bookings-link-highlight{
-        text-decoration: none;
-        color: $bandida-golden-7;
-        &:hover{
-            color: $bandida-golden-6;
-        }
-    }
-    .content-wrapper{
+//     .bookings-link-highlight{
+//         text-decoration: none;
+//         color: $bandida-golden-7;
+//         &:hover{
+//             color: $bandida-golden-6;
+//         }
+//     }
+    
+// }
+
+.content-wrapper{
         width: 100%;
         flex: 1;
         display: flex;
         justify-content: space-between;
         position: relative;
         gap: 50px;
+        margin-left: auto;
+        margin-right: auto;
 
         &__column-a, &__column-b{
             width: 45%;
@@ -65,14 +61,16 @@
 
             .content-item{
                 display: flex;
-                width: fit-content;
+                // width: fit-content;
                 justify-content: space-between;
                 min-width: 60%;
                 gap: 10px;
 
+
                 p{
                     width: 100%;
                     max-width: 350px;
+
                 }
 
                 &__head{
@@ -112,8 +110,27 @@
             }
 
         }
+
+    .booking-text{
+        padding-bottom: 40px;
+
+        @media (max-width:700px) {
+            padding-bottom: 10px;
+        }
     }
-}
+    .bookings-link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .bookings-link-highlight{
+        text-decoration: none;
+        color: $bandida-golden-7;
+        &:hover{
+            color: $bandida-golden-6;
+        }
+    }
+    }
 
 .active{
     color: green;

@@ -47,10 +47,14 @@ const InfoDropMenu = (props) => {
                         padding: "2px",
                     }}
                 >                    
+                    <AppLink caption="artist" linkTo="/artist" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="studio" linkTo="/studio" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="ajanvaraus" linkTo="/info-ajanvaraus" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="ennen tatuointia" linkTo="/ennen-tatuointia" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="tatuoinnin hinta" linkTo="/tatuoinnin-hinta" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="tatuoinnin hoito" linkTo="/tatuoinnin-hoito" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="kestopigmentointi" linkTo="/kestopigmentointi-ja-microblading" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="ideat tatuointiin" linkTo="/ideat-tatuointiin" extraStyle={extraStyle} translation={true}/>
                 </div>
             )}
         </AppLink>
