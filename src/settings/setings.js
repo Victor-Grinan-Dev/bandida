@@ -1,6 +1,6 @@
 /**
- * type a: is a normal anchor
- * type b: is route 
+ * type a: is a normal anchor to id
+ * type b: is route to diferent page
  */
 
 export const APPLINKS = [
@@ -22,7 +22,7 @@ export const APPLINKS = [
     },
     {
         caption:"artist",
-        linksTo:"#about-me",
+        linksTo:"#artist-section",
         type:"a",
     },
     {
@@ -32,7 +32,7 @@ export const APPLINKS = [
     },
     {
         caption:"sijainti",
-        linksTo:"#footer",
+        linksTo:"#footer-section",
         type:"a",
     },
 ];

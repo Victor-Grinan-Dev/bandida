@@ -3,23 +3,28 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    transition: none !important;
 
     .readlink-Wrapper{
         font-weight: 400;
-        
-        border: 2px solid $bandida-golden-6;
+        // display: flex;
+        // align-items: center;
+        // border: 2px solid #f1d898;
         border-radius: 50px;
-        width: fit-content;
-        padding: 0.25rem 0.5rem;
+        width: 100%;
+        // padding: 0.25rem 2.5rem;
+        justify-content: center;
 
     a{
         color: $bandida-golden-6;
         text-decoration: none;
-        text-transform: capitalize;
+        // text-transform: capitalize;
+        transition: none !important;
 
         &:hover{
             border: $bandida-golden-7;
             color: #f6f6f3;
+            transition: none !important;
         }
     }
     }
