@@ -57,3 +57,9 @@ make a page for each tattoo type of galleria ok
 lataa lisää->translation in tattopages ok
 
 alts of each pictures to check
+
+Center the sections artist and studio for mobile: put full text in the single page
+Redo/design the single page intoone column ok
+Redesign the links left tasa and wothout button feature ok
+Lue lisää Paulasta + Lue lisää studiosta ok
+Fix the H1 levels????
