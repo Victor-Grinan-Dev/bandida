@@ -7,7 +7,6 @@ import Some from '../../components/some/Some';
 import Legal from '../../components/legal/Legal';
 
 const InfoPage = (props) => {      
-
   const {children,   
     linkTo="/",
   } = props;
@@ -16,6 +15,7 @@ const InfoPage = (props) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    // eslint-disable-next-line
   }, []);
 
   return (
@@ -26,8 +26,6 @@ const InfoPage = (props) => {
     
         <InfoDropMenu />
       </div>
-
-
 
       {children}
       <div className="seudo-footer">
