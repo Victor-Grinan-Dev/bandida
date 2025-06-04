@@ -30,13 +30,13 @@ const LangPanel = (props) => {
                             fx={()=>dispatch(setCurrentLang("en"))}
                             extraStyle={{fontSize: showLabel ? "xx-large" : "large"}}
                         />}
-                        { currentLang !== "es" && <AppButton
+                        {/* { currentLang !== "es" && <AppButton
                             caption={"español"} 
                             translation={false}
                             lang={"es"}
                             fx={()=>dispatch(setCurrentLang("es"))}
                             extraStyle={{fontSize: showLabel ? "xx-large" : "large"}}
-                        />}
+                        />} */}
                     </div>
 
                 </div>
