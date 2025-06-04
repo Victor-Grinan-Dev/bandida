@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import AppLink from '../../components/appLink/AppLink';
-import { APPLINKS } from "../../settings/setings";
+import { APPLINKS } from "../../settings/settings";
 import InfoDropMenu from "../infoDropMenu/InfoDropMenu";
 const Navegator = () => {
       const navBarRef = useRef(null);

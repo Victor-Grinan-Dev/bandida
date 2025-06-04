@@ -1,5 +1,5 @@
 import AppLink from '../appLink/AppLink';
-import { APPLINKS } from '../../settings/setings';
+import { APPLINKS } from '../../settings/settings';
 import { useDispatch } from 'react-redux';
 import { toggleIsModal } from '../../app/appSlice';
 import { useNavigate } from 'react-router-dom';
