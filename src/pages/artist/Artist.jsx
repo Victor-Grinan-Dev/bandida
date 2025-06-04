@@ -42,7 +42,7 @@ const Artist = () => {
 
         </div>
         
-      </article>
+      </div>
     </InfoPage>
   )
 }

@@ -5,7 +5,7 @@ const EnnenTatuointia = () => {
   return (
 
     <InfoPage backTo="/artist" >
-      <article className="single-page ennen-tatuointia-page">
+      <div className="single-page ennen-tatuointia-page">
 
         <div className="columns-wrapper">
           <div className="left-column">
@@ -48,7 +48,7 @@ const EnnenTatuointia = () => {
 
           </div>
         </div>
-      </article>
+      </div>
     </InfoPage>
 
   )

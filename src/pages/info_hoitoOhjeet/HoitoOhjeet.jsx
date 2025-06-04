@@ -3,7 +3,7 @@ import InfoPage from "../infoPage/InfoPage"
 const HoitoOhjeet = () => {
   return (
     <InfoPage >
-      <article className="single-page info-ajanvaraus-page" >
+      <div className="single-page info-ajanvaraus-page" >
 
         <div className="columns-wrapper" >
           <div className="left-column" >
@@ -65,7 +65,7 @@ const HoitoOhjeet = () => {
           </div>
         </div>
 
-      </article>
+      </div>
     </InfoPage>
  
   )

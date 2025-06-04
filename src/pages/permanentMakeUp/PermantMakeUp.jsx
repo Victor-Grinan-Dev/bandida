@@ -42,7 +42,7 @@ const PermantMakeUp = () => {
 
           </div>
 
-        </article>
+        </div>
         
     </InfoPage>
   )

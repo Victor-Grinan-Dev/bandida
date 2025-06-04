@@ -31,7 +31,7 @@ const Ajanvaraus = () => {
                 <ReadMore caption="varaa nyt" linkTo="/ajanvaraus" />                   
             </div>
           </div>
-        </article>
+        </div>
 
       </InfoPage>
 

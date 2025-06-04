@@ -19,7 +19,7 @@ const InfoPage = (props) => {
   }, []);
 
   return (
-    <article className='info-page' >
+    <div className='info-page' >
       <div className="link-wrapper">
 
         <AppLink caption={translate("kotiin", curentLang)} linkTo={linkTo} />
@@ -38,7 +38,7 @@ const InfoPage = (props) => {
         <Legal />
 
       </div>
-    </article>
+    </div>
   )
 }
 

@@ -50,7 +50,7 @@ const Hinnasto = () => {
 
           </div>
 
-        </article>
+        </div>
         
     </InfoPage>
 
