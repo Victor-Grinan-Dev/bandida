@@ -7,9 +7,25 @@ const AboutMe = () => {
   const currentLang = useSelector((state) => state.app.currentLang);
 
   return (
-    <section className='about-me' id='about-me'>
+    <section className='artist-section' id="artist-section">
 
-      <div className="panel-1" id="artist-section">
+      <div className="section-title">
+        <h3>{translate("artist", currentLang)}</h3>
+      </div>
+
+      <div className="section-image">
+          <PicLoader pic="paula_profile_1" extraClass="artist-picture" seoAlt={"Portrait of Inkky11 tattoo artist Paula Annelica"} picModalOn={false}/>
+      </div>
+
+      <div className="section-text">
+        <p>Hei, olen Paula, INKY 11:n perustaja, tatuoija ja koulutettu kestopigmentoija.</p> 
+        <br />
+        <p>Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.</p>
+        <br />
+        <ReadMore caption="Lue lisää Paulasta" linkTo="/artist"/>
+      </div>
+
+      {/* <div className="panel-1" id="artist-section">
         <div className="profile-pic">
           <PicLoader pic="paula_profile_1" seoAlt={"Portrait of Inkky11 tattoo artist Paula Annelica"} picModalOn={false}/>
         </div>
@@ -26,7 +42,7 @@ const AboutMe = () => {
           <ReadMore caption="Lue lisää Paulasta" linkTo="/artist"/>
         </div>
         
-      </div>
+      </div> */}
       
     </section>
   )
