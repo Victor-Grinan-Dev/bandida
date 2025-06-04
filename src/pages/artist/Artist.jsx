@@ -24,9 +24,8 @@ const Artist = () => {
             <p>Olen äskettäin laajentanut osaamistani kestopigmentointeihin ja microbladingiin, joihin olen saanut viralliset koulutukset. Nyt tarjoan palveluita myös niille, jotka kaipaavat luonnollista ja kestävää kauneuden korostamista – esimerkiksi kauniisti muotoillut kulmat tai huulten kevyt sävytys voivat tehdä arjesta asteen huolettomampaa. Luonnollinen kauneus kestää aikaa ja korostaa omaa persoonaasi.</p> 
             <br />
             <p>Lähestyn jokaista työtä luonnollisuuden ja yksilöllisyyden kautta.</p>
-
+            <br />
             <ReadMore caption="Mitä on kestopigmentointi ja microblading?" linkTo="/kestopigmentointi-ja-microblading" state={{from:"/artist"}}/> 
-            
             <br />
             <br />
             <h2>Realistinen mustavalkotatuointi, väritatuointi vai pieni symboli?</h2>
@@ -36,14 +35,14 @@ const Artist = () => {
             <p>Vaikka töissäni näkyy pääsääntöisesti mustaharmaa realismi, rakastan värejä ja teen myös värikuvia oikein mielelläni kuten myös pieniä yksinkertaisempiakin kuvia.</p>
             <br />
             <p>Tervetuloa toteuttamaan juuri sinun visiosi - oli se sitten herkkä pieni symboli tai näyttävämpi kokonaisuus</p>
-            
+            <br />
             <ReadMore caption="Miten valmistautua tatuointiin" linkTo="/ennen-tatuointia"/> 
 
           </div>
 
         </div>
         
-      </div>
+      </article>
     </InfoPage>
   )
 }

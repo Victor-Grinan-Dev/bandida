@@ -44,12 +44,13 @@ const Hinnasto = () => {
               </ul>
               <br />
               <p>Suunnittelu ja varausmaksu on ~100e jonka maksettua varaus on sitova ja suunnittelut tapahtuvat vasta maksun jälkeen. Varausmaksu hyvitetään tatuoinnin loppusummasta.  Jos idea muuttuu kuvan suunnittelun aikana/jälkeen, tästä otetaan uusi ~100-150e  suunittelumaksu. Jos sairastut, voi aikaa siirtää kaksi kertaa samalla varausmaksulla jonka jälkeen otetaan uusi varausmaksu.</p>
+              <br />
               <ReadMore caption="vara nyt" linkTo="/ajanvaraus" />
             </div>
 
           </div>
 
-        </div>
+        </article>
         
     </InfoPage>
 

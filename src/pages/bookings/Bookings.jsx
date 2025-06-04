@@ -43,6 +43,7 @@ const Bookings = () => {
                 <div className="content-wrapper__column-b">
                   
                   <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p>
+                  <br />
                   <ReadMore caption="Luethan ajanvaraus ohjeet" linkTo="/info-ajanvaraus" />
                   <br />
                   

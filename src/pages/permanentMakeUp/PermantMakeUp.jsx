@@ -19,7 +19,8 @@ const PermantMakeUp = () => {
                 <h2>Kumpi sopii minulle?</h2>
               <br />
               <p>Valinta microbladingin ja kestopigmentoinnin välillä riippuu ihotyypistä, toiveista ja siitä, kuinka luonnollista tai näkyvää lopputulosta haet. Microblading sopii usein kuivaihoisille ja niille, jotka toivovat hyvin hienovaraista, karvamaista jälkeä. Kestopigmentointi taas on parempi vaihtoehto rasvaisemmalle iholle ja niille, jotka haluavat hieman pysyvämmän ja pehmeämmän varjostuksen. Paula Annelica INKY 11:llä on koulutettu kestopigmentoija ja microblading-osaaja, joka auttaa sinua löytämään juuri sinulle sopivan ratkaisun. Studiollamme panostetaan rauhalliseen tunnelmaan, huolellisuuteen ja hygieniaan, jotta sinä voit tuntea olosi turvalliseksi. Tervetuloa tutustumaan ja kysymään lisää – meillä jokainen asiakas kohdataan yksilöllisesti ja suurella sydämellä.</p>
-               <ReadMore caption="Katso hinnasta: tatuointi, kestopigmentointi ja microblading" linkTo="/tatuoinnin-hinta" />
+              <br />
+              <ReadMore caption="Katso hinnasta: tatuointi, kestopigmentointi ja microblading" linkTo="/tatuoinnin-hinta" />
             </div>
 
             <div className="right-column">
@@ -35,16 +36,13 @@ const PermantMakeUp = () => {
               <br />  
               <p> Microblading on manuaalinen menetelmä kulmakarvojen muotoiluun, jossa ihon pintaan tehdään pieniä, karvan näköisiä viiltoja, jotka täytetään pigmentillä. Tuloksena on erittäin luonnollinen, yksittäisiä karvoja muistuttava jälki, joka sopii erityisesti heille, joilla on harvat tai epäsymmetriset kulmakarvat. Microbladingin jälki on tarkkaa ja kevyempää kuin koneellisessa kestopigmentoinnissa, mutta sen kesto on lyhyempi – tyypillisesti noin 12–18 kuukautta. Myös microblading vaatii ylläpitoa, ja ensimmäinen vahvistuskerta tehdään yleensä noin 4–8 viikon kuluttua ensimmäisestä käsittelystä. </p>
               <br />
-              
-
-             
               <ReadMore caption="Ideat tatuointiin - miten valita oma tatuointityyli?" linkTo="/ideat-tatuointiin" />
 
             </div>
 
           </div>
 
-        </div>
+        </article>
         
     </InfoPage>
   )

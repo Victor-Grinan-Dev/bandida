@@ -11,7 +11,7 @@ const StudioPage = () => {
 }
   return (
    <InfoPage hashLink={true} caption="kotiin" linkTo="/#studio-section">
-      <div className="single-page studio-page">   
+      <article className="single-page studio-page">   
         <div className="columns-wrapper">
 
             <div className="left-column">   
@@ -54,7 +54,7 @@ const StudioPage = () => {
           </div>
             </div>
         </div>
-      </div>
+      </article>
     </InfoPage>
   )
 }
