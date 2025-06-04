@@ -13,25 +13,20 @@ const Studio = () => {
   return (
     <section className='studio' id='studio-section'>
 
-      <div className="panel-1">
-        <div className="text-area">
+      <div className="section-title">
+        <h3>Inky 11 {translate("studio", currentLang)}</h3>
+      </div>
+
+      <div className="section-image">
+        <PicLoader extraClass="studio-picture" pic="studio" style={studioimg} seoAlt={"Inkky11 tattoo studio Helsinki"} picModalOn={false}/>
+      </div>
+
+      <div className="section-text">
           <p>Pieni, mutta persoonallinen tatuointistudio.</p> 
           <br />
           <p>Pieni ja persoonallinen studiomme sijaitsee Porvoonkatu 14:ssä, Helsingin Alppilassa, aivan Linnanmäen naapurissa. Meille pääset nopeasti esimerkiksi Kalliosta, Pasilasta ja keskustasta.</p>
           <br />
-          <p>Täällä tehdään kauneutta ja taidetta tunteella ja taidolla!</p>
           <ReadMore caption="Lue lisää studiosta" linkTo="/studio"/>
-        </div>
-      </div>
-
-      <div className="panel-2">
-
-        <div className="profile-pic">
-          <PicLoader pic="studio" style={studioimg} seoAlt={"Inkky11 tattoo studio Helsinki"} picModalOn={false}/>
-        </div>
-
-        <div className='omistaja'><h3>Inky 11 {translate("studio", currentLang)}</h3></div>
-
       </div>
 
     </section>

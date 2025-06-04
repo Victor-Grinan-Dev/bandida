@@ -42,6 +42,7 @@ const TattooIdea = (props) => {
               <h2>3. Tyyli saa näkyä – persoonallinen tatuointi kestää aikaa</h2>
               <br />
               <p>Tatuointi on osa sinua. Siksi sen kuuluu näyttää ja tuntua omalta. Älä stressaa liikaa siitä, mikä tyyli on se oikea. Voit tuoda mukanasi oman ideasi, luonnoksesi tai kertoa vain ajatuksen. Suunnitellaan tatuointi yhdessä. INKY 11 on tatuointistudio, jossa tärkeintä on sinun toiveesi. Meillä on rauhallinen ja turvallinen ympäristö, jossa jokainen asiakas kohdataan yksilöllisesti. Paula  (vai Paula Annelica) auttaa sinua kiteyttämään ajatuksesi visuaaliseen muotoon, olipa kyse sitten suuresta kokonaisuudesta tai pienestä yksityiskohdasta. Tutustu Paulan työhön Instagramissa tai tule käymään studiolla. Joskus inspiraatio löytyy vasta, kun näet erilaisia vaihtoehtoja. Hyvin ja oikein tehdyt tatuoinnit kestävät aikaa todella hyvin.</p>
+              <br />
               <ReadMore caption="Miten valmistautua tatuointiin" linkTo="/ennen-tatuointia" />
               <br />
             </div>

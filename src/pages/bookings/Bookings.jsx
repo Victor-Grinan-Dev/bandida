@@ -43,6 +43,7 @@ const Bookings = () => {
                 <div className="content-wrapper__column-b">
                   
                   <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p>
+                  <br />
                   <ReadMore caption="Luethan ajanvaraus ohjeet" linkTo="/info-ajanvaraus" />
                   <br />
                   
@@ -100,7 +101,7 @@ export default Bookings;
         <div className="bookings__tabs-bar" >
 
           <div className="link-wrapper">
-              <AppLink caption="kotiin" linkTo="/"/>
+              <AppLink caption="etusivu" linkTo="/"/>
           </div>
 
         </div>

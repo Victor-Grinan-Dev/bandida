@@ -1,5 +1,5 @@
 import AppLink from '../appLink/AppLink';
-import { APPLINKS } from '../../settings/setings';
+import { APPLINKS } from '../../settings/settings';
 import { useDispatch } from 'react-redux';
 import { toggleIsModal } from '../../app/appSlice';
 import { useNavigate } from 'react-router-dom';
@@ -20,7 +20,7 @@ const MenuModal = () => {
         <div className="links-wrapper">
 
             {APPLINKS.map((link, idx)=>(
-                link.caption === "info" ? 
+                link.caption === "artikkelit" ? 
                 <InfoDropMenu key={idx} extraStyle={{fontSize: "xx-large"}}/> 
                 : <div className="link-wraper" key={idx} onClick={()=>handleLinks(link.linksTo)}>
                     <AppLink 

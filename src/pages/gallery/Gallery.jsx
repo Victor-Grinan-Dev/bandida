@@ -17,7 +17,7 @@ const Gallery = (props) => {
     <section className='gallery'>
       
       <div className="link-warpper">
-        <AppLink caption="kotiin" linkTo="/"  extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
+        <AppLink caption="etusivu" linkTo="/"  extraStyle={currentLang === "es" ? eSExtraStyle : null}/>
 
         <div className='gallery-tabs'>
           <div className="tab-wrapper" >

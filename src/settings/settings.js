@@ -6,7 +6,7 @@
 export const APPLINKS = [
 
     {
-        caption:"info",
+        caption:"artikkelit",
         linksTo:"/info",
         type:"b",
     },
@@ -21,7 +21,7 @@ export const APPLINKS = [
         type:"b",
     },
     {
-        caption:"artist",
+        caption:"artisti",
         linksTo:"#artist-section",
         type:"a",
     },

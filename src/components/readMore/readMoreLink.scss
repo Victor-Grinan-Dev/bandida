@@ -1,5 +1,4 @@
 .read-more-link{
-    padding-top: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -7,18 +6,13 @@
 
     .readlink-Wrapper{
         font-weight: 400;
-        // display: flex;
-        // align-items: center;
-        // border: 2px solid #f1d898;
         border-radius: 50px;
         width: 100%;
-        // padding: 0.25rem 2.5rem;
         justify-content: center;
 
     a{
         color: $bandida-golden-6;
         text-decoration: none;
-        // text-transform: capitalize;
         transition: none !important;
 
         &:hover{

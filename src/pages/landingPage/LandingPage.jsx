@@ -86,10 +86,14 @@ const LandingPage = () => {
             
             <Navegator />
         </section>
-        <Samples />
-        <AboutMe />
-        <Studio />
-        <Footer />
+
+        <div className="sections">
+            <Samples />
+            <AboutMe />
+            <Studio />
+            <Footer />
+        </div>
+        
         { isModal && <MenuModal />}
 
         { showScrollTop && 
