@@ -10,7 +10,7 @@ const StudioPage = () => {
     filter: "grayscale(100%) brightness(1.2) saturate(1.5) hue-rotate(45deg) sepia(0.1)",
 }
   return (
-   <InfoPage hashLink={true} caption="kotiin" linkTo="/#studio-section">
+   <InfoPage hashLink={true} caption="etusivu" linkTo="/#studio-section">
       <article className="single-page studio-page">   
         <div className="columns-wrapper">
 

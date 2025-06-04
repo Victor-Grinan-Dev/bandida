@@ -101,7 +101,7 @@ export default Bookings;
         <div className="bookings__tabs-bar" >
 
           <div className="link-wrapper">
-              <AppLink caption="kotiin" linkTo="/"/>
+              <AppLink caption="etusivu" linkTo="/"/>
           </div>
 
         </div>

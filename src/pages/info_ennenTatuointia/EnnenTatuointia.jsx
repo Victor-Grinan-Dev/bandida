@@ -4,7 +4,7 @@ import InfoPage from "../infoPage/InfoPage";
 const EnnenTatuointia = () => {
   return (
 
-    <InfoPage backTo="/artist" >
+    <InfoPage backTo="/artisti" >
       <div className="single-page ennen-tatuointia-page">
 
         <div className="columns-wrapper">

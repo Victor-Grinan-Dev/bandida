@@ -25,7 +25,7 @@ const Artist = () => {
             <br />
             <p>Lähestyn jokaista työtä luonnollisuuden ja yksilöllisyyden kautta.</p>
             <br />
-            <ReadMore caption="Mitä on kestopigmentointi ja microblading?" linkTo="/kestopigmentointi-ja-microblading" state={{from:"/artist"}}/> 
+            <ReadMore caption="Mitä on kestopigmentointi ja microblading?" linkTo="/kestopigmentointi-ja-microblading" state={{from:"/artisti"}}/> 
             <br />
             <br />
             <h2>Realistinen mustavalkotatuointi, väritatuointi vai pieni symboli?</h2>

@@ -4,7 +4,7 @@ import InfoPage from "../infoPage/InfoPage";
 
 const PermantMakeUp = () => {
   return (
-    <InfoPage backTo="/artist">
+    <InfoPage backTo="/artisti">
         <div className="single-page pmu-page"  >
 
           <div className="columns-wrapper" >

@@ -1,11 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import AppLink from "../appLink/AppLink"
+import { useSelector } from "react-redux";
+import { translate } from "../../translation/translator";
 
 const InfoDropMenu = (props) => {
     const {active=false, extraStyle} = props;
     const [isOpen, setIsOpen] = useState(false);
     const [isAtTop, setIsAtTop] = useState(false);
     const linkRef = useRef(null);
+    const currentLang = useSelector((state) => state.app.currentLang);
 
     const toggleMenu = () => {
         setIsOpen(prev => !prev);
@@ -33,7 +36,7 @@ const InfoDropMenu = (props) => {
                 className={`app-link ${active && "active"} ${isAtTop ? "at-top" : ""}`}
                 style={extraStyle}
             >
-                    info    
+                    {translate("artikkelit", currentLang)}    
             </span>
             {isOpen && (
                 <div
@@ -47,7 +50,7 @@ const InfoDropMenu = (props) => {
                         padding: "2px",
                     }}
                 >                    
-                    <AppLink caption="artist" linkTo="/artist" extraStyle={extraStyle} translation={true}/>
+                    <AppLink caption="artisti" linkTo="/artisti" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="studio" linkTo="/studio" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="ajanvaraus" linkTo="/info-ajanvaraus" extraStyle={extraStyle} translation={true}/>
                     <AppLink caption="ennen tatuointia" linkTo="/ennen-tatuointia" extraStyle={extraStyle} translation={true}/>

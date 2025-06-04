@@ -32,7 +32,7 @@
         "en":"back",
         "es":"atrás"
     },
-    "kotiin": {
+    "etusivu": {
         "en":"to home",
         "es":"inicio"
     },
@@ -46,7 +46,7 @@
         "es":"PMU"
     },
     
-    "artist": {
+    "artisti": {
         "en":"artist",
         "es":"artista"
     },
@@ -97,9 +97,9 @@
         "es":"El estudio está justo al lado de Linnanmäki en Alppila. Los tranvías 3 y 4 paran directamente frente al estudio en la parada “Alppila”. Por Sturenkatu circulan varios tranvías y autobuses, y desde allí se tarda solo un par de minutos a pie hasta el estudio. Pasila se encuentra a 2 km, y el autobús 23 va desde Pasila directamente a Sturenkatu. Hay muchas plazas de aparcamiento en la calle; son gratuitas los sábados y domingos y de pago el resto del tiempo. El estacionamiento en la zona de Linnanmäki es algo más caro que aparcar en la calle."
     },
 
-    "info": {
-        "en":"info",
-        "es":"info"
+    "artikkelit": {
+        "en":"articles",
+        "es":"artículos"
     },
     "ennen tatuointia": {
         "en":"Before tattoo",

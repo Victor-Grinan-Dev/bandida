@@ -27,7 +27,7 @@ const Navegator = () => {
   return (
     <div className="nav-bar" id="nav-bar" ref={navBarRef}>
           {APPLINKS.map((link, idx)=>(
-            link.caption === "info" ? 
+            link.caption === "artikkelit" ? 
             <InfoDropMenu key={idx} /> 
             : <div className="link-wraper" key={idx} >
                     <AppLink 

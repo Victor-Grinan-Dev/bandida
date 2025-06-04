@@ -22,7 +22,7 @@ const InfoPage = (props) => {
     <div className='info-page' >
       <div className="link-wrapper">
 
-        <AppLink caption={translate("kotiin", curentLang)} linkTo={linkTo} />
+        <AppLink caption={translate("etusivu", curentLang)} linkTo={linkTo} />
     
         <InfoDropMenu />
       </div>

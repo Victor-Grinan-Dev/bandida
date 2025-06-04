@@ -47,7 +47,7 @@ function App() {
             <Route path="ideat-tatuointiin" element={<TattooIdea />} />
 
             <Route path="studio" element={<StudioPage />} />
-            <Route path="artist" element={<Artist />} />
+            <Route path="artisti" element={<Artist />} />
 
           </Route>
           <Route path="*" element={<NotFound />} />
