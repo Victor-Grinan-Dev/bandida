@@ -7,4 +7,4 @@ const Legal = () => {
   )
 }
 
-export default Legal
+export default Legal;
