@@ -28,7 +28,7 @@ const Ajanvaraus = () => {
                   <li><p>Joskus varattu kellonaika saattaa tatuointi päivänä venyä syystä tai toisesta joten tähän on hyvä varautua.</p></li>
                 </ul> 
                 <br />
-                <ReadMore caption="varaa nyt" linkTo="/ajanvaraus" />                   
+                <ReadMore caption="Varaa nyt" linkTo="/ajanvaraus" />                   
             </div>
           </div>
         </div>
