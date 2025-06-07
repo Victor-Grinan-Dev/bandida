@@ -1,10 +1,7 @@
 import PicLoader from '../picLoader/PicLoader';
-import { translate } from '../../translation/translator'
-import { useSelector } from 'react-redux';
 import ReadMore from '../readMore/ReadMore';
 
 const AboutMe = () => {
-  const currentLang = useSelector((state) => state.app.currentLang);
 
   return (
     <section className='artist-section' id="artist-section">
