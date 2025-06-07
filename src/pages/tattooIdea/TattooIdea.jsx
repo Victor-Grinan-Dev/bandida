@@ -12,8 +12,8 @@ const TattooIdea = (props) => {
           <div className="columns-wrapper">
 
             <div className="left-column">
-              <h1>Ideat ja tyyli </h1>
-              <h2>Miten valita oma tatuointi?</h2>
+              <h1>Ideat tatuointiin</h1>
+              <h2>Miten valita oma tatuointityyli?</h2>
               <br />
               <PicLoader pic="studio2" seoAlt={"inky11 studio"} picModalOn={false}/>
               <br />
@@ -21,30 +21,36 @@ const TattooIdea = (props) => {
               <br />
               <h2>1. Mieti, mitä haluat tatuoinnillasi ilmaista</h2>
               <br />
-              <p>Tatuointi on usein enemmän kuin kuva iholla – se voi olla muisto, symboli tai visuaalinen versio jostakin tärkeästä. Haluatko tatuoinnin, joka herättää tunteita, kuvastaa tiettyä hetkeä elämässä tai vain näyttää upealta? Jos etsit jotain yksinkertaista mutta merkityksellistä, symbolitatuointi voi olla hyvä valinta.</p>
+              <p>Tatuointi on usein enemmän kuin kuva iholla – se voi olla muisto, symboli tai visuaalinen versio jostakin tärkeästä. Haluatko tatuoinnin, joka herättää tunteita, kuvastaa tiettyä hetkeä elämässä tai vain näyttää upealta?</p>
               <br />
-              <p>Jos haluat yksityiskohtaisen ja todentuntuisen kuvan, realistinen mustaharmaa tatuointi voi sopia sinulle täydellisesti.</p>
-              <br />
-              <p>Jos rakastat värejä ja haluat erottua, väritatuointi tuo eloa ihoosi.</p>
+              <ul>
+                <li>Jos etsit jotain yksinkertaista mutta merkityksellistä, symbolitatuointi voi olla hyvä valinta.</li>
+                <li>Jos haluat yksityiskohtaisen ja todentuntuisen kuvan, realistinen mustaharmaa tatuointi voi sopia sinulle täydellisesti.</li>
+                <li>Jos rakastat värejä ja haluat erottua, väritatuointi tuo eloa ihoosi.</li>
+              </ul>
               <br />
             </div>
 
             <div className="right-column">
 
-              <h2>2. Tutustu eri tatuointityyleihin H2</h2>
+              <h2>2. Tutustu eri tatuointityyleihin</h2>
               <br />
-              <p>Paula Annelica, INKY 11:n tatuointiartisti, tekee töitä useissa eri tyyleissä – jokainen työ syntyy yksilöllisesti ja huolella. Realistinen tatuointi (usein mustaharmaa): Uskomattoman tarkkoja kuvia, varjostuksia ja yksityiskohtia. Soveltuu esimerkiksi eläin- tai henkilökuviin.</p>
-              <br />
-              <p>Väritatuointi: Leikkisä, elävä ja näyttävä. Värit voivat tuoda lisäsyvyyttä tarinaan tai tyyliin.</p>
-              <br />
-              <p>Pieni symbolitatuointi: Herkkä, huomaamaton ja merkityksellinen. Erinomainen valinta ensikertalaiselle tai minimalistista tyyliä arvostavalle.</p>
+              <p>Paula Annelica, INKY 11:n tatuointiartisti, tekee töitä useissa eri tyyleissä – jokainen työ syntyy yksilöllisesti ja huolella.</p>
+              <ul>
+                <li> <b>Realistinen tatuointi</b> (usein mustaharmaa): Uskomattoman tarkkoja kuvia, varjostuksia ja yksityiskohtia. Soveltuu esimerkiksi eläin- tai henkilökuviin.</li>
+                <li><b>Väritatuointi</b>: Leikkisä, elävä ja näyttävä. Värit voivat tuoda lisäsyvyyttä tarinaan tai tyyliin.</li>
+                <li><b>Pieni symbolitatuointi</b>: Herkkä, huomaamaton ja merkityksellinen. Erinomainen valinta ensikertalaiselle tai minimalistista tyyliä arvostavalle.</li>
+              </ul>
               <br />
               <h2>3. Tyyli saa näkyä – persoonallinen tatuointi kestää aikaa</h2>
               <br />
-              <p>Tatuointi on osa sinua. Siksi sen kuuluu näyttää ja tuntua omalta. Älä stressaa liikaa siitä, mikä tyyli on se oikea. Voit tuoda mukanasi oman ideasi, luonnoksesi tai kertoa vain ajatuksen. Suunnitellaan tatuointi yhdessä. INKY 11 on tatuointistudio, jossa tärkeintä on sinun toiveesi. Meillä on rauhallinen ja turvallinen ympäristö, jossa jokainen asiakas kohdataan yksilöllisesti. Paula  (vai Paula Annelica) auttaa sinua kiteyttämään ajatuksesi visuaaliseen muotoon, olipa kyse sitten suuresta kokonaisuudesta tai pienestä yksityiskohdasta. Tutustu Paulan työhön Instagramissa tai tule käymään studiolla. Joskus inspiraatio löytyy vasta, kun näet erilaisia vaihtoehtoja. Hyvin ja oikein tehdyt tatuoinnit kestävät aikaa todella hyvin.</p>
+              <p>Tatuointi on osa sinua. Siksi sen kuuluu näyttää ja tuntua omalta. Älä stressaa liikaa siitä, mikä tyyli on se oikea. Voit tuoda mukanasi oman ideasi, luonnoksesi tai kertoa vain ajatuksen. Suunnitellaan tatuointi yhdessä.</p>
               <br />
-              <ReadMore caption="Miten valmistautua tatuointiin" linkTo="/ennen-tatuointia" />
+              <p>INKY 11 on tatuointistudio, jossa tärkeintä on sinun toiveesi. Meillä on rauhallinen ja turvallinen ympäristö, jossa jokainen asiakas kohdataan yksilöllisesti. Paula  (vai Paula Annelica) auttaa sinua kiteyttämään ajatuksesi visuaaliseen muotoon, olipa kyse sitten suuresta kokonaisuudesta tai pienestä yksityiskohdasta.</p>
               <br />
+              <p>Tutustu Paulan (vai Paula Annelican) työhön Instagramissa tai tule käymään studiolla. Joskus inspiraatio löytyy vasta, kun näet erilaisia vaihtoehtoja. Hyvin ja oikein tehdyt tatuoinnit kestävät aikaa todella hyvin.</p>
+              <br />
+              <ReadMore caption="Miten valmistautua tatuointiin?" linkTo="/ennen-tatuointia" />
             </div>
               
           </div>

@@ -1,6 +1,7 @@
-import PicLoader from "../../components/picLoader/PicLoader"
-import ReadMore from "../../components/readMore/ReadMore"
-import InfoPage from "../infoPage/InfoPage"
+import PicLoader from "../../components/picLoader/PicLoader";
+import ReadMore from "../../components/readMore/ReadMore";
+import InfoPage from "../infoPage/InfoPage";
+
 const Hinnasto = () => {
   return (
      <InfoPage >
@@ -9,11 +10,10 @@ const Hinnasto = () => {
           <div className="columns-wrapper" >
 
             <div className="left-column">
-                <h1>Hinnasto</h1>
+                <h1>Hinnat</h1>
                 <br />
                 <PicLoader pic="studio2" seoAlt={"Inky 11 tatuointi studio"} picModalOn={false}/>
                 <br />
-
             </div>
 
             <div className="right-column">
@@ -25,16 +25,16 @@ const Hinnasto = () => {
                  Tatuoinnit:
                </h2>
                <ul>
-                    <li><p>~100e/h</p></li> 
-                    <li><p>Walk- In kuvat alkaen ~60e</p></li>
-                    <li><p>koko päivä ~500-600e</p></li>
-                    <li><p>Varausmaksu ~50-100e</p></li>
+                  <li><p>~100e/h</p></li> 
+                  <li><p>Walk- In kuvat alkaen ~60e</p></li>
+                  <li><p>koko päivä ~500-600e</p></li>
+                  <li><p>Varausmaksu ~50-100e</p></li>
                </ul>
                <br />
                <h2>Kestopigmentoinnit:</h2>
                <ul>
-                 <li><p>150-250e</p></li>
-                 <li><p>Varausmaksu 50-100e</p></li>
+                 <li><p>~150-250e</p></li>
+                 <li><p>Varausmaksu ~50-100e</p></li>
                </ul>
                <br />
                <h2>Maksutavat:</h2>
