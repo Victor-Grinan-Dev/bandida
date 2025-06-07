@@ -10,7 +10,7 @@ const AboutMe = () => {
     <section className='artist-section' id="artist-section">
 
       <div className="section-title">
-        <h3>{translate("artisti", currentLang)}</h3>
+        <h3>Paula Annelica</h3>
       </div>
 
       <div className="section-image">
@@ -22,7 +22,7 @@ const AboutMe = () => {
         <br />
         <p>Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.</p>
         <br />
-        <ReadMore caption="Lue lisää Paulasta" linkTo="/artisti"/>
+        <ReadMore title={false} caption="Lue lisää Paulasta" linkTo="/paula-annelica"/>
       </div> 
     </section>
   )

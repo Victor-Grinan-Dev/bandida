@@ -41,13 +41,13 @@ function App() {
 
             <Route path="info-ajanvaraus" element={<Ajanvaraus />} />
             <Route path="ennen-tatuointia" element={<EnnenTatuointia />} />
-            <Route path="tatuoinnin-hinta" element={<Hinnasto />} />
+            <Route path="hinnat" element={<Hinnasto />} />
             <Route path="tatuoinnin-hoito" element={<HoitoOhjeet />} />
             <Route path="kestopigmentointi-ja-microblading" element={<PermantMakeUp />} />
             <Route path="ideat-tatuointiin" element={<TattooIdea />} />
 
             <Route path="studio" element={<StudioPage />} />
-            <Route path="artisti" element={<Artist />} />
+            <Route path="paula-annelica" element={<Artist />} />
 
           </Route>
           <Route path="*" element={<NotFound />} />
