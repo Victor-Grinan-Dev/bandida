@@ -1,0 +1,65 @@
+clip path effect: https://www.youtube.com/watch?v=H08wox9Lqd0 
+
+true parallax: https://www.youtube.com/watch?v=Qj0Qx8HpNUo
+
+calendar: https://www.youtube.com/watch?v=ecjaXnL2CUs
+
+reference page: https://artinktattoostudio.com/services-2/#
+
+https://www.tiktok.com/@paulaannelica.tattoo
+https://www.facebook.com/search/top/?q=paula%20annelica
+https://www.instagram.com/paulaannelica.tattoo/
+study https://www.namecheap.com/cart/configuration/hosting/domainselection.aspx?product=ox-starter&producttype=oxhosting&action=purchase&duration=2&durationtype=month&istrial=True&addons=1&
+
+hamburgermenu: https://codepen.io/Bilal1909/pen/KKdrmRP
+
+Porvoonkatu 14,
+00510 Helsinki.
+
+Phone/WhatsApp
+045-783 929 09
+
+paulaannelica.tattoo@gmail.com
+
+WhatsApp integration
+contact form to add pictures.
+
+grey scale carrusell
+nav bar index
+
+info
+akioloajat - away
+ajanvaus page
+whatsapp https://www.youtube.com/watch?v=SPBN4qxUaEs
+
+boobking googgle: 
+1- create abusisnes account: https://www.youtube.com/watch?v=U71txGAumVE
+2- making a booking page: https://www.youtube.com/watch?v=Fk7FQ39LsR0
+3- handling bookings: https://www.youtube.com/watch?v=VKIQrYaUq-E
+4- embed booking: https://www.youtube.com/watch?v=MF3yXhiHN6k
+
+appwrite: https://www.youtube.com/watch?v=l-vkvrxssa8&list=PLUr_dKgYaKJbxDEf_SchTwukxb0FlHOFf
+
+/*ANNUS HAND*/
+
+make every tab it own page:
+- hinnasto ok
+- artisti ok
+- microplating ok
+- studio ok
+
+info for mobile ok
+
+language for desktop ok
+
+make a page for each tattoo type of galleria ok
+
+lataa lisää->translation in tattopages ok
+
+alts of each pictures to check
+
+Center the sections artist and studio for mobile: put full text in the single page
+Redo/design the single page intoone column ok
+Redesign the links left tasa and wothout button feature ok
+Lue lisää Paulasta + Lue lisää studiosta ok
+Fix the H1 levels????

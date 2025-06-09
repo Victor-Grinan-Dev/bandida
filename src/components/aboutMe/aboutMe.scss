@@ -1,0 +1,57 @@
+.artist-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 20px;
+    overflow-y: hidden;
+    
+    .section-title{
+        font-size: xx-large;
+    }
+    
+    .section-image{
+        .artist-picture{
+            max-height: 300px;
+        }
+    }
+
+    .section-text{
+        max-width: 95%;
+    }
+
+    @media (min-width: 665px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        .section-title, .section-image, .section-text{
+            display: flex;
+        }
+
+        .section-title{
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+        }
+
+        .section-image  {
+            grid-row: 1 / span 4; 
+            align-items: center;
+            justify-content: flex-end;
+
+            .artist-picture{
+                max-height: 400px;
+            }
+        }
+
+        .section-text{
+            flex-direction: column;
+            grid-row: 3 / span 1; 
+            
+            p {
+                max-width: 60%;
+            }
+        }
+    }
+}

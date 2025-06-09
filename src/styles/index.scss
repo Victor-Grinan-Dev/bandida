@@ -1,1 +1,32 @@
-@import "./base.scss"
+@import "./base.scss";
+@import "./constants.scss";
+@import "./mixins.scss";
+@import "./animations.scss";
+
+/*pages*/
+@import "../pages/gallery/gallery.scss";
+@import "../pages/landingPage/landingPage.scss";
+@import "../pages/infoPage/infoPage.scss";
+@import "../pages/notFound/notFound.scss";
+@import "../pages/bookings/bookings.scss";
+
+/*components*/
+@import "../components/navegator/navegator.scss";
+@import "../components/transparentSection/transparentSection.scss";
+@import "../components/appLink/appLink.scss";
+@import "../components/hamburger/hamburger.scss";
+@import "../components/some/some.scss";
+@import "../components/aboutMe/aboutMe.scss";
+@import "../components/studio/studio.scss";
+@import "../components/samples/samples.scss";
+@import "../components/footer/footer.scss";
+@import "../components/menuModal/menuModal.scss";
+@import "../components/picModal/picModal.scss";
+@import "../components/appButton/appButton.scss";
+@import "../components/appLabel/appLabel.scss";
+@import "../components/readMore/readMoreLink.scss";
+@import "../components/infoDropMenu/infoDropMenu.scss";
+
+
+
+

@@ -1,0 +1,98 @@
+.samples {
+    background-color: $bandidas-black-1;
+    width: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    // padding-top: 310px;
+
+
+    .pics-sample{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 60dvh;
+        gap: 10px;
+
+        .pic-container{
+            width: 25%;
+            height: 100%;
+            justify-content: space-between;
+            transition: all .8s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                width: 60%;
+                z-index: 10;
+                transition: all .8s ease-in-out;
+                filter: brightness(1.2);
+
+                @media (max-width:700px) {
+                    cursor: pointer;
+                    transform: scale(1);
+                    width: 25%;
+                    z-index: 1;
+                    transition: none;
+                    filter: brightness(1);
+                }
+            }
+
+            .pic-item{
+                height: 100%;
+                object-fit: cover;
+            }
+
+ 
+        }
+
+        @media (max-width:700px) {
+            // height: 30dvh;
+            flex-wrap: wrap;
+            
+            .pic-container{
+                width: 30%;
+
+                &.secundary{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &-text{
+        text-align: left;
+        line-height: 1.2;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p, h3{
+            width: 30%;
+            min-width: 200px;
+            color:  #e2c479;;
+        }
+        
+    }
+
+    .app-link-container{
+        @media (max-width:665px) {
+            margin-bottom: 0;
+            transform: translateY(00px);
+        }
+    }
+
+    @media (max-width:665px) {
+
+        min-height: none;
+        max-height: none;
+        // height: 130dvh;
+    }
+}

@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    height: 100vh;
+    background-color: $bandidas-black-1;
+    width: 100%;
+    
+    .contact-bar{
+        position: relative;
+        padding: 10px 10%;
+        top: 16vh;
+
+        @media (max-width:665px) {
+            top: 10px;
+        }
+    }
+
+    .map-container {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 40vh;
+
+        @media (max-width:665px) {
+            top: 40%;
+            // height: 50vh;
+        }
+      }
+    
+      .legal{
+        position: absolute;
+        bottom: 5%;
+      }
+
+}

@@ -1,0 +1,13 @@
+.app-link{
+    a, span {
+        @include link-styles;
+        text-transform: capitalize;
+    }
+}
+
+.active{
+    a, span{
+        border: 2px solid $bandida-golden-7;
+        color: #f6f6f3;
+    }
+}

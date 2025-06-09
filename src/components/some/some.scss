@@ -1,0 +1,22 @@
+.some{
+    display: flex;
+    gap: 15px;
+
+    &-item{
+        height: 30px;
+        aspect-ratio: 1 1;
+    }
+
+    &-icon{
+        color: $bandida-golden-7;
+        font-size: 30px;
+
+        &:hover{
+            color: $bandida-golden-6
+        }
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    @include no-highlight;
+}

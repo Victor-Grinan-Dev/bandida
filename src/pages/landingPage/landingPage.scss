@@ -1,0 +1,146 @@
+.landinpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $bandidas-black-1;
+    color: white;
+
+    background-image: url('../../assets/images/banner/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 150%;
+    animation: moveBackground 60s linear infinite;
+
+    &-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }    
+    
+    .sections{
+        background-color: $bandidas-black-1;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    @media (max-width:1000px) {
+        background-size: 200%;
+    }
+    @media (max-width:500px) {
+        background-size: 300%;
+    }
+    @media (max-width:375px) {
+        background-size: 400%;
+    }
+}
+
+.keywords{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+    // gap: 5px;
+    // margin-top: 10px;
+    font-size: 19px;
+    font-weight: 100;
+    color: $bandida-golden-6;
+
+}
+
+.contact-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: $bandida-golden-6;
+    padding: 5px 20px;
+
+    background-color: $bandidas-black-1;
+    z-index: 100;
+
+    &__corner{
+        width: 264px;
+
+        a {
+            text-decoration: none;
+            color: $bandida-golden-6;
+        }
+
+        .address-right{
+            display: none;
+        }
+    }
+
+    #right{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        text-align: end;
+    }
+
+    @media (max-width: 665px){
+        flex-direction: column;
+        gap: 10px;
+
+        #right{
+            display: none;
+        }
+    }
+    
+}
+
+/*LOGO*/
+.logo-wrapper{
+    height: 100%;
+    width: 100%;
+    // aspect-ratio: 3/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.733);
+
+    @include no-highlight;
+
+    @media (max-width:665px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}
+
+.address{
+    font-size: 18px;
+}
+
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 85px;
+    height: 50px;
+    color: $bandida-golden-6;
+    background-color: #111;
+    border: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1000;
+    text-transform: capitalize;
+
+    &:hover{
+        background-color: darken($bandida-golden-6, 50%);
+    }
+
+}

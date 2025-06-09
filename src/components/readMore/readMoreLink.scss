@@ -1,0 +1,26 @@
+.read-more-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: none !important;
+
+    .readlink-Wrapper{
+        font-weight: 400;
+        border-radius: 50px;
+        width: 100%;
+        justify-content: center;
+
+    a{
+        color: $bandida-golden-6;
+        text-decoration: none;
+        transition: none !important;
+
+        &:hover{
+            border: $bandida-golden-7;
+            color: #f6f6f3;
+            transition: none !important;
+        }
+    }
+    }
+
+}
