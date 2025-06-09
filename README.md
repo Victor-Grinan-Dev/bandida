@@ -2,4 +2,4 @@
 
 ## Online:
 
-- https://labandida.netlify.app
+- https://www.inky11.com
