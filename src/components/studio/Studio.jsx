@@ -26,7 +26,7 @@ const Studio = () => {
           <br />
           <p>Pieni ja persoonallinen studiomme sijaitsee Porvoonkatu 14:ssä, Helsingin Alppilassa, aivan Linnanmäen naapurissa. Meille pääset nopeasti esimerkiksi Kalliosta, Pasilasta ja keskustasta.</p>
           <br />
-          <ReadMore caption="Lue lisää studiosta" linkTo="/studio"/>
+          <ReadMore caption="studiosta" linkTo="/studio"/>
       </div>
 
     </section>
