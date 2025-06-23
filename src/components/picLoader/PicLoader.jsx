@@ -221,7 +221,4 @@ const PicLoader = (props) => {
   )
 }
 
-
-
-
 export default PicLoader;
