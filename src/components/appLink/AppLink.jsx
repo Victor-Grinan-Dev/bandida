@@ -26,7 +26,7 @@ const AppLink = (props) => {
     }
     return (
       <div className={`app-link ${active && "active"}` }>
-          <Link aria-label={`Go To ${capitalCaption}`} to={linkTo} style={extraStyle} > {capitalize(translate(caption, currentLang || currentLang))} </Link>
+          <Link aria-label={`Go To ${caption}`} to={linkTo} style={extraStyle} > {capitalize(translate(caption, currentLang || currentLang))} </Link>
       </div>
     )
 }
