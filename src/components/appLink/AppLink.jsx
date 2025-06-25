@@ -6,7 +6,6 @@ import { capitalize } from '../../helper/capitalizer';
 
 const AppLink = (props) => {
     const {linkTo, caption,  hashLink=false, type="primary", active=false, extraStyle, children, fx} = props;
-    const capitalCaption = capitalize(caption);
     const currentLang = useSelector((state) => state.app.currentLang);
 
     if (children) {
