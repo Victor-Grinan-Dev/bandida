@@ -8,7 +8,7 @@ import { useOutsideClick } from "../../hooks/useOutsideClick";
 const InfoDropMenu = ({ active = false, extraStyle }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAtTop, setIsAtTop] = useState(false);
-  const wrapperRef = useRef(null); // full wrapper ref
+  const wrapperRef = useRef(null); 
   const currentLang = useSelector((state) => state.app.currentLang);
 
   const dropdownRef = useOutsideClick(() => {
@@ -16,7 +16,7 @@ const InfoDropMenu = ({ active = false, extraStyle }) => {
   });
 
   const toggleMenu = (e) => {
-    e.stopPropagation(); // prevent click from triggering outside click
+    e.stopPropagation();
     setIsOpen((prev) => !prev);
   };
 
@@ -25,7 +25,11 @@ const InfoDropMenu = ({ active = false, extraStyle }) => {
       if (wrapperRef.current) {
         const rect = wrapperRef.current.getBoundingClientRect();
         const viewportHeight = window.innerHeight;
-        setIsAtTop(rect.top <= 0 || rect.bottom + 150 > viewportHeight);
+        setIsAtTop(rect.top <= 0 || rect.bottom + 600 > viewportHeight);
+        /*
+        TODO: fix this fuction to show the menu when the user scrolls down to switch to isTop at half of the viwport
+        */
+        
       }
     };
     window.addEventListener("scroll", handleScroll);
