@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { translate } from '../../translation/translator';
 import { useSelector } from 'react-redux';
+import { capitalize } from '../../helper/capitalizer';
 
 const AppLink = (props) => {
     const {linkTo, caption,  hashLink=false, type="primary", active=false, extraStyle, children, fx} = props;
+    const capitalCaption = capitalize(caption);
     const currentLang = useSelector((state) => state.app.currentLang);
 
     if (children) {
@@ -18,13 +20,13 @@ const AppLink = (props) => {
     else if(hashLink){
       return (
         <div className={`app-link ${active && "active"}`} >
-            <HashLink to={`${linkTo}`} style={extraStyle} > { translate(caption, currentLang) } </HashLink>
+            <HashLink to={`${linkTo}`} style={extraStyle} > { capitalize(translate(caption, currentLang || currentLang)) } </HashLink>
         </div>
       )
     }
     return (
       <div className={`app-link ${active && "active"}` }>
-          <Link aria-label={`Go To ${caption}`} to={linkTo} style={extraStyle} > { translate(caption, currentLang) } </Link>
+          <Link aria-label={`Go To ${capitalCaption}`} to={linkTo} style={extraStyle} > {capitalize(translate(caption, currentLang || currentLang))} </Link>
       </div>
     )
 }

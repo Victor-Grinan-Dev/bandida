@@ -1,3 +1,4 @@
+import { capitalize } from '../../helper/capitalizer';
 import { translate } from '../../translation/translator';
 import { useSelector } from 'react-redux';
 
@@ -7,7 +8,7 @@ const AppLabel = (props) => {
 
   return (
     <div className='app-label' style={extraStyle}>
-      {translation ? translate(caption, currentLang) : caption}
+      {capitalize(translation) ? capitalize(translate(caption, currentLang || currentLang)) : capitalize(caption)}
       {children}
     </div>
   );

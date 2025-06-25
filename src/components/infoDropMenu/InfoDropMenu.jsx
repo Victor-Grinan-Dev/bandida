@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import AppLink from "../appLink/AppLink"
 import { useSelector } from "react-redux";
 import { translate } from "../../translation/translator";
+import { capitalize } from "../../helper/capitalizer";
 
 const InfoDropMenu = (props) => {
     const {active=false, extraStyle} = props;
@@ -36,7 +37,7 @@ const InfoDropMenu = (props) => {
                 className={`app-link ${active && "active"} ${isAtTop ? "at-top" : ""}`}
                 style={extraStyle}
             >
-                    {translate("artikkelit", currentLang)}    
+                    {capitalize(translate("artikkelit", currentLang))}    
             </span>
             {isOpen && (
                 <div

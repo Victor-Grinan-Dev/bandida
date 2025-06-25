@@ -1,7 +1,7 @@
 .app-link{
     a, span {
         @include link-styles;
-        text-transform: capitalize;
+        // text-transform: capitalize;
     }
 }
 

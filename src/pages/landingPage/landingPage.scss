@@ -137,7 +137,7 @@
     padding: 10px 15px;
     cursor: pointer;
     z-index: 1000;
-    text-transform: capitalize;
+    // text-transform: capitalize;
 
     &:hover{
         background-color: darken($bandida-golden-6, 50%);
