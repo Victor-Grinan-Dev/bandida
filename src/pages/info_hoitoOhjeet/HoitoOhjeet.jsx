@@ -7,7 +7,7 @@ const HoitoOhjeet = () => {
 
         <div className="columns-wrapper" >
           <div className="left-column" >
-            <h1>Tatuointi hoito ohjeet</h1>
+            <h1>Tatuointi hoito-ohjeet</h1>
             <br />
             <PicLoader pic="studio2" seoAlt={"Inky 11 tatuointi studio"} picModalOn={false}/>
             <br />
