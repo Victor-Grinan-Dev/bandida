@@ -1,5 +1,6 @@
 import PicLoader from "../../components/picLoader/PicLoader";
 import ReadMore from "../../components/readMore/ReadMore"
+import { capitalize } from "../../helper/capitalizer";
 import InfoPage from "../infoPage/InfoPage";
 
 const PermantMakeUp = () => {
@@ -32,7 +33,7 @@ const PermantMakeUp = () => {
                 <br />
                 <p>Lopputulos kestää henkilöstä riippuen 1–3 vuotta. Pigmentoinnin jälkeen tarvitaan vahvistuskäynti 4-10 viikon kuluttua ensimmäisestä käsittelystä. Tarvittaessa väriä voidaan vahvistaa vuosittaisilla ylläpitokäynneillä.</p>
                 <br />
-              <ReadMore caption="Katso hinnasta: tatuointi, kestopigmentointi ja microblading" linkTo="/hinnat" />
+              <ReadMore caption={capitalize("hinnasto")} linkTo="/hinnat" />
             </div>
 
             <div className="right-column">
@@ -50,7 +51,7 @@ const PermantMakeUp = () => {
               <br />
               <p>Tervetuloa tutustumaan ja kysymään lisää – meillä jokainen asiakas kohdataan yksilöllisesti ja suurella sydämellä.</p>
               <br />
-              <ReadMore caption="Hinnat: tatuointi, kestopigmentointi ja microblading " linkTo="/hinnat" />
+              
 
             </div>
 
