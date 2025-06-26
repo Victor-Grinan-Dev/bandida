@@ -16,6 +16,7 @@ import Samples from "../../components/samples/Samples";
 import Footer from "../../components/footer/Footer";
 import MenuModal from "../../components/menuModal/MenuModal";
 import LangPanel from '../../components/langPanel/LangPanel';
+import { capitalize } from '../../helper/capitalizer';
 
 const LandingPage = () => {
     const isModal = useSelector(state => state.app.isModal);
@@ -61,27 +62,6 @@ const LandingPage = () => {
             <div className="logo-wrapper" >
                 <PicLoader pic="mainLogo" xtraStyle={{ width: "50vw", maxWidth: "250px"}}/>
 
-                {/* <div className="keywords">
-                    <h1>
-                        <AppLabel extraStyle={keywords} 
-                        caption="tatuoinnit"
-                        />
-                    </h1>
-
-                    <AppLabel extraStyle={keywords} caption={"&"} />
-
-                    <h1>
-                        <AppLabel extraStyle={keywords} 
-                        caption="kestopigmentointi"
-                        />
-                    </h1>
-                    <div className="pmu" style={{display:"flex", alignItems:"center", justifyContent:"center", gap:"0"}}>
-                        <AppLabel extraStyle={{...keywords, padding:"5px 0"}} caption={"("} />
-                        <h1><AppLabel extraStyle={{...keywords, padding:"5px 0"}} caption={"PMU"} /></h1>
-                        <AppLabel extraStyle={{...keywords, padding:"5px 0"}} caption={")"} />
-                    </div>
-                </div> */}
-
             </div>
             
             <Navegator />
@@ -99,7 +79,7 @@ const LandingPage = () => {
         { showScrollTop && 
         
             <button onClick={scrollToTop} className="scroll-to-top">
-                ↑ {translate("ylös", currentLang) }
+                ↑ {capitalize(translate("ylös", currentLang)) }
                  
             </button>
         }
