@@ -152,7 +152,7 @@ const pictures = {
     fav004:pic005,
     fav005:pic007,
     fav006:pic008,
-    fav007:pic010,
+    fav007:color07,
     fav008:pic011,
     fav009:pic012,
 
