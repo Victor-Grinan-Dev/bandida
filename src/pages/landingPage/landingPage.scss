@@ -86,9 +86,14 @@
     @media (max-width: 665px){
         flex-direction: column;
         gap: 10px;
-
+        padding: 10px ;
         #right{
             display: none;
+        }
+
+        &__corner{
+            padding: 10px 10px;
+            width: 100%;
         }
     }
     
