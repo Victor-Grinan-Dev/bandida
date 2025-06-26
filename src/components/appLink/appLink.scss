@@ -2,6 +2,7 @@
     a, span {
         @include link-styles;
         // text-transform: capitalize;
+        text-wrap: nowrap;
     }
 }
 
