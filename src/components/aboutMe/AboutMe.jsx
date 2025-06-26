@@ -22,7 +22,7 @@ const AboutMe = () => {
         <br />
         <p>{translate("Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.", currentlang)}</p>
         <br />
-        <ReadMore title={false} caption="Lue lisää Paulasta" linkTo="/paula-annelica"/>
+        <ReadMore title={false} caption={translate("Lue lisää Paulasta", currentlang)} linkTo="/paula-annelica"/>
       </div> 
     </section>
   )

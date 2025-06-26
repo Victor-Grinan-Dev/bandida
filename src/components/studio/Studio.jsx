@@ -27,7 +27,7 @@ const Studio = () => {
           <br />
           <p>{translate("Pieni ja persoonallinen studiomme sijaitsee Porvoonkatu 14:ssä, Helsingin Alppilassa, aivan Linnanmäen naapurissa. Meille pääset nopeasti esimerkiksi Kalliosta, Pasilasta ja keskustasta.", currentLang)}</p>
           <br />
-          <ReadMore title={false} caption="Lue lisää studiosta" linkTo="/studio"/>
+          <ReadMore title={false} caption={translate("Lue lisää studiosta", currentLang)} linkTo="/studio"/>
       </div>
 
     </section>

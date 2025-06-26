@@ -3,10 +3,13 @@ import { useLocation } from 'react-router-dom';
 import PicLoader from '../../components/picLoader/PicLoader';
 import InfoPage from '../infoPage/InfoPage';
 import ReadMore from '../../components/readMore/ReadMore';
+import { useSelector } from 'react-redux';
+import { translate } from '../../translation/translator';
 
 const Bookings = () => {
   const { pathname } = useLocation();
   const [copied, setCopied] = useState(null);
+  const currentLang = useSelector((state) => state.app.currentLang);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -30,7 +33,7 @@ const Bookings = () => {
     <InfoPage >
       <div className="single-page bookings-page" >
         <div className="title-box">
-          <h1>Ajanvaraus</h1>
+          <h1>{translate("Ajanvaraus", currentLang)}</h1>
         </div>
         <div className="columns-wrapper">
             <div className="left-column">
@@ -42,9 +45,9 @@ const Bookings = () => {
 
                 <div className="content-wrapper__column-b">
                   
-                  <p>Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.</p>
+                  <p>{translate("Ajanvaraukset viestillä sähköpostin, instagramin tai facebookin kautta.", currentLang)}</p>
                   <br />
-                  <ReadMore caption="Luethan ajanvaraus ohjeet" linkTo="/info-ajanvaraus" />
+                  <ReadMore caption={translate("Luethan ajanvaraus ohjeet", currentLang)} linkTo="/info-ajanvaraus" />
                   <br />
                   
                   <div className="content-item" >
