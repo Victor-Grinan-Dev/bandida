@@ -6,19 +6,19 @@ const Samples = () => {
   return (
     <section className='samples ' id='samples '>
         <div className="pics-sample" onClick={()=>navigate("/gallery/mustavalkoinen-tatuointi")}>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav004" extraClass="pic-item"/>
             </div>
             <div className="pic-container secundary">
                 <PicLoader pic="fav005" extraClass="pic-item"/>
             </div>
-            <div className="pic-container">
+            <div className="pic-container secundary">
                 <PicLoader pic="fav002" extraClass="pic-item"/>
             </div>
-            <div className="pic-container secundary">
+            <div className="pic-container ">
                 <PicLoader pic="fav001" extraClass="pic-item"/>
             </div>
-            <div className="pic-container secundary">
+            <div className="pic-container "> 
                 <PicLoader pic="fav007" extraClass="pic-item"/>
             </div>
             <div className="pic-container">
