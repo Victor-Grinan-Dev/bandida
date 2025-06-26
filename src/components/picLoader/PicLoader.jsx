@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import { setPicModal, togglePicModal } from '../../app/appSlice';
-
+import pic039 from "../../assets/images/Black&Grey/Black&grey(6).webp";
+import pic038 from "../../assets/images/Black&Grey/Black&grey(5).webp"
+import pic037 from "../../assets/images/Black&Grey/Black&grey(4).webp"
+import pic036 from "../../assets/images/Black&Grey/Black&grey(3).webp"
+import pic035 from "../../assets/images/Black&Grey/Black&grey(2).webp"
+import pic034 from "../../assets/images/Black&Grey/Black&grey(1).webp"
+import pic033 from "../../assets/images/Black&Grey/Black&grey(1) (1).webp"
+import pic032 from "../../assets/images/Black&Grey/Black&grey (1).webp"
+import pic031 from "../../assets/images/Black&Grey/Black&grey.webp"
 import pic030 from "../../assets/images/Black&Grey/pic001.webp";
 import pic029 from "../../assets/images/Black&Grey/pic002.webp";
 import pic028 from "../../assets/images/Black&Grey/pic003.webp";
@@ -33,9 +41,12 @@ import pic002 from "../../assets/images/Black&Grey/pic018.webp";
 import pic001 from "../../assets/images/Black&Grey/pic030.webp";
 
 import color01 from "../../assets/images/colors/pic013.webp";
-import color03 from "../../assets/images/colors/pic015.webp";
+// import color03 from "../../assets/images/colors/pic015.webp";
 import color04 from "../../assets/images/colors/pic017.webp";
 import color05 from "../../assets/images/colors/pic027.webp";
+import color06 from "../../assets/images/colors/Värikuvat (1).webp";
+import color07 from "../../assets/images/colors/Värikuvat(1).webp";
+import color08 from "../../assets/images/colors/Värikuvat.webp";
 
 import small001 from "../../assets/images/smalls/20220720_172939_Original.webp";
 import small002 from "../../assets/images/smalls/20230426_135032_Original.webp";
@@ -49,6 +60,13 @@ import small009 from "../../assets/images/smalls/matriushka.webp";
 
 import pmu01 from "../../assets/images/pmu/huulet.webp"
 import pmu02 from "../../assets/images/pmu/kulmat.webp"
+import pmu03 from "../../assets/images/pmu/Microblading ja lipblush.webp"
+import pmu04 from "../../assets/images/pmu/Microblading(1).webp"
+import pmu05 from "../../assets/images/pmu/Microblading(2).webp"
+import pmu06 from "../../assets/images/pmu/Microblading.webp"
+import pmu07 from "../../assets/images/pmu/Parantuneet puuterikulmat.webp"
+import pmu08 from "../../assets/images/pmu/Puuterikulmat(1).webp"
+import pmu09 from "../../assets/images/pmu/Puuterikulmat.webp"
 
 import mainLogo from "../../assets/images/logo/inky-logo.png";
 
@@ -90,11 +108,23 @@ const pictures = {
     pic028:pic028,
     pic029:pic029,
     pic030:pic030,
+    pic031:pic031,
+    pic032:pic032,  
+    pic033:pic033,
+    pic034:pic034,
+    pic035:pic035,
+    pic036:pic036,
+    pic037:pic037,
+    pic038:pic038,
+    pic039:pic039,
 
     color01:color01,
-    color03:color03,
+    // color03:color03,
     color04:color04,
     color05:color05,
+    color06:color06,
+    color07:color07,
+    color08:color08,
 
     small001:small001,
     small002:small002,
@@ -108,6 +138,13 @@ const pictures = {
 
     pmu01:pmu01,
     pmu02:pmu02,
+    pmu03:pmu03,
+    pmu04:pmu04,
+    pmu05:pmu05,
+    pmu06:pmu06,
+    pmu07:pmu07,
+    pmu08:pmu08,
+    pmu09:pmu09,
 
     fav001:pic002,
     fav002:pic003,
@@ -153,22 +190,41 @@ export const blackGrey = [
   'pic022',
   'pic023',
   // 'pic024', //crying lion
-  // 'pic025',
+  'pic025',
   // 'pic026',
   // 'pic027',
   // 'pic028',
   // 'pic029',
   // 'pic030', // rocker
+  'pic031',
+  'pic032',  
+  'pic033',
+  'pic034',
+  'pic035',
+  'pic036',
+  'pic037',
+  'pic038',
+  'pic039',
 ];
 export const colors = [
   'color01',
-  'color03',
+  // 'color03', //bee and butterfly
   'color04',
   'color05', 
+  'color06', 
+  'color07', 
+  'color08', 
 ];
 export const pmu = [
   'pmu01',
   'pmu02',
+  'pmu03',
+  'pmu04',
+  'pmu05',
+  'pmu06',
+  'pmu07',
+  'pmu08',
+  'pmu09',
 ];
 export const smalls = [
   'small001',
