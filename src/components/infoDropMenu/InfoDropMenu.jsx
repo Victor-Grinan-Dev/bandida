@@ -25,7 +25,7 @@ const InfoDropMenu = ({ active = false, extraStyle }) => {
       if (wrapperRef.current) {
         const rect = wrapperRef.current.getBoundingClientRect();
         const viewportHeight = window.innerHeight;
-        setIsAtTop(rect.top <= 0 || rect.bottom + 600 > viewportHeight);
+        setIsAtTop(rect.top <= 0 || rect.bottom + 0 > viewportHeight);
         /*
         TODO: fix this fuction to show the menu when the user scrolls down to switch to isTop at half of the viwport
         */
