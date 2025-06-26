@@ -7,6 +7,10 @@
         "en":"Tattoos ",
         "es":"Tatuajes"
     },
+    "artikkelit": {
+        "en":"article ",
+        "es":"artículo"
+    },
     "sijainti": {
         "en":"location ",
         "es":"locación"
