@@ -1,8 +1,11 @@
+import { useSelector } from 'react-redux';
 import PicLoader from '../picLoader/PicLoader';
 import ReadMore from '../readMore/ReadMore';
+import { translate } from '../../translation/translator';
 
 const AboutMe = () => {
 
+  const currentlang = useSelector((state) => state.app.currentLang);
   return (
     <section className='artist-section' id="artist-section">
 
@@ -15,9 +18,9 @@ const AboutMe = () => {
       </div>
 
       <div className="section-text">
-        <p>Hei, olen Paula, INKY 11:n perustaja, tatuoija ja koulutettu kestopigmentoija.</p> 
+        <p>{translate("Hei, olen Paula, INKY 11:n perustaja, tatuoija ja koulutettu kestopigmentoija.", currentlang)}</p> 
         <br />
-        <p>Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.</p>
+        <p>{translate("Olen toiminut tatuointien parissa usean vuoden ajan ja rakastan luoda uniikkeja teoksia, jotka kertovat tarinaa tai kuvastavat jotain merkityksellistä.", currentlang)}</p>
         <br />
         <ReadMore title={false} caption="Lue lisää Paulasta" linkTo="/paula-annelica"/>
       </div> 

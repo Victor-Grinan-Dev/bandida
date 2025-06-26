@@ -3,6 +3,7 @@ import { translate } from '../../translation/translator';
 import { useSelector } from 'react-redux';
 import ReadMore from '../readMore/ReadMore';
 
+
 const studioimg = {
     filter: "grayscale(100%) brightness(1.2) saturate(1.5) hue-rotate(45deg) sepia(0.1)",
 }
@@ -22,9 +23,9 @@ const Studio = () => {
       </div>
 
       <div className="section-text">
-          <p>Pieni, mutta persoonallinen tatuointistudio.</p> 
+          <p>{translate("Pieni, mutta persoonallinen tatuointistudio.", currentLang)}</p> 
           <br />
-          <p>Pieni ja persoonallinen studiomme sijaitsee Porvoonkatu 14:ssä, Helsingin Alppilassa, aivan Linnanmäen naapurissa. Meille pääset nopeasti esimerkiksi Kalliosta, Pasilasta ja keskustasta.</p>
+          <p>{translate("Pieni ja persoonallinen studiomme sijaitsee Porvoonkatu 14:ssä, Helsingin Alppilassa, aivan Linnanmäen naapurissa. Meille pääset nopeasti esimerkiksi Kalliosta, Pasilasta ja keskustasta.", currentLang)}</p>
           <br />
           <ReadMore title={false} caption="Lue lisää studiosta" linkTo="/studio"/>
       </div>
