@@ -1,4 +1,4 @@
-import Gallery from "../Gallery";
+
 import PicLoader, { pmu } from '../../../components/picLoader/PicLoader';
 import { useState } from "react";
 import AppButton from "../../../components/appButton/AppButton";
@@ -11,7 +11,7 @@ const PMU = () => {
         setVisibleCount(prev => prev + 5);
     };
   return (
-    <Gallery>
+    <div>
         <div className="collage-wrapper" >
         
             <div className="collage" style={{ gridTemplateColumns:`repeat(${pics.length < 5 ? pics.length : 5 }, 1fr);` }}>
@@ -28,7 +28,7 @@ const PMU = () => {
             <AppButton caption="lataa lisää" fx={loadMore} />
         </div>
         )}
-    </Gallery>
+    </div>
   )
 }
 

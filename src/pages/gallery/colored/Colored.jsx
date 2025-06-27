@@ -1,4 +1,4 @@
-import Gallery from "../Gallery";
+
 import PicLoader, { colors } from '../../../components/picLoader/PicLoader';
 import { useState } from "react";
 import AppButton from "../../../components/appButton/AppButton";
@@ -11,7 +11,7 @@ const Colored = () => {
         setVisibleCount(prev => prev + 5);
     };
   return (
-    <Gallery>
+    <div>
         <div className="collage-wrapper" >
         
             <div className="collage">
@@ -28,7 +28,7 @@ const Colored = () => {
             <AppButton caption="lataa lisää" fx={loadMore} />
         </div>
         )}
-    </Gallery>
+    </div>
 
   )
 }

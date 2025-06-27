@@ -22,6 +22,7 @@ import Colored from "./pages/gallery/colored/Colored";
 import PMU from "./pages/gallery/PMU/PMU";
 import PermantMakeUp from "./pages/permanentMakeUp/PermantMakeUp";
 import TattooIdea from "./pages/tattooIdea/TattooIdea";
+import Gallery from "./pages/gallery/Gallery";
 
 function App() {
 
@@ -32,10 +33,12 @@ function App() {
 
             <Route index element={<LandingPage />} />
 
-            <Route path="galleria/pienet-tatuointi" element={<Smalls />} />
-            <Route path="galleria/mustavalkoinen-tatuointi" element={<BlackNWhite />} />
-            <Route path="galleria/värilliset-tatuointi" element={<Colored />} />
-            <Route path="galleria/pmu-tatuointi" element={<PMU />} />
+            <Route path="galleria" element={<Gallery />} >
+              <Route path="pienet-tatuointi" element={<Smalls />} />
+              <Route path="mustavalkoinen-tatuointi" element={<BlackNWhite />} />
+              <Route path="värilliset-tatuointi" element={<Colored />} />
+              <Route path="pmu-tatuointi" element={<PMU />} />
+            </Route>
 
             <Route path="ajanvaraus" element={<Bookings />} />
 

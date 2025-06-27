@@ -1,10 +1,11 @@
 import AppLink from '../../components/appLink/AppLink';
 import PicModal from '../../components/picModal/PicModal';
 import { useSelector } from 'react-redux';
+import { Outlet } from 'react-router-dom';
 
 
 const Gallery = (props) => {
-  const {children, collection} = props;
+  const {collection} = props;
   const isPicModal = useSelector(state => state.app.isPicModal);
   const currentLang = useSelector((state) => state.app.currentLang);
   const picModalCurrentPic = useSelector((state) => state.app.picModalCurrentPic);
@@ -37,7 +38,7 @@ const Gallery = (props) => {
         <div className="holder"></div>
       </div>
 
-      {children}
+      <Outlet />
 
       {isPicModal && <PicModal pic={picModalCurrentPic} />}
     </section>
