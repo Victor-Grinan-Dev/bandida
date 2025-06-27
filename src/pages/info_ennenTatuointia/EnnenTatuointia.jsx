@@ -36,15 +36,15 @@ const EnnenTatuointia = () => {
               <br />
               <li>{translate("Tatuoitavan alueen kova kuntosalitreeni samana aamuna tai edellisenä päivänä voi tehdä tatuoimisen ottamisesta kipeämpää.", currentLang)}</li>
               <br />
-              <li>{translate("Varustaudu mukavilla ja sopivalla vaatetuksella. Esim olkavarren tatuointiin hihaton paita jne. Vaatteet saattavat myös sotkeutua, joten ethän laita vaatteita joiden et toivo sotkeutuvan.", currentLang)}</li>
+              <li>{translate("Varustaudu mukavilla ja sopivalla vaatetuksella. Esimerkiksi olkavarren tatuointiin hihaton paita. Vaatteet saattavat myös sotkeutua, joten ethän laita vaatteita joiden et toivo sotkeutuvan.", currentLang)}</li>
               <br />
-              <li>{translate("Jotkin lääkitykset (esim. verenohennuslääkeet) tai muut terveyteen liittyvät asiat, esim tulevat leikkaukset jne, on hyvä varmistaa lääkäriltäsi onko tautuoiminen kannattavaa tässä kohtaa.", currentLang)}</li>
+              <li>{translate("Jotkin lääkitykset (esim. verenohennuslääkeet) tai muut terveyteen liittyvät asiat, esimerkiksi tulevat leikkaukset, on hyvä varmistaa lääkäriltäsi onko tautuoiminen kannattavaa tässä kohtaa.", currentLang)}</li>
               <br />
               <li>{translate("Tatuointi on ikuinen ja tulee elämään jonkin verran ihon mukana ajan kuluessa. Hyvin ja oikein tehdyt tatuoinnit kestävät aikaa todella hyvin ja tähän vaikuttavat myös tatuoinnin tyyli, paikka ja toteutustapa, unohtamatta jälkihoitoa jolla on myös iso merkitys.", currentLang)}</li>
               <br />
-              <li>{translate("Tatuoinnilla on 6kk takuu. Jos hoito-ohjeita on noudatettu, tatuointi paranee hyvin ja lopputulos on myös parempi. Jos jostain syystä jossain kohtaa väriä ei ole jäänyt tarpeeksi jne niin tämä korjataan ilman kuluja. Muissa tapauksissa korjauksesta veloitetaan normaali hinta.", currentLang)}</li>
+              <li>{translate("Tatuoinnilla on 6kk takuu. Jos hoito-ohjeita on noudatettu, tatuointi paranee hyvin ja lopputulos on myös parempi. Jos jostain syystä jossain kohtaa väriä ei ole jäänyt tarpeeksi niin tämä korjataan ilman kuluja. Muissa tapauksissa korjauksesta veloitetaan normaali hinta.", currentLang)}</li>
               <br />
-              <li>{translate("Konsultaatio on maksuton ja se ei sido ottamaan vielä kuvaa. Siinä käydään ideaa tarkemmin läpi ja kysellään kaikenlaisia tarkentavia kysymyksiä jne.", currentLang)}</li>
+              <li>{translate("Konsultaatio on maksuton ja se ei sido ottamaan vielä kuvaa. Siinä käydään ideaa tarkemmin läpi ja kysellään kaikenlaisia tarkentavia kysymyksiä.", currentLang)}</li>
               <br />
 
             </ul>

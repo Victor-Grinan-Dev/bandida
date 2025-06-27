@@ -19,6 +19,10 @@
         "en":"top ",
         "es":"arriba"
     },
+    "info": {
+        "en":"info",
+        "es":"info"
+    },
     
     "kestopigmentointi": {
         "en":"Permanent makeup",
@@ -106,11 +110,11 @@
         "en": "Intense gym training of the tattooed area on the same morning or the day before can make the tattooing more painful.",
         "es": "Entrenar intensamente la zona a tatuar la misma mañana o el día anterior puede hacer que el tatuaje duela más."
     },
-    "Varustaudu mukavilla ja sopivalla vaatetuksella. Esim olkavarren tatuointiin hihaton paita jne. Vaatteet saattavat myös sotkeutua, joten ethän laita vaatteita joiden et toivo sotkeutuvan.": {
+    "Varustaudu mukavilla ja sopivalla vaatetuksella. Esimerkiksi olkavarren tatuointiin hihaton paita. Vaatteet saattavat myös sotkeutua, joten ethän laita vaatteita joiden et toivo sotkeutuvan.": {
         "en": "Wear comfortable and suitable clothing. For example, wear a sleeveless top for an upper arm tattoo. Your clothes may get stained, so avoid wearing anything you don’t want to get dirty.",
         "es": "Lleva ropa cómoda y adecuada. Por ejemplo, una camiseta sin mangas para un tatuaje en el brazo. La ropa puede mancharse, así que no lleves algo que no quieras ensuciar."
     },
-    "Jotkin lääkitykset (esim. verenohennuslääkeet) tai muut terveyteen liittyvät asiat, esim tulevat leikkaukset jne, on hyvä varmistaa lääkäriltäsi onko tautuoiminen kannattavaa tässä kohtaa.": {
+    "Jotkin lääkitykset (esim. verenohennuslääkeet) tai muut terveyteen liittyvät asiat, esimerkiksi tulevat leikkaukset, on hyvä varmistaa lääkäriltäsi onko tautuoiminen kannattavaa tässä kohtaa.": {
         "en": "Some medications (e.g., blood thinners) or other health-related factors like upcoming surgeries should be discussed with your doctor to see if tattooing is advisable at this time.",
         "es": "Algunos medicamentos (por ejemplo, anticoagulantes) u otros temas de salud, como cirugías próximas, deben consultarse con tu médico para saber si es adecuado tatuarse en este momento."
     },
@@ -118,11 +122,11 @@
         "en": "A tattoo is permanent and will change slightly with your skin over time. Well-done tattoos age very well, and factors like style, placement, technique, and aftercare all play a significant role.",
         "es": "Un tatuaje es permanente y cambiará ligeramente con la piel con el tiempo. Los tatuajes bien hechos envejecen muy bien, y el estilo, la ubicación, la técnica y los cuidados posteriores influyen mucho."
     },
-    "Tatuoinnilla on 6kk takuu. Jos hoito-ohjeita on noudatettu, tatuointi paranee hyvin ja lopputulos on myös parempi. Jos jostain syystä jossain kohtaa väriä ei ole jäänyt tarpeeksi jne niin tämä korjataan ilman kuluja. Muissa tapauksissa korjauksesta veloitetaan normaali hinta.": {
+    "Tatuoinnilla on 6kk takuu. Jos hoito-ohjeita on noudatettu, tatuointi paranee hyvin ja lopputulos on myös parempi. Jos jostain syystä jossain kohtaa väriä ei ole jäänyt tarpeeksi niin tämä korjataan ilman kuluja. Muissa tapauksissa korjauksesta veloitetaan normaali hinta.": {
         "en": "The tattoo comes with a 6-month warranty. If aftercare instructions are followed, the tattoo heals well and the result is better. If color hasn't held well in some area, it will be fixed free of charge. In other cases, a standard fee applies.",
         "es": "El tatuaje tiene una garantía de 6 meses. Si se siguen las instrucciones de cuidado, el tatuaje sana bien y el resultado es mejor. Si por alguna razón el color no ha quedado bien en alguna zona, se corregirá sin coste. En otros casos, se cobrará el precio normal."
     },
-    "Konsultaatio on maksuton ja se ei sido ottamaan vielä kuvaa. Siinä käydään ideaa tarkemmin läpi ja kysellään kaikenlaisia tarkentavia kysymyksiä jne.": {
+    "Konsultaatio on maksuton ja se ei sido ottamaan vielä kuvaa. Siinä käydään ideaa tarkemmin läpi ja kysellään kaikenlaisia tarkentavia kysymyksiä.": {
         "en": "The consultation is free and doesn’t commit you to getting a tattoo yet. We’ll go through your idea in detail and ask all kinds of clarifying questions.",
         "es": "La consulta es gratuita y no te compromete a hacerte un tatuaje todavía. Revisaremos tu idea en detalle y haremos todo tipo de preguntas aclaratorias."
     },
@@ -360,7 +364,7 @@
         "en":"How to care for a tattoo?",
         "es":"¿Cómo cuidar un tatuaje?"
     },
-    "Tatuointi hoito-ohjeet": {
+    "Tatuoinnin hoito-ohjeet": {
     "en": "Tattoo Aftercare Instructions",
     "es": "Instrucciones de cuidado posterior del tatuaje"
     },
@@ -513,9 +517,9 @@
       "en": "Which one suits me?",
       "es": "¿Cuál me conviene más?"
     },
-    "Kestopigmentointi on ihon pintakerrokseen tehtävä puolipysyvä meikkaus, joka tehdään erityisellä pigmentointilaitteella. Menetelmällä voidaan korostaa esimerkiksi kulmakarvoja, silmien rajauksia tai huulia. Tavoitteena ei ole näkyvä meikki, vaan luonnollinen ilme, joka sopii juuri sinun kasvonpiirteisiisi. INKY 11:llä kestopigmentointi tehdään hellävaraisesti, tarkasti ja yksilöllisesti. Jokaisen kasvot ovat ainutlaatuiset ja siksi suunnittelen pigmentoinnin aina yhteistyössä asiakkaan kanssa. Lopputulos kestää henkilöstä riippuen 1–3 vuotta, ja tarvittaessa väriä voidaan vahvistaa vuosittaisilla ylläpitokäynneillä.": {
-      "en": "Permanent makeup is a semi-permanent cosmetic treatment on the surface layer of the skin using a special pigmentation device. It can enhance eyebrows, eyeliner, or lips. The goal is not a heavy makeup look, but a natural result that fits your facial features. At INKY 11, permanent makeup is done gently, precisely, and personally. Every face is unique, so I always design the pigmentation together with the client. The result lasts 1–3 years depending on the person, with annual touch-ups if needed.",
-      "es": "El maquillaje permanente es un tratamiento semipermanente que se realiza en la capa superficial de la piel con un dispositivo especial de pigmentación. Puede resaltar las cejas, los ojos o los labios. El objetivo no es un maquillaje visible, sino un resultado natural que se adapte a tus rasgos faciales. En INKY 11, el maquillaje permanente se realiza de forma suave, precisa y personalizada. Cada rostro es único, por eso siempre diseño la pigmentación junto con el cliente. El resultado dura entre 1 y 3 años, y se pueden hacer retoques anuales si es necesario."
+    "Kestopigmentointi on ihon pintakerrokseen tehtävä puolipysyvä meikkaus, joka tehdään tatuointikoneella. Menetelmällä voidaan korostaa esimerkiksi kulmakarvoja, silmien rajauksia tai huulia. INKY 11:llä kestopigmentointi tehdään hellävaraisesti, tarkasti ja yksilöllisesti. Jokaisen kasvot ovat ainutlaatuiset ja siksi suunnittelen pigmentoinnin aina yhteistyössä asiakkaan kanssa. Lopputulos kestää henkilöstä riippuen 1–3 vuotta, ja tarvittaessa väriä voidaan vahvistaa vuosittaisilla ylläpitokäynneillä.": {
+      "en": "Permanent makeup is a semi-permanent cosmetic treatment on the surface layer of the skin using the tattoo machine. It can enhance eyebrows, eyeliner, or lips. At INKY 11, permanent makeup is done gently, precisely, and personally. Every face is unique, so I always design the pigmentation together with the client. The result lasts 1–3 years depending on the person, with annual touch-ups if needed.",
+      "es": "El maquillaje permanente es un tratamiento semipermanente que se realiza en la capa superficial de la piel con la maquina de tatuar. Puede resaltar las cejas, los ojos o los labios. En INKY 11, el maquillaje permanente se realiza de forma suave, precisa y personalizada. Cada rostro es único, por eso siempre diseño la pigmentación junto con el cliente. El resultado dura entre 1 y 3 años, y se pueden hacer retoques anuales si es necesario."
     },
     "Paula Annelica INKY 11:llä on koulutettu kestopigmentoija ja microblading-osaaja, joka auttaa sinua löytämään juuri sinulle sopivan ratkaisun. Studiollamme panostetaan rauhalliseen tunnelmaan, huolellisuuteen ja hygieniaan, jotta sinä voit tuntea olosi turvalliseksi.": {
       "en": "Paula Annelica at INKY 11 is a trained permanent makeup and microblading expert who will help you find the best solution for you. Our studio focuses on a calm atmosphere, thoroughness, and hygiene to ensure you feel safe.",
@@ -618,5 +622,9 @@
     "Lue lisää studiosta": {
         "en": "Read more about the studio",
         "es": "Lee más sobre el estudio"
-  }
+    },
+    "katso esimerkkejä galleriasta": {
+        "en": "see examples in the gallery",
+        "es": "ver ejemplos en la galería"
+    }
 }

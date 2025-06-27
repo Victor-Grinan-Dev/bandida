@@ -6,7 +6,7 @@
 export const APPLINKS = [
 
     {
-        caption:"artikkelit",
+        caption:"info",
         linksTo:"/info",
         type:"b",
     },

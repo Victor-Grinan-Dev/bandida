@@ -10,7 +10,7 @@ const HoitoOhjeet = () => {
       <div className="single-page info-ajanvaraus-page" >
         <div className="columns-wrapper" >
           <div className="left-column" >
-            <h1>{translate("Tatuointi hoito-ohjeet", currentLang)}</h1>
+            <h1>{translate("Tatuoinnin hoito-ohjeet", currentLang)}</h1>
             <br />
             <PicLoader pic="studio2" seoAlt={"Inky 11 tatuointi studio"} picModalOn={false}/>
             <br />

@@ -49,13 +49,13 @@ const PermantMakeUp = () => {
               <br />
               <h2>{translate("Kumpi sopii minulle?", currentLang)}</h2>
               <br />
-              <p>{translate("Kestopigmentointi on ihon pintakerrokseen tehtävä puolipysyvä meikkaus, joka tehdään erityisellä pigmentointilaitteella. Menetelmällä voidaan korostaa esimerkiksi kulmakarvoja, silmien rajauksia tai huulia. Tavoitteena ei ole näkyvä meikki, vaan luonnollinen ilme, joka sopii juuri sinun kasvonpiirteisiisi. INKY 11:llä kestopigmentointi tehdään hellävaraisesti, tarkasti ja yksilöllisesti. Jokaisen kasvot ovat ainutlaatuiset ja siksi suunnittelen pigmentoinnin aina yhteistyössä asiakkaan kanssa. Lopputulos kestää henkilöstä riippuen 1–3 vuotta, ja tarvittaessa väriä voidaan vahvistaa vuosittaisilla ylläpitokäynneillä.", currentLang)}</p>
+              <p>{translate("Kestopigmentointi on ihon pintakerrokseen tehtävä puolipysyvä meikkaus, joka tehdään tatuointikoneella. Menetelmällä voidaan korostaa esimerkiksi kulmakarvoja, silmien rajauksia tai huulia. INKY 11:llä kestopigmentointi tehdään hellävaraisesti, tarkasti ja yksilöllisesti. Jokaisen kasvot ovat ainutlaatuiset ja siksi suunnittelen pigmentoinnin aina yhteistyössä asiakkaan kanssa. Lopputulos kestää henkilöstä riippuen 1–3 vuotta, ja tarvittaessa väriä voidaan vahvistaa vuosittaisilla ylläpitokäynneillä.", currentLang)}</p>
               <br />
               <p>{translate("Paula Annelica INKY 11:llä on koulutettu kestopigmentoija ja microblading-osaaja, joka auttaa sinua löytämään juuri sinulle sopivan ratkaisun. Studiollamme panostetaan rauhalliseen tunnelmaan, huolellisuuteen ja hygieniaan, jotta sinä voit tuntea olosi turvalliseksi.", currentLang)}</p>
               <br />
               <p>{translate("Tervetuloa tutustumaan ja kysymään lisää – meillä jokainen asiakas kohdataan yksilöllisesti ja suurella sydämellä.", currentLang)}</p>
               <br />
-              <ReadMore title={false} caption={capitalize(translate("See PMU samples in gallery", currentLang))} linkTo="/galleria/pmu-tatuointi" />
+              <ReadMore title={false} caption={capitalize(translate("katso esimerkkejä galleriasta", currentLang))} linkTo="/galleria/pmu-tatuointi" />
 
             </div>
               

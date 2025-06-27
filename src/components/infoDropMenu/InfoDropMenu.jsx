@@ -45,7 +45,7 @@ const InfoDropMenu = ({ active = false, extraStyle }) => {
             className={`app-link ${active ? "active" : ""} ${isAtTop ? "at-top" : ""}`}
             style={extraStyle}
         >
-            {capitalize(translate("artikkelit", currentLang))}
+            {capitalize(translate("info", currentLang))}
         </span>
 
         {isOpen && (
