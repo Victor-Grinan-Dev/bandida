@@ -20,7 +20,7 @@ const MenuModal = () => {
         <div className="links-wrapper">
 
             {APPLINKS.map((link, idx)=>(
-                link.caption === "artikkelit" ? 
+                link.caption === "info" ? 
                 <InfoDropMenu key={idx} extraStyle={{fontSize: "xx-large"}}/> 
                 : <div className="link-wraper" key={idx} onClick={()=>handleLinks(link.linksTo)}>
                     <AppLink 
