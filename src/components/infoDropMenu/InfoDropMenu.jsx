@@ -67,7 +67,7 @@ const InfoDropMenu = ({ active = false, extraStyle }) => {
             <AppLink caption="tatuoinnin hinta" linkTo="/hinnat" extraStyle={extraStyle} translation />
             <AppLink caption="tatuoinnin hoito" linkTo="/tatuoinnin-hoito" extraStyle={extraStyle} translation />
             <AppLink caption="kestopigmentointi" linkTo="/kestopigmentointi-ja-microblading" extraStyle={extraStyle} translation />
-            <AppLink caption="ideat tatuointiin" linkTo="/ideat-tatuointiin" extraStyle={extraStyle} translation />
+            {/* <AppLink caption="ideat tatuointiin" linkTo="/tatuointi-idea" extraStyle={extraStyle} translation /> */}
             </div>
         )}
         </div>

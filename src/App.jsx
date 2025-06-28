@@ -21,7 +21,7 @@ import BlackNWhite from "./pages/gallery/blackNWhite/BlackNWhite";
 import Colored from "./pages/gallery/colored/Colored";
 import PMU from "./pages/gallery/PMU/PMU";
 import PermantMakeUp from "./pages/permanentMakeUp/PermantMakeUp";
-import TattooIdea from "./pages/tattooIdea/TattooIdea";
+/* import TattooIdea from "./pages/tattooIdea/TattooIdea"; */
 import Gallery from "./pages/gallery/Gallery";
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
             <Route path="hinnat" element={<Hinnasto />} />
             <Route path="tatuoinnin-hoito" element={<HoitoOhjeet />} />
             <Route path="kestopigmentointi-ja-microblading" element={<PermantMakeUp />} />
-            <Route path="ideat-tatuointiin" element={<TattooIdea />} />
+            {/* <Route path="tatuointi-idea" element={<TattooIdea />} /> */}
 
             <Route path="studio" element={<StudioPage />} />
             <Route path="paula-annelica" element={<Artist />} />
