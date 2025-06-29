@@ -27,7 +27,6 @@
         top: 20px;
         left: 0;
         z-index: 1000;
-
         background-color: rgba(0, 0, 0, 0.84);
 
         .holder{
@@ -40,39 +39,28 @@
     }
 
     .collage {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
         justify-items: center;
         padding-top: 7vh;
     
         .img-wrapper {
-            height: 85dvh;
-            max-width: 400px;
-            min-width: 150px;
+            height: auto;
+            width: 95vw; 
+            max-width: 900px;
             box-sizing: border-box;
             flex: 1 ; 
             margin-bottom: 16px;
     
             img {
-                height: 100%;
-                width: auto;
+                height: auto;
+                width: 100%;
                 object-fit: cover;
                 cursor: pointer;
             }
         
-            @media (max-width: 600px) {
-                min-width: 85vw;
-                height: auto;
-            }
         }
     
-        @media (max-width: 800px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    
-        @media (max-width: 500px) {
-            grid-template-columns: 1fr;
-        }
     }
 }
